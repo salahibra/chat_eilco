@@ -1,9 +1,7 @@
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import requests, json
-# load .env variables
 import os
-# import vectorstores from langchain
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 class Knowledge_base:
@@ -33,7 +31,6 @@ class Knowledge_base:
         return self.chunks
 
     def converter(self, texts):
-        # llama cpp API to get embeddings
         headers = {"Content-Type": "application/json"}
         payload = {"input": [text.page_content for text in texts]}
         response = requests.post(self.api_url, headers=headers, data=json.dumps(payload))
@@ -43,6 +40,5 @@ class Knowledge_base:
     def storer(self, chunks):
         embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
         self.vectorstore = FAISS.from_documents(chunks, embeddings)
-        #save vectorstore locally
         self.vectorstore.save_local("faiss_index")
         return self.vectorstore

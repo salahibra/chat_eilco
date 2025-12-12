@@ -1,9 +1,9 @@
 from Knowledge_base import Knowledge_base
 from RAG import RAG
 files_paths = [
-    "/home/salah/EILCO/PIC/chateilco/docx_formation/Guide-des-Etudes_EIL_Cycle-Preparatoire_2024-2025.docx",
-    # "/home/salah/EILCO/PIC/chateilco/docx_formation/REGLEMENT INTERIEUR 2024-2025.docx",
-    # "/home/salah/EILCO/PIC/chateilco/docx_formation/REGLEMENT INTERIEUR 2024-2025.docx", 
+    "./markdown_docs/Guide-des-Etudes_EIL_Cycle-Preparatoire_2024-2025.md",
+    # "./docx_formation/REGLEMENT INTERIEUR 2024-2025.md",
+    # "./docx_formation/REGLEMENT INTERIEUR 2024-2025.md", 
                
 ]
 # kb = Knowledge_base(list_file_paths=files_paths)

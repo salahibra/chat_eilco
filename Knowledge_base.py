@@ -1,4 +1,4 @@
-from langchain_community.document_loaders import Docx2txtLoader
+from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import requests, json
 # load .env variables
@@ -18,7 +18,7 @@ class Knowledge_base:
     def loader(self):
         data = []
         for file_path in self.list_file_paths:
-            data.append(Docx2txtLoader(file_path).load()[0])
+            data.append(UnstructuredMarkdownLoader(file_path).load()[0])
         return data
 
     

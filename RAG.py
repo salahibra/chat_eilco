@@ -11,7 +11,7 @@ class RAG:
         # Load the knowledge base from the Knowledge_base instance
         self.vectorstore = FAISS.load_local("faiss_index", HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2'), allow_dangerous_deserialization=True)
     def retriever(self, query):
-        docs = self.vectorstore.similarity_search(query, k=3)
+        docs = self.vectorstore.similarity_search(query, k=5)
         return docs
     def prompt_augmentation(self, docs, query):
         augmented_prompt = f"en se basant sur les documents suivants : {docs}, reponds a la question suivante : {query}"
@@ -25,7 +25,7 @@ class RAG:
                 {"role": "developer", "content": "You are a helpful assistant."},
                 {"role": "user", "content": augmented_prompt}
             ],
-            "max_tokens": 512,
+            "max_tokens": 1024,
             "temperature": 0.2,
             "stream": False
         }

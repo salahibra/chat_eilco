@@ -9,5 +9,10 @@ def docx2markdown(file_path:str):
         f.write(result.document.export_to_markdown())
 
 
-file_path = "/home/salah/EILCO/PIC/chateilco/docx_formation/Guide-des-Etudes_EIL_Cycle-Preparatoire_2024-2025.docx"
-docx2markdown(file_path=file_path)
+# loop through all docx files in the docx_docs folder and convert them to markdown
+import os
+docx_folder = "./docx_formation/"
+for file_name in os.listdir(docx_folder):
+    if file_name.endswith(".docx"):
+        file_path = os.path.join(docx_folder, file_name)    
+        docx2markdown(file_path=file_path)

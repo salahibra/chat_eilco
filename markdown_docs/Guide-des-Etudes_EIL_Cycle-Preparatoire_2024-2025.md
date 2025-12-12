@@ -154,7 +154,7 @@ L’entrée dans l’École peut se faire :
 
 Chaque cycle de formation dispose d’un secrétariat pédagogique et chaque année de formation est dirigée par un Directeur des Études qui est le principal interlocuteur des élèves ingénieurs de son année :
 
-- Directeur des études de la première année du Cycle Préparatoire Intégré (CP1), site de Calais : Julie MIKOLAJCZAK [cycleprepa1-cl@eilco.univ-littoral.fr](    :cycleprepa1-cl@eilco.univ-littoral.fr) – 03 21 17 10 14
+- Directeur des études de la première année du Cycle Préparatoire Intégré (CP1), site de Calais : Julie MIKOLAJCZAK [cycleprepa1-cl@eilco.univ-littoral.fr](mailto:cycleprepa1-cl@eilco.univ-littoral.fr) – 03 21 17 10 14
 - Directeur des études de la première année du Cycle Préparatoire Intégré (CP1), site de Dunkerque : Antony ROUCOU cycleprepa1-dk@eilco.univ-littoral.fr  – 03 28 65 82 51
 - Directeur des études de la deuxième année du Cycle Préparatoire Intégré (CP2), site de Calais : Guillaume FROMANT [cycleprepa2-cl@eilco.univ-littoral.fr](mailto:cycleprepa2-cl@eilco.univ-littoral.fr) – 03 21 46 36 68
 - Secrétaire Pédagogique du Cycle Préparatoire Intégré, site de Calais : Valérie JOLY [secretariatcp@eilco.univ-littoral.fr](mailto:secretariatcp@eilco.univ-littoral.fr) – 03 21 17 10 05

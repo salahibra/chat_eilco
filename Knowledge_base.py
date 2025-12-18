@@ -1,9 +1,10 @@
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import requests, json
-import os
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
+
+
 class Knowledge_base:
     def __init__(self, list_file_paths):
         self.list_file_paths = list_file_paths
@@ -37,8 +38,9 @@ class Knowledge_base:
         self.embeddings = response.json()
         return self.embeddings
         
-    def storer(self, chunks):
+    def storer(self, chunks : list, path : str = "faiss_index"):
         embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
         self.vectorstore = FAISS.from_documents(chunks, embeddings)
-        self.vectorstore.save_local("faiss_index")
+        self.vectorstore.save_local(path)
         return self.vectorstore
+    

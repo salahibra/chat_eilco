@@ -2,7 +2,7 @@ from Knowledge_base import Knowledge_base
 from RAG import RAG
 import os
 
-build_knowledge_base = False
+build_knowledge_base = True
 run_rag = True
 
 if build_knowledge_base:

@@ -4,6 +4,7 @@ import requests, json
 import os
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
+
 class Knowledge_base:
     def __init__(self, list_file_paths):
         self.list_file_paths = list_file_paths
@@ -20,7 +21,6 @@ class Knowledge_base:
         return data
 
     
-    from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 
     def splitter(self, documents):
         headers_to_split_on = [
@@ -46,11 +46,9 @@ class Knowledge_base:
         for doc in documents:
             titre_sections_splits = markdown_splitter.split_text(doc.page_content)
             
-            # Copy original metadata to the new header splits
             for section_split in titre_sections_splits:
                 section_split.metadata.update(doc.metadata)
                 
-            # split fallback, si les sections (ou chunks) sont trop larges.
             final_chunks = text_splitter.split_documents(titre_sections_splits)
             
             all_final_chunks.extend(final_chunks)
@@ -68,5 +66,5 @@ class Knowledge_base:
     def storer(self, chunks):
         embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
         self.vectorstore = FAISS.from_documents(chunks, embeddings)
-        self.vectorstore.save_local("faiss_index")
+        self.vectorstore.save_local("faiss_index-v2")
         return self.vectorstore

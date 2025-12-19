@@ -3,17 +3,14 @@ from pydantic import BaseModel
 from RAG import RAG
 import uvicorn
 
-# Initialize FastAPI app
 app = FastAPI(
     title="ChatEILCO API",
     description="API pour répondre aux questions sur l'EILCO en utilisant RAG",
     version="1.0.0"
 )
 
-# Initialize RAG system
 rag_system = RAG()
 
-# Pydantic models for request/response
 class QueryRequest(BaseModel):
     query: str
     
@@ -29,7 +26,6 @@ class QueryResponse(BaseModel):
     answer: str
     sources: list[str]
 
-# Load knowledge base on startup
 @app.on_event("startup")
 async def startup_event():
     """Load the knowledge base when the API starts"""
@@ -78,20 +74,15 @@ async def query(request: QueryRequest):
                 detail="Knowledge base not loaded"
             )
         
-        # Retrieve relevant documents
         docs = rag_system.retriever(request.query)
         
-        # Extract document contents and sources
         doc_contents = [doc.page_content for doc in docs]
         sources = [doc.metadata.get('source', 'Unknown') for doc in docs]
         
-        # Generate augmented prompt
         augmented_prompt = rag_system.prompt_augmentation(doc_contents, request.query)
         
-        # Generate response
         response = rag_system.response_generator(augmented_prompt)
         
-        # Extract answer from response
         if 'choices' in response and len(response['choices']) > 0:
             answer = response['choices'][0]['message']['content']
         else:
@@ -110,7 +101,6 @@ async def query(request: QueryRequest):
         )
 
 if __name__ == "__main__":
-    # Run the API server
     uvicorn.run(
         "api:app",
         host="0.0.0.0",

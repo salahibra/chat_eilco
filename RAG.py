@@ -8,7 +8,7 @@ class RAG:
         self.Model_API_URL = "http://localhost:8080/v1/chat/completions"
         self.Model_NAME1 = "/home/salah/.cache/llama.cpp/ggml-org_gemma-3-1b-it-GGUF_gemma-3-1b-it-Q4_K_M.gguf",
     def load_knowledge_base(self):
-        self.vectorstore = FAISS.load_local("faiss_index", HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2'), allow_dangerous_deserialization=True)
+        self.vectorstore = FAISS.load_local("faiss_index-v2", HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2'), allow_dangerous_deserialization=True)
     def retriever(self, query):
         docs = self.vectorstore.similarity_search(query, k=5)
         return docs

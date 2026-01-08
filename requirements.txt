@@ -150,7 +150,7 @@ typing_extensions==4.15.0
 tzdata==2025.2
 unstructured==0.18.21
 unstructured-client==0.42.4
-urllib3==2.5.0
+urllib3==2.6.3
 uuid_utils==0.12.0
 uvicorn==0.34.0
 webencodings==0.5.1

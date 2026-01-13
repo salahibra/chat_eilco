@@ -27,7 +27,7 @@ et_xmlfile==2.0.0
 faiss-cpu==1.13.0
 Faker==38.2.0
 fastapi==0.115.6
-filelock==3.19.1
+filelock==3.20.3
 filetype==1.2.0
 frozenlist==1.8.0
 fsspec==2025.9.0

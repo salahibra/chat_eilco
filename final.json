@@ -1,0 +1,416 @@
+[
+    {
+        "id": "sample_000",
+        "question": "Quelles sont les normes référencées dans le cadre de la gestion de la Qualité, et comment s'articule leur assemblage en un système QSE ?",
+        "context": "**Programme**\n\n**:**\n\nL’environnement et la sécurité (La réglementation : cadre législatif et réglementaire, Les acteurs et leurs rôles, Entrainement), Le management environnemental et de la sécurité (La norme 14001 et OHSAS 18001, Les principes clés, Cas pratique), Rappel du management de la Qualité : Référentiel ISO 9001, Assemblage des 3 normes : le système QSE (Les enjeux de chaque référentiel, Concepts et principales exigences de chaque norme, Différence et similitudes, Entrainement), Rappel Approche processus, procédure (Cas pratique), L’analyse des risques environnementale et sécurité (Le risque, le danger, Identifier et analyser, Gérer les risques, Cas pratique), L’audit (Les auditeurs, Préparer un audit, Effectuer la visite d’audit, Conclure l’audit, Intégrer les concepts de DD). **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement, Coefficient : 1 = **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement. **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement, CM : 00H00 = **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement. **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement, TD : 26H00 = **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement. **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement, TP/Projet : 00H00 = **Bibliographie**\n\n**:**\n\nAFNOR, INERIS, INRS, ARACT, actu-environnement. **Modalités d’évaluation**\n\n**:**\n\nExamen Final + Contrôle Continu + Evaluation TP, Coefficient : 1 = **Modalités d’évaluation**\n\n**:**\n\nExamen Final + Contrôle Continu + Evaluation TP. **Modalités d’évaluation**\n\n**:**\n\nExamen Final + Contrôle Continu + Evaluation TP, CM : 00H00 = **Modalités d’évaluation**\n\n**:**\n\nExamen Final + Contrôle Continu + Evaluation TP. **Modalités d’évaluation**\n\n**:**\n\nExamen Final + Contrôle Continu + Evaluation TP, TD : 26H00 = **Modalités d’évaluation**\n\n**:**\n",
+        "answer": "Le programme mentionne le référentiel ISO 9001, ainsi que la norme 14001 et OHSAS 18001. L'assemblage de ces trois normes constitue le système QSE (Qualité, Sécurité et Environnement). Le programme détaille les enjeux de chaque référentiel, les concepts et les principales exigences de chaque norme, ainsi que les différences et similitudes entre elles.",
+        "ground_truth": "ISO 9001, 14001 et OHSAS 18001. Leur assemblage forme le système QSE, intégrant les exigences de chaque référentiel.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA)_chunk1061_p6",
+                "source_file": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "procedural",
+            "difficulty": "difficile",
+            "context_length": 1954,
+            "answer_length": 353,
+            "ground_truth_length": 116,
+            "language": "french"
+        }
+    },
+
+    {
+        "id": "sample_003",
+        "question": "Quel modèle est mentionné dans le contexte de la gestion de production ?",
+        "context": "temps : modèle Kaban, méthode SMED.\n\n- Gestion de production PERT : modèle PERT, diagramme PERT, calcul des dates et calcul des marges, modèle PERT probabiliste, Lissage des charges, Diagramme de Gantt.\n- Optimisation de la planification et de l’ordonnancement : programmation linéaire, théorie des graphes. **Bibliographie**\n\n:\n\n1. Alain COURTOIS, Chantal MARTIN-BONNEFOUS, Maurice PILLET, Pascal BONNEFOUS, Gestion de production : Les fondamentaux et les bonnes pratiques, EYROLLES, octobre 2020\n2. Pierre LOPEZ et François ROUBELLAT Ordonnancement de la production, Hermès, 2001, Coefficient : 1 = **Bibliographie**\n\n:\n\n1. Alain COURTOIS, Chantal MARTIN-BONNEFOUS, Maurice PILLET, Pascal BONNEFOUS, Gestion de production : Les fondamentaux et les bonnes pratiques, EYROLLES, octobre 2020\n2. Pierre LOPEZ et François ROUBELLAT Ordonnancement de la production, Hermès, 2001. **Bibliographie**\n\n:\n\n1. Alain COURTOIS, Chantal MARTIN-BONNEFOUS, Maurice PILLET, Pascal BONNEFOUS, Gestion de production : Les fondamentaux et les bonnes pratiques, EYROLLES, octobre 2020\n2. Pierre LOPEZ et François ROUBELLAT Ordonnancement de la production, Hermès, 2001, = **Bibliographie**\n\n:\n\n1. Alain COURTOIS, Chantal MARTIN-BONNEFOUS, Maurice PILLET, Pascal BONNEFOUS, Gestion de production : Les fondamentaux et les bonnes pratiques, EYROLLES, octobre 2020\n2. Pierre LOPEZ et François ROUBELLAT Ordonnancement de la production, Hermès, 2001. **Bibliographie**\n\n:\n\n1. Alain COURTOIS, Chantal MARTIN-BONNEFOUS, Maurice PILLET, Pascal BONNEFOUS, Gestion de production : Les fondamentaux et les bonnes pratiques, EYROLLES, octobre 2020\n2. Pierre LOPEZ et François ROUBELLAT Ordonnancement de la production, Hermès, 2001, TD : 30H00 = **Bibliographie**\n\n:\n\n1. Alain COURTOIS, Chantal MARTIN-BONNEFOUS, Maurice PILLET, Pascal BONNEFOUS, Gestion de production : Les fondamentaux et les bonnes pratiques, EYROLLES, octobre 2020\n",
+        "answer": "Le modèle mentionné dans le contexte de la gestion de production est le modèle Kaban, la méthode SMED, PERT et le diagramme de Gantt.",
+        "ground_truth": "Kanban, SMED, PERT, Gantt.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA)_chunk610_p4",
+                "source_file": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 1906,
+            "answer_length": 112,
+            "ground_truth_length": 30,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_006",
+        "question": "Quels sont les prérequis mathématiques nécessaires pour étudier l’application d’une commande numérique d’un système dynamique d’asservissement en position ?",
+        "context": "Présenter différentes approches de synthèse de correcteurs numériques à temps discret.\n\nMettre en application une commande numérique d’un système dynamique (asservissement en position).. **Prérequis**\n\nAnalyse et commande des systèmes linéaires à temps continu.\n\nApproche fréquentielle : lieux de Bode, de Nyquist et de Black-Nichols\n\nNotions mathématiques : Algèbre linéaire, Nombres complexes, Transformée de Laplace, Transformée en z., Coefficient : 1 = **Prérequis**\n\nAnalyse et commande des systèmes linéaires à temps continu.\n\nApproche fréquentielle : lieux de Bode, de Nyquist et de Black-Nichols\n\nNotions mathématiques : Algèbre linéaire, Nombres complexes, Transformée de Laplace, Transformée en z.. **Prérequis**\n\nAnalyse et commande des systèmes linéaires à temps continu.\n\nApproche fréquentielle : lieux de Bode, de Nyquist et de Black-Nichols\n\nNotions mathématiques : Algèbre linéaire, Nombres complexes, Transformée de Laplace, Transformée en z., CM : 10H00 = **Prérequis**\n\nAnalyse et commande des systèmes linéaires à temps continu.\n\nApproche fréquentielle : lieux de Bode, de Nyquist et de Black-Nichols\n\nNotions mathématiques : Algèbre linéaire, Nombres complexes, Transformée de Laplace, Transformée en z.. **Prérequis**\n\nAnalyse et commande des systèmes linéaires à temps continu.\n\nApproche fréquentielle : lieux de Bode, de Nyquist et de Black-Nichols\n\nNotions mathématiques : Algèbre linéaire, Nombres complexes, Transformée de Laplace, Transformée en z., TD : 14H00 = **Prérequis**\n\nAnalyse et commande des systèmes linéaires à temps continu.\n\nApproche fréquentielle : lieux de Bode, de Nyquist et de Black-Nichols\n\nNotions mathématiques : Algèbre linéaire, Nombres complexes, Transformée de Laplace, Transformée en z.. **Prérequis**\n\nAnalyse et commande des systèmes linéaires à temps continu.\n\nApproche fréquentielle : lieux de Bode, de Nyquist et de Black-Nichols\n",
+        "answer": "Les notions mathématiques nécessaires sont: Algèbre linéaire, Nombres complexes, Transformée de Laplace, Transformée en z., CM: 10H00 = **Prérequis** et TD: 14H00 = **Prérequis**.",
+        "ground_truth": "Algèbre linéaire, nombres complexes, transformée de Laplace et transformée en z.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Informatique_2024-2025 (FISE)_chunk305_p2",
+                "source_file": "Syllabus_EIL_Informatique_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "context_length": 1890,
+            "answer_length": 179,
+            "ground_truth_length": 80,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_009",
+        "question": "Quels sont les différents types de SGBD mentionnés dans le cours base de données pour la filière informatique ?",
+        "context": "conception de ces bases de données ainsi que les fondements et langages permettant leur exploitation et leur manipulation. Il est organisé selon le plan suivant :\n\nNotions de bases de données et de SGBD\n\n: Historique sur la gestion des données persistantes. Définition d’une base de données et d’un SGBD. Fonctions d’un SGBD. Les différents types de SGBD : hiérarchique, réseau et relationnelle.\n\nConception des bases de données relationnelles\n\n: Utilisation d’un modèle conceptuel de données : Le modèle Entité-Association. Les dépendances fonctionnelles et la normalisation d’une bd relationnelle.\n\nL’algèbre relationnelle de CODD.\n\nLe langage SQL pour la définition, la recherche et la manipulation des données., TD : 10H00 = **Programme**\n\n**:**\n\nCe cours introduit la notion de bases de données relationnelles. Des éléments méthodologiques pour la conception de ces bases de données ainsi que les fondements et langages permettant leur exploitation et leur manipulation. Il est organisé selon le plan suivant :\n\nNotions de bases de données et de SGBD\n\n: Historique sur la gestion des données persistantes. Définition d’une base de données et d’un SGBD. Fonctions d’un SGBD. Les différents types de SGBD : hiérarchique, réseau et relationnelle.\n\nConception des bases de données relationnelles\n\n: Utilisation d’un modèle conceptuel de données : Le modèle Entité-Association. Les dépendances fonctionnelles et la normalisation d’une bd relationnelle.\n\nL’algèbre relationnelle de CODD.\n\nLe langage SQL pour la définition, la recherche et la manipulation des données.. **Programme**\n\n**:**\n\nCe cours introduit la notion de bases de données relationnelles. Des éléments méthodologiques pour la conception de ces bases de données ainsi que les fondements et langages permettant leur exploitation et leur manipulation. Il est organisé selon le plan suivant :\n\nNotions de bases de données et de SGBD\n",
+        "answer": "Les différents types de SGBD mentionnés dans le cours sont : hiérarchique, réseau et relationnelle.",
+        "ground_truth": "Hiérarchique, réseau et relationnelle.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Informatique_2024-2025 (FISE)_chunk238_p3",
+                "source_file": "Syllabus_EIL_Informatique_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 1896,
+            "answer_length": 99,
+            "ground_truth_length": 38,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_011",
+        "question": "Quels aspects du framework Java/J2EE sont étudiés dans ce cours ?",
+        "context": "architectures multi-tiers.\n\n- Etude des différents aspects du framework Java/J2EE : notions d’enterprise java beans, la gestion de la persistance des - objets, les interfaces et le pattern MVC, etc.\n\n- L’étude du framework .NET.\n\n- Mise en œuvre d’applications J2EE et .Net dans le cadre des E-services.. **Bibliographie**\n\n:\n\n1. Jacques Lonchamp, Conception d'applications en Java/JEE Principes, patterns et architectures, éditions Dunod, 2014, EAN13 : 9782100716869.\n2. Jérôme Lafosse, Java EE : Maîtrisez et optimisez le développement n-tiers, éditions ENI, septembre 2011., Coefficient : 2 = **Bibliographie**\n\n:\n\n1. Jacques Lonchamp, Conception d'applications en Java/JEE Principes, patterns et architectures, éditions Dunod, 2014, EAN13 : 9782100716869.\n2. Jérôme Lafosse, Java EE : Maîtrisez et optimisez le développement n-tiers, éditions ENI, septembre 2011.. **Bibliographie**\n\n:\n\n1. Jacques Lonchamp, Conception d'applications en Java/JEE Principes, patterns et architectures, éditions Dunod, 2014, EAN13 : 9782100716869.\n2. Jérôme Lafosse, Java EE : Maîtrisez et optimisez le développement n-tiers, éditions ENI, septembre 2011., CM : 06H00 = **Bibliographie**\n\n:\n\n1. Jacques Lonchamp, Conception d'applications en Java/JEE Principes, patterns et architectures, éditions Dunod, 2014, EAN13 : 9782100716869.\n2. Jérôme Lafosse, Java EE : Maîtrisez et optimisez le développement n-tiers, éditions ENI, septembre 2011.. **Bibliographie**\n\n:\n\n1. Jacques Lonchamp, Conception d'applications en Java/JEE Principes, patterns et architectures, éditions Dunod, 2014, EAN13 : 9782100716869.\n2. Jérôme Lafosse, Java EE : Maîtrisez et optimisez le développement n-tiers, éditions ENI, septembre 2011., TD : 08H00 = **Bibliographie**\n\n:\n\n1. Jacques Lonchamp, Conception d'applications en Java/JEE Principes, patterns et architectures, éditions Dunod, 2014, EAN13 : 9782100716869.\n",
+        "answer": "Dans ce cours, on étudie les différents aspects du framework Java/J2EE : notions d’enterprise java beans, la gestion de la persistance des objets, les interfaces et le pattern MVC.",
+        "ground_truth": "Les aspects étudiés incluent les Enterprise Java Beans, la gestion de la persistance des objets, les interfaces et le pattern MVC.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Informatique_2024-2025 (FISE)_chunk1061_p3",
+                "source_file": "Syllabus_EIL_Informatique_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 1878,
+            "answer_length": 180,
+            "ground_truth_length": 130,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_014",
+        "question": "Quels sont les principaux outils utilisés pour élaborer une stratégie climatique ?",
+        "context": "**Prérequis**\n\n:. **Prérequis**\n\n:, TP/Projet : 00H00 = **Prérequis**\n\n:. **Programme**\n\n**:**\n\nPlusieurs aspects sont abordés :\n\n- Introduction à l’économie circulaire (émergence, cadrage et mise en œuvre)\n\n- Responsabilité Sociétale des Entreprises (Développement durable versus RSE, pourquoi et comment mettre en œuvre une démarche RSE)\n\n- Bilan carbone et stratégie climatique (Entreprise et territorial, réglementation climatique mondiale, européenne, et nationale, qu’est ce qui s’appliquent aux entreprises, aux collectivités ? Qu’est-ce qu’une stratégie climatique ? Les outils pour y répondre : ACV, bilan carbone, éco-conception, RSE, certification, PCAET)\n\nMots clés : Economie circulaire, RSE, Bilan carbone, stratégie climatique, ACV, éco-conception, Coefficient : 1 = **Programme**\n\n**:**\n\nPlusieurs aspects sont abordés :\n\n- Introduction à l’économie circulaire (émergence, cadrage et mise en œuvre)\n\n- Responsabilité Sociétale des Entreprises (Développement durable versus RSE, pourquoi et comment mettre en œuvre une démarche RSE)\n\n- Bilan carbone et stratégie climatique (Entreprise et territorial, réglementation climatique mondiale, européenne, et nationale, qu’est ce qui s’appliquent aux entreprises, aux collectivités ? Qu’est-ce qu’une stratégie climatique ? Les outils pour y répondre : ACV, bilan carbone, éco-conception, RSE, certification, PCAET)\n\nMots clés : Economie circulaire, RSE, Bilan carbone, stratégie climatique, ACV, éco-conception. **Programme**\n\n**:**\n\nPlusieurs aspects sont abordés :\n\n- Introduction à l’économie circulaire (émergence, cadrage et mise en œuvre)\n\n- Responsabilité Sociétale des Entreprises (Développement durable versus RSE, pourquoi et comment mettre en œuvre une démarche RSE)\n\n- Bilan carbone et stratégie climatique (Entreprise et territorial, réglementation climatique mondiale, européenne, et nationale, qu’est ce qui s’appliquent aux entreprises, aux collectivités ? Qu’est-ce qu’une stratégie climatique ?\n",
+        "answer": "Les outils utilisés sont : ACV, bilan carbone, éco-conception, RSE et PCAET.",
+        "ground_truth": "ACV, bilan carbone, éco-conception, RSE, PCAET.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE)_chunk1159_p1",
+                "source_file": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 1973,
+            "answer_length": 98,
+            "ground_truth_length": 47,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_017",
+        "question": "Quels types de sites sont visités dans le cadre des TD/TP concernant les analyses d’eau usées ?",
+        "context": "L'utilisation d'antibiotiques en aquaculture et le risque d'apparition et de transmission de phénomènes d'antibiorésistance.\n\nTD/TP :\n\nEtudes de cas ICPE (instruction, inspection, suites)\n\nAnalyses d’eau usées\n\nVisite de la station d’épuration de Boulogne-sur-mer (Séliane), d’une station d’épuration communale, d’une station de prétraitement dans une entreprise agroalimentaire et visite d’une station de production d’eau potable.\n\nProcédés et optimisation des procédés d’élimination des micro-polluants organiques des eaux usées industrielles (EUI), des eaux usées urbaines (EUU), des eaux des procédés industriels et des eaux destinées à la consommation urbaines (EDCH). **Programme**\n\n**:**\n\nCM :\n\nCadre réglementaire des Installations Classées pour la Protection de l’Environnement (ICPE) Simplifications administratives : permis environnemental Vie d’une ICPE : avant, pendant, après (y compris police)\n\nEtude des rejets industriels des ICPE en agro-alimentaire.\n\nNotions d’Ecotoxicologie.\n\nEvaluation des risques professionnels : mise en place du document unique\n\nL'utilisation d'antibiotiques en aquaculture et le risque d'apparition et de transmission de phénomènes d'antibiorésistance.\n\nTD/TP :\n\nEtudes de cas ICPE (instruction, inspection, suites)\n\nAnalyses d’eau usées\n\nVisite de la station d’épuration de Boulogne-sur-mer (Séliane), d’une station d’épuration communale, d’une station de prétraitement dans une entreprise agroalimentaire et visite d’une station de production d’eau potable.\n\nProcédés et optimisation des procédés d’élimination des micro-polluants organiques des eaux usées industrielles (EUI), des eaux usées urbaines (EUU), des eaux des procédés industriels et des eaux destinées à la consommation urbaines (EDCH), TP/Projet : 15H00 = **Programme**\n\n**:**\n\nCM :\n\nCadre réglementaire des Installations Classées pour la Protection de l’Environnement (ICPE) Simplifications administratives : permis environnemental Vie d’une ICPE : avant, pendant, après (y compris police)\n",
+        "answer": "Dans le cadre des TD/TP concernant les analyses d’eau usées, les stations visitées sont: une station d’épuration de Boulogne-sur-mer (Séliane), une station d’épuration communale, une station de prétraitement dans une entreprise agroalimentaire et une station de production d’eau potable.",
+        "ground_truth": "Des stations d’épuration de Boulogne-sur-mer (Séliane), d’une station d’épuration communale, d’une station de prétraitement dans une entreprise agroalimentaire et d’une station de production d’eau potable.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE)_chunk788_p8",
+                "source_file": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 2000,
+            "answer_length": 277,
+            "ground_truth_length": 205,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_019",
+        "question": "Quels outils sont mentionnés comme étant utilisés dans le cadre du cours de Management de Projets ?",
+        "context": "Le cours de Management de Projets permet d'acquérir les bases, la méthodologie, et certains outils afin de mener de façon efficiente un projet. Le Management de Projet comprend le Pilotage - la Direction - et la Gestion des Outils du projet. Ce cours tient compte de l'exigence de la Responsabilité Sociétale de l'Entreprise. Méthodes et outils pour le projet sont mis en application : la feuille de route, les objectifs smarts, le mind mapping, le diagramme Ishikawa, la roue de Deming, l’AMDEC, ... ; ainsi que des outils de développement personnel et de bon management.\n",
+        "answer": "La feuille de route, les objectifs smarts, le mind mapping, le diagramme Ishikawa, la roue de Deming, l’AMDEC.",
+        "ground_truth": "La feuille de route, les objectifs SMART, le mind mapping, le diagramme Ishikawa, la roue de Deming, l’AMDEC.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE)_chunk1247",
+                "source_file": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 573,
+            "answer_length": 110,
+            "ground_truth_length": 109,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_001",
+        "question": "Quelle est la durée totale des travaux dirigés (TD) et des travaux pratiques (TP/Projet) pour le module base de données ?",
+        "context": "données relationnelles Concepts, mise en oeuvre et exercices, Auteur(s) : Claude Chrisment, Karen Pinel-Sauvagnat, Olivier Teste, Michel Tuffery Editeur(s) : Hermès - Lavoisier. **Bibliographie**\n\n:\n\n1. Bases de données. Concepts, utilisation et développement – Jean-Luc HAINAUT – Dunod\n2. Bases de données – Georges GARDARIN – Eyrolles\n3. Introduction Pratique aux Bases de Données Relationnelles, Auteur : Andreas Meir, Editeur : Springer Editions, collection : iris\n4. Bases de données relationnelles Concepts, mise en oeuvre et exercices, Auteur(s) : Claude Chrisment, Karen Pinel-Sauvagnat, Olivier Teste, Michel Tuffery Editeur(s) : Hermès - Lavoisier, TD : 10H00 = **Bibliographie**\n\n:\n\n1. Bases de données. Concepts, utilisation et développement – Jean-Luc HAINAUT – Dunod\n2. Bases de données – Georges GARDARIN – Eyrolles\n3. Introduction Pratique aux Bases de Données Relationnelles, Auteur : Andreas Meir, Editeur : Springer Editions, collection : iris\n4. Bases de données relationnelles Concepts, mise en oeuvre et exercices, Auteur(s) : Claude Chrisment, Karen Pinel-Sauvagnat, Olivier Teste, Michel Tuffery Editeur(s) : Hermès - Lavoisier. **Bibliographie**\n\n:\n\n1. Bases de données. Concepts, utilisation et développement – Jean-Luc HAINAUT – Dunod\n2. Bases de données – Georges GARDARIN – Eyrolles\n3. Introduction Pratique aux Bases de Données Relationnelles, Auteur : Andreas Meir, Editeur : Springer Editions, collection : iris\n4. Bases de données relationnelles Concepts, mise en oeuvre et exercices, Auteur(s) : Claude Chrisment, Karen Pinel-Sauvagnat, Olivier Teste, Michel Tuffery Editeur(s) : Hermès - Lavoisier, TP/Projet : 16H00 = **Bibliographie**\n\n:\n\n1. Bases de données. Concepts, utilisation et développement – Jean-Luc HAINAUT – Dunod\n2. Bases de données – Georges GARDARIN – Eyrolles\n3. Introduction Pratique aux Bases de Données Relationnelles, Auteur : Andreas Meir, Editeur : Springer Editions, collection : iris\n",
+        "answer": "La durée totale des travaux dirigés (TD) et des travaux pratiques (TP/Projet) associés au livre \"Bases de données relationnelles Concepts, mise en oeuvre et exercices\" est de **26 heures**.  \n- Les travaux dirigés (TD) sont indiqués comme durant **10 heures**.  \n- Les travaux pratiques (TP/Projet) sont mentionnés comme durant **16 heures**.  \n\nCes durées sont explicitement associées au livre dans le contexte fourni.",
+        "ground_truth": "26 heures (10H00 pour les TD et 16H00 pour les TP/Projet).",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA)_chunk254_p6",
+                "source_file": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "definition",
+            "difficulty": "difficile",
+            "context_length": 1945,
+            "answer_length": 419,
+            "ground_truth_length": 58,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_006",
+        "question": "Quels sont les deux livres recommandés pour le TOEIC selon le contenu fourni ?",
+        "context": "1. Pratique de l’anglais de A à Z (grammaire)\n2. 600 essential words for TOEIC test (vocabulaire)\n\nTout livre de Lin Lougheed portant sur le nouveau TOEIC., TP/Projet : 00H00 = **Bibliographie**\n\n:\n\n1. Pratique de l’anglais de A à Z (grammaire)\n2. 600 essential words for TOEIC test (vocabulaire)\n\nTout livre de Lin Lougheed portant sur le nouveau TOEIC.. **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais), Coefficient : 2 = **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais). **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais), CM : 00H00 = **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais). **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais), TD : 30H00 = **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais). **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais), TP/Projet : 00H00 = **Modalités d’évaluation**\n\n**:**\n\nExamen Final (LV1 TOEIC) + Contrôle Continu (LV1 Anglais)\n",
+        "answer": "Les deux livres recommandés pour le TOEIC selon le contenu fourni sont :  \n1. *Pratique de l’anglais de A à Z (grammaire)*.  \n2. *600 essential words for TOEIC test (vocabulaire)*, dédié au vocabulaire essentiel pour l’examen.",
+        "ground_truth": "Pratique de l’anglais de A à Z (grammaire) et 600 essential words for TOEIC test (vocabulaire).",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE)_chunk1884_p4",
+                "source_file": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 1171,
+            "answer_length": 356,
+            "ground_truth_length": 95,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_007",
+        "question": "Quels sont les prérequis nécessaires pour suivre le cours mathématiques probabilité ?",
+        "context": "Apprendre les principales techniques de statistique descriptive univariée.\n\n- Construire des modèles probabilistes d'une situation donnée et savoir les exploiter., TP/Projet : 00H00 = **Objectifs**\n\n**:**\n\n- Apprendre les principales techniques de statistique descriptive univariée.\n\n- Construire des modèles probabilistes d'une situation donnée et savoir les exploiter.. **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables., Coefficient : 3 = **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables.. **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables., CM : 14H00 = **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables.. **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables., TD : 14H00 = **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables.. **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables., TP/Projet : 00H00 = **Prérequis**\n\n:\n\n- Continuité et dérivabilité.\n\n- Séries numériques.\n\n- Intégrales, intégration par parties, changement de variables.. **Programme**\n\n**:**\n\nPartie 1 :\n\nStatistique descriptive\n\n- Séries statistiques à une variable.\n\n*Partie 2 : Dénombrement et probabilités*\n\n*-*\n\nDénombrement : combinaison, arrangement\n\n- Espaces probabilisés : évènements indépendants,\n\n- Probabilités conditionnelles : formule des probabilités totales, formule de Bayes\n\nPartie 3 :\n\n*Variables aléatoires*\n\n- Loi d’une variable aléatoire, fonction de répartition, moments d’une variable aléatoire\n",
+        "answer": "Pour suivre ce cours, il est nécessaire de maîtriser les suivants :  \n- La continuité et la dérivabilité des fonctions.  \n- Les séries numériques et leur étude.  \n- Les intégrales, notamment la méthode d'intégration par parties ainsi que le changement de variables.",
+        "ground_truth": "Continuité et dérivabilité, séries numériques, intégrales, intégration par parties, changement de variables.",
+        "source_chunks": [
+            {
+                "chunk_id": "Guide-des-Etudes_EIL_Cycle-Preparatoire_2024-2025_chunk932_p1",
+                "source_file": "Guide-des-Etudes_EIL_Cycle-Preparatoire_2024-2025.docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "context_length": 1973,
+            "answer_length": 265,
+            "ground_truth_length": 108,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_009",
+        "question": "Quels sont les différents types de SGBD mentionnés dans le programme du cours de base de données pour la filiere informatique ?",
+        "context": "conception de ces bases de données ainsi que les fondements et langages permettant leur exploitation et leur manipulation. Il est organisé selon le plan suivant :\n\nNotions de bases de données et de SGBD\n\n: Historique sur la gestion des données persistantes. Définition d’une base de données et d’un SGBD. Fonctions d’un SGBD. Les différents types de SGBD : hiérarchique, réseau et relationnelle.\n\nConception des bases de données relationnelles\n\n: Utilisation d’un modèle conceptuel de données : Le modèle Entité-Association. Les dépendances fonctionnelles et la normalisation d’une bd relationnelle.\n\nL’algèbre relationnelle de CODD.\n\nLe langage SQL pour la définition, la recherche et la manipulation des données., TD : 10H00 = **Programme**\n\n**:**\n\nCe cours introduit la notion de bases de données relationnelles. Des éléments méthodologiques pour la conception de ces bases de données ainsi que les fondements et langages permettant leur exploitation et leur manipulation. Il est organisé selon le plan suivant :\n\nNotions de bases de données et de SGBD\n\n: Historique sur la gestion des données persistantes. Définition d’une base de données et d’un SGBD. Fonctions d’un SGBD. Les différents types de SGBD : hiérarchique, réseau et relationnelle.\n\nConception des bases de données relationnelles\n\n: Utilisation d’un modèle conceptuel de données : Le modèle Entité-Association. Les dépendances fonctionnelles et la normalisation d’une bd relationnelle.\n\nL’algèbre relationnelle de CODD.\n\nLe langage SQL pour la définition, la recherche et la manipulation des données.. **Programme**\n\n**:**\n\nCe cours introduit la notion de bases de données relationnelles. Des éléments méthodologiques pour la conception de ces bases de données ainsi que les fondements et langages permettant leur exploitation et leur manipulation. Il est organisé selon le plan suivant :\n\nNotions de bases de données et de SGBD\n",
+        "answer": "Les différents types de SGBD mentionnés dans le programme du cours sont :  \n1. **Hiérarchique** : un modèle où les données sont organisées en arbre, avec une relation parent-enfant.  \n2. **Réseau** : un modèle plus flexible que le modèle hiérarchique, permettant des relations multiples entre entités.  \n3. **Relationnelle** : le modèle le plus couramment utilisé aujourd'hui, basé sur des tables et des relations entre elles.",
+        "ground_truth": "hiérarchique, réseau et relationnelle.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Informatique_2024-2025 (FISE)_chunk238_p3",
+                "source_file": "Syllabus_EIL_Informatique_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "difficile",
+            "context_length": 1896,
+            "answer_length": 426,
+            "ground_truth_length": 38,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_011",
+        "question": "Quelle est la durée du cours lié aux bases de données NoSQL et au Big Data mentionné dans la bibliographie ?",
+        "context": "Brasseur, Enjeux et Usages du Big Data, Lavoisier Hermes.\n\n[5] Rudi Bruchez, Les bases de données NoSQL et le Big Data: Comprendre et mettre en œuvre, Editions Eyrolles, 2015.. **Bibliographie**\n\n:\n\n[1]\n\n[https://en.wikipedia.org/wiki/Mathematical\\_optimization](https:\\en.wikipedia.org\\wiki\\Mathematical_optimization)\n\n[2] Chollet, F (2020).\n\n*L’apprentissage profond avec python*\n\n. Machinelearning.fr. ISBN : 2491674009.\n\n[3] Formation Fidle CNRS\n\n[https://gricad-gitlab.univ-grenoble-alpes.fr/talks/fidle/-/wikis/home](https:\\gricad-gitlab.univ-grenoble-alpes.fr\\talks\\fidle\\-\\wikis\\home)\n\n[4] Christophe Brasseur, Enjeux et Usages du Big Data, Lavoisier Hermes.\n\n[5] Rudi Bruchez, Les bases de données NoSQL et le Big Data: Comprendre et mettre en œuvre, Editions Eyrolles, 2015., Cours : 10H = **Bibliographie**\n\n:\n\n[1]\n\n[https://en.wikipedia.org/wiki/Mathematical\\_optimization](https:\\en.wikipedia.org\\wiki\\Mathematical_optimization)\n\n[2] Chollet, F (2020).\n\n*L’apprentissage profond avec python*\n\n. Machinelearning.fr. ISBN : 2491674009.\n\n[3] Formation Fidle CNRS\n\n[https://gricad-gitlab.univ-grenoble-alpes.fr/talks/fidle/-/wikis/home](https:\\gricad-gitlab.univ-grenoble-alpes.fr\\talks\\fidle\\-\\wikis\\home)\n\n[4] Christophe Brasseur, Enjeux et Usages du Big Data, Lavoisier Hermes.\n\n[5] Rudi Bruchez, Les bases de données NoSQL et le Big Data: Comprendre et mettre en œuvre, Editions Eyrolles, 2015.. **Bibliographie**\n\n:\n\n[1]\n\n[https://en.wikipedia.org/wiki/Mathematical\\_optimization](https:\\en.wikipedia.org\\wiki\\Mathematical_optimization)\n\n[2] Chollet, F (2020).\n\n*L’apprentissage profond avec python*\n\n. Machinelearning.fr. ISBN : 2491674009.\n\n[3] Formation Fidle CNRS\n\n[https://gricad-gitlab.univ-grenoble-alpes.fr/talks/fidle/-/wikis/home](https:\\gricad-gitlab.univ-grenoble-alpes.fr\\talks\\fidle\\-\\wikis\\home)\n\n[4] Christophe Brasseur, Enjeux et Usages du Big Data, Lavoisier Hermes.\n",
+        "answer": "Le cours lié aux bases de données NoSQL et au Big Data a une durée de **10 heures**.",
+        "ground_truth": "10 heures.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA)_chunk1121_p9",
+                "source_file": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "definition",
+            "difficulty": "difficile",
+            "context_length": 1899,
+            "answer_length": 331,
+            "ground_truth_length": 10,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_017",
+        "question": "Quels sont les objectifs principaux du module biostatique ?",
+        "context": "Enseignant responsable, Coefficient : 1 = Enseignant responsable. Enseignant responsable, CM : 10H00 = S. REBOUL. Enseignant responsable, TD : 10H00 = S. REBOUL. Enseignant responsable, TP/Projet : 8H00 = S. REBOUL. **Objectifs**\n\n**:**\n\nL’objectif de ce module est la présentation théorique et appliquée des principales méthodes et des modèles utilisés pour l’analyse linéaire des données et la planification expérimentale. Les connaissances et compétence acquises dans ce module sont :\n\n-Organiser, analyser et interpréter des données numériques\n\n-Relier les concepts statistiques à la conception expérimentale, Coefficient : 1 = **Objectifs**\n\n**:**\n\nL’objectif de ce module est la présentation théorique et appliquée des principales méthodes et des modèles utilisés pour l’analyse linéaire des données et la planification expérimentale. Les connaissances et compétence acquises dans ce module sont :\n\n-Organiser, analyser et interpréter des données numériques\n\n-Relier les concepts statistiques à la conception expérimentale. **Objectifs**\n\n**:**\n\nL’objectif de ce module est la présentation théorique et appliquée des principales méthodes et des modèles utilisés pour l’analyse linéaire des données et la planification expérimentale. Les connaissances et compétence acquises dans ce module sont :\n\n-Organiser, analyser et interpréter des données numériques\n\n-Relier les concepts statistiques à la conception expérimentale, CM : 10H00 = **Objectifs**\n\n**:**\n\nL’objectif de ce module est la présentation théorique et appliquée des principales méthodes et des modèles utilisés pour l’analyse linéaire des données et la planification expérimentale. Les connaissances et compétence acquises dans ce module sont :\n\n-Organiser, analyser et interpréter des données numériques\n\n-Relier les concepts statistiques à la conception expérimentale. **Objectifs**\n\n**:**\n",
+        "answer": "Les objectifs principaux de ce module sont de présenter de manière théorique et appliquée les principales méthodes et modèles utilisés pour l’analyse linéaire des données ainsi que la planification expérimentale. Il vise à former les étudiants à :  \n1. **Organiser, analyser et interpréter des données numériques**.  \n2. **Relier les concepts statistiques à la conception expérimentale**.  \n\nCes compétences permettent de maîtriser la démarche statistique et de l’appliquer efficacement dans le cadre de la planification et de l’analyse des expériences.",
+        "ground_truth": "Présenter théoriquement et appliquément les méthodes et modèles d'analyse linéaire des données et de planification expérimentale. Acquérir des compétences pour organiser, analyser et interpréter des données numériques, ainsi que relier les concepts statistiques à la conception expérimentale.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE)_chunk707_p0",
+                "source_file": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "difficile",
+            "context_length": 1860,
+            "answer_length": 553,
+            "ground_truth_length": 292,
+            "language": "french"
+        }
+    },{
+        "id": "sample_004",
+        "question": "Quelles sont le modalités d'évaluation du cours ou module Formulation ?",
+        "context": "Cours : 10H00 = **Modalités d’évaluation**\n\n**:**\n\nMontage d’un dossier écrit évalué + présentation orale du projet évaluée avec des modalités précisées en amont.. **Modalités d’évaluation**\n\n**:**\n\nMontage d’un dossier écrit évalué + présentation orale du projet évaluée avec des modalités précisées en amont., TD : 8H00 = **Modalités d’évaluation**\n\n**:**\n\nMontage d’un dossier écrit évalué + présentation orale du projet évaluée avec des modalités précisées en amont.. **Modalités d’évaluation**\n\n**:**\n\nMontage d’un dossier écrit évalué + présentation orale du projet évaluée avec des modalités précisées en amont., TP/Projet : 8H00 = **Modalités d’évaluation**\n\n**:**\n\nMontage d’un dossier écrit évalué + présentation orale du projet évaluée avec des modalités précisées en amont.\n",
+        "answer": "Le montage d’un dossier écrit et la présentation orale du projet sont évalués avec des modalités précisées en amont.",
+        "ground_truth": "montage d’un dossier écrit et la présentation orale du projet",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE)_chunk955_p5",
+                "source_file": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "procedural",
+            "difficulty": "moyen",
+            "context_length": 786,
+            "answer_length": 116,
+            "ground_truth_length": 46,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_017",
+        "question": "Quels sont les principaux axes abordés dans la fromation concernant le cours Economie circulaire et RSE ?",
+        "context": "**Prérequis**\n\n:. **Prérequis**\n\n:, TP/Projet : 00H00 = **Prérequis**\n\n:. **Programme**\n\n**:**\n\nPlusieurs aspects sont abordés :\n\n- Introduction à l’économie circulaire (émergence, cadrage et mise en œuvre)\n\n- Responsabilité Sociétale des Entreprises (Développement durable versus RSE, pourquoi et comment mettre en œuvre une démarche RSE)\n\n- Bilan carbone et stratégie climatique (Entreprise et territorial, réglementation climatique mondiale, européenne, et nationale, qu’est ce qui s’appliquent aux entreprises, aux collectivités ? Qu’est-ce qu’une stratégie climatique ? Les outils pour y répondre : ACV, bilan carbone, éco-conception, RSE, certification, PCAET)\n\nMots clés : Economie circulaire, RSE, Bilan carbone, stratégie climatique, ACV, éco-conception, Coefficient : 1 = **Programme**\n\n**:**\n\nPlusieurs aspects sont abordés :\n\n- Introduction à l’économie circulaire (émergence, cadrage et mise en œuvre)\n\n- Responsabilité Sociétale des Entreprises (Développement durable versus RSE, pourquoi et comment mettre en œuvre une démarche RSE)\n\n- Bilan carbone et stratégie climatique (Entreprise et territorial, réglementation climatique mondiale, européenne, et nationale, qu’est ce qui s’appliquent aux entreprises, aux collectivités ? Qu’est-ce qu’une stratégie climatique ? Les outils pour y répondre : ACV, bilan carbone, éco-conception, RSE, certification, PCAET)\n\nMots clés : Economie circulaire, RSE, Bilan carbone, stratégie climatique, ACV, éco-conception. **Programme**\n\n**:**\n\nPlusieurs aspects sont abordés :\n\n- Introduction à l’économie circulaire (émergence, cadrage et mise en œuvre)\n\n- Responsabilité Sociétale des Entreprises (Développement durable versus RSE, pourquoi et comment mettre en œuvre une démarche RSE)\n\n- Bilan carbone et stratégie climatique (Entreprise et territorial, réglementation climatique mondiale, européenne, et nationale, qu’est ce qui s’appliquent aux entreprises, aux collectivités ? Qu’est-ce qu’une stratégie climatique ?\n",
+        "answer": "Cette formation aborde plusieurs aspects : l'introduction à l’économie circulaire (émergence, cadrage et mise en œuvre), la Responsabilité Sociétale des Entreprises (Développement durable versus RSE, pourquoi et comment mettre en œuvre une démarche RSE), et le Bilan carbone et stratégie climatique (Entreprise et territorial, réglementation climatique mondiale, européenne, et nationale, qu’est ce qui s’appliquent aux entreprises, aux collectivités? Qu’est-ce qu’une stratégie climatique? Les outils pour y répondre: ACV, bilan carbone, éco-conception, RSE, certification, PCAET).",
+        "ground_truth": "Économie circulaire, RSE et bilan carbone. La formation aborde également la stratégie climatique et les outils associés.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE)_chunk1159_p1",
+                "source_file": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "difficile",
+            "context_length": 1973,
+            "answer_length": 582,
+            "ground_truth_length": 120,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_000",
+        "question": "Combien d'heures de TD sont prévues pour le module \"Gestion des ressources humaines\" ?",
+        "context": "Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**Autre** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**Total** = 20. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Coef.**.**Coef.** = 1. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **ECTS**.**ECTS** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **ECUE**.**ECUE** = Gestion des ressources humaines. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**CM** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**TD** = 14. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**TP** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**Eval.** = 1. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**Autre** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**Total** = 15. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Coef.**.**Coef.** = 1. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **ECTS**.**ECTS** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **ECUE**.**ECUE** = Projet solidaire. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**CM** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**TD** = 10. **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**TP** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**Eval.** = . **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)**, **Horaires (en heures)**.**Autre** = 20.\n",
+        "answer": "Pour le module \"Gestion des ressources humaines\", 14 heures de TD sont prévues.",
+        "ground_truth": "14 heures de TD sont prévues pour le module \"Gestion des ressources humaines\".",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE)_chunk63_p7",
+                "source_file": "Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "context_length": 1977,
+            "answer_length": 79,
+            "ground_truth_length": 78,
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_005",
+        "question": "Quels algorithmes sont utilisés pour le calcul des courbes et surfaces dans le module CAO ?",
+        "context": "Enseignant responsable, Coefficient : 1 = Enseignant responsable. Enseignant responsable, CM : 10H00 = P. Mortreux. Enseignant responsable, TD : 04H00 = P. Mortreux. Enseignant responsable, TP/Projet : 24H00 = P. Mortreux. **Objectifs**\n\n**:**\n\nCe module propose d’abord une introduction à la représentation et à la modélisation des courbes et surfaces utilisée en CAO. Une vue générale sur quelques algorithmes de représentation des courbes et surfaces est donnée. On donnera des algorithmes de calcul des courbes splines et courbes et surfaces de Bézier.\n\nCe module a ensuite pour objectif d’identifier les entités mathématiques de la CAO afin de mieux utiliser les logiciels, de connaître les possibilités des logiciels de conception et de concevoir des ensembles mécaniques. Il est encadré par une équipe d’enseignants en mécanique., Coefficient : 1 = **Objectifs**\n\n**:**\n\nCe module propose d’abord une introduction à la représentation et à la modélisation des courbes et surfaces utilisée en CAO. Une vue générale sur quelques algorithmes de représentation des courbes et surfaces est donnée. On donnera des algorithmes de calcul des courbes splines et courbes et surfaces de Bézier.\n\nCe module a ensuite pour objectif d’identifier les entités mathématiques de la CAO afin de mieux utiliser les logiciels, de connaître les possibilités des logiciels de conception et de concevoir des ensembles mécaniques. Il est encadré par une équipe d’enseignants en mécanique.. **Objectifs**\n\n**:**\n\nCe module propose d’abord une introduction à la représentation et à la modélisation des courbes et surfaces utilisée en CAO. Une vue générale sur quelques algorithmes de représentation des courbes et surfaces est donnée. On donnera des algorithmes de calcul des courbes splines et courbes et surfaces de Bézier.\n\nCe module a ensuite pour objectif d’identifier les entités mathématiques de la CAO afin de mieux utiliser les logiciels, de connaître les possibilités des logiciels de conception et de\n",
+        "answer": "Ce module donne des algorithmes de calcul des courbes splines et des courbes et surfaces de Bézier.",
+        "ground_truth": "Des algorithmes de calcul des courbes splines et courbes et surfaces de Bézier sont donnés.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE)_chunk665_p0",
+                "source_file": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "general",
+            "difficulty": "moyen",
+            "context_length": 1991,
+            "answer_length": 99,
+            "ground_truth_length": 91,
+            "language": "french"
+        }
+    }
+]

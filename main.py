@@ -2,48 +2,82 @@ from RAG import RAG
 from OllamaStuff import OllamaEmbeddings, OllamaRAG, Ollama_Knowledge_base
 import os
 
+def initialize_rag():
+    """Initialize the RAG system with knowledge base."""
+    embeddings = OllamaEmbeddings("nomic-embed-text", "http://localhost:11434/api/embed")
+    vectordb_path = "faiss_index"
+    
+    rag = OllamaRAG(
+        "http://localhost:11434/api/generate",
+        "gemma3:4b",
+        {"temperature": 0.5, "num_predict": 1024,"num_ctx":8192,"num_predict":8192},
+    )
+    rag.load_knowledge_base(vectordb_path, embeddings)
+    
+    return rag
 
-#=============================== testing script ===========================================
+def chat_loop(rag):
+    """Main interactive chat loop."""
+    print("=" * 60)
+    print("Interactive RAG Chat")
+    print("=" * 60)
+    print("Type 'exit', 'quit', or 'q' to end the conversation")
+    print("Type 'clear' to clear chat history")
+    print("Type 'history' to view conversation history")
+    print("=" * 60)
+    print()
+    
+    while True:
+        try:
+            # Get user input
+            user_input = input("You: ").strip()
+            
+            # Handle commands
+            if user_input.lower() in ['exit', 'quit', 'q']:
+                print("\nGoodbye!")
+                break
+            
+            if user_input.lower() == 'clear':
+                RAG.HISTORY.clear()
+                print("\n[History cleared]\n")
+                continue
+            
+            if user_input.lower() == 'history':
+                print("\n--- Conversation History ---")
+                if not RAG.HISTORY:
+                    print("(empty)")
+                else:
+                    for i, turn in enumerate(RAG.HISTORY, 1):
+                        print(f"\n{i}. User: {turn['user']}")
+                        print(f"   AI: {turn['ai'][:100]}..." if len(turn['ai']) > 100 else f"   AI: {turn['ai']}")
+                print("--- End of History ---\n")
+                continue
+            
+            if not user_input:
+                continue
+            
+            # Process query
+            print("\nAI: ", end="", flush=True)
+            docs = rag.retriever(user_input)
+            augmented_prompt = rag.prompt_augmentation(docs, user_input)
+            response = rag.response_generator(augmented_prompt)
+            ai_content = response.get("message", {}).get("content", str(response))
+            
+            # Update history
+            RAG.HISTORY.append({"user": user_input, "ai": ai_content})
+            
+            # Print response
+            print(f"{ai_content}\n")
+            
+        except KeyboardInterrupt:
+            print("\n\nGoodbye!")
+            break
+        except Exception as e:
+            print(f"\n[Error: {e}]\n")
 
 if __name__ == "__main__":
-    embeddings = OllamaEmbeddings("nomic-embed-text", "http://localhost:11434/api/embed")
-
-    vectordb_path = "faiss_index"
-    run_rag = True
-
-    if not os.path.exists(vectordb_path):
-        markdown_folder = "./markdown_docs/"
-        files_paths = []
-        for file_name in os.listdir(markdown_folder):
-            if file_name.endswith(".md"):
-                file_path = os.path.join(markdown_folder, file_name)
-                files_paths.append(file_path)
-
-        kb = Ollama_Knowledge_base(list_file_paths=files_paths)
-        documents = kb.loader()
-        chunks = kb.splitter(documents)
-        vectorstore = kb.storer(chunks, embeddings, vectordb_path)
-
-    if run_rag:
-        rag = OllamaRAG(
-            "http://localhost:11434/api/generate",
-            "gemma3:4b",
-            {"temperature": 0.5, "num_predict": 1024},
-        )
-        rag.load_knowledge_base(vectordb_path, embeddings)
-
-        queries = [
-            "Quelle est la durée du semestre S9 ?",
-            "et pour le S8 ?",
-            "quelle est la difference de durée entre les deux ?"
-        ]
-        for query in queries:
-            docs = rag.retriever(query)
-            augmented_prompt = rag.prompt_augmentation(docs, query)
-            response = rag.response_generator(augmented_prompt)
-
-            ai_content = response.get("message", {}).get("content", str(response))
-            RAG.HISTORY.append({"user": query, "ai": ai_content})
-
-            #print("\n\nHISTORY:", RAG.HISTORY)
-            print(f"Response from Model:\n{ai_content}\n")
+    try:
+        rag = initialize_rag()
+        chat_loop(rag)
+    except Exception as e:
+        print(f"Failed to initialize RAG system: {e}")

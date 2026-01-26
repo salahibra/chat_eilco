@@ -5,12 +5,20 @@ import prompts
 import tiktoken
 
 
+class Context:
+    def __init__(self, token_limit, turns_to_leave):
+        self.summary = ""
+        self.history = []
+        self.token_limit = token_limit
+        self.token_count = 0
+        self.turns_to_leave = turns_to_leave
+
 
 class RAG:
 
     enc = tiktoken.get_encoding("cl100k_base")
 
-    @classmethod
+    @staticmethod
     def count_chat_tokens(messages):
         total = 0
         for m in messages:
@@ -33,25 +41,24 @@ class RAG:
     def retriever(self, query):
         docs = self.vectorstore.similarity_search(query, k=5)
         return docs
-    
-    def get_system_prompt(self, docs:list[str]):
+
+    def get_system_prompt(self, docs: list[str]):
         docs_text = [d.page_content for d in docs]
-        
         return prompts.ZERO_SHOT_PROMPT_FR.format(
-            context_str="\n\n".join(docs_text), # Now joining strings, not objects
-            strict_instructions=prompts.STRICT_INSTRUCTIONS_FR
+            context_str="\n\n".join(docs_text),
+            strict_instructions=prompts.STRICT_INSTRUCTIONS_FR,
         )
-    
-    def update_summary(self, history: list[dict], current_summary: str, max_turns: int = 3):
 
-        if len(history) <= max_turns:
-            return None
+    def update_ctx(self, ctx: Context):
+        if ctx.token_count < ctx.token_limit or len(ctx.history) <= ctx.turns_to_leave * 2:
+            return
 
-        messages_to_summarize = history[:-max_turns]
+        messages_to_summarize = ctx.history[: -(ctx.turns_to_leave * 2)]
+        if not messages_to_summarize:
+            return
 
         conversation_text = "\n".join(
-            f"{m['role'].upper()}: {m['content']}"
-            for m in messages_to_summarize
+            f"{m['role'].upper()}: {m['content']}" for m in messages_to_summarize
         )
 
         system_prompt = (
@@ -63,7 +70,7 @@ class RAG:
 
         user_prompt = (
             "Résumé existant:\n"
-            f"{current_summary or 'Aucun.'}\n\n"
+            f"{ctx.summary or 'Aucun.'}\n\n"
             "Nouveaux échanges à intégrer:\n"
             f"{conversation_text}\n\n"
             "INSTRUCTION:\n"
@@ -76,33 +83,31 @@ class RAG:
             {"role": "user", "content": user_prompt},
         ]
 
-        return self.chat_completion(
-            messages,
-            {
-                "temperature": 0.2,
-                "max_tokens": 512,
-            }
-        )
-    
-    def rewrite_query(self, query: str, summary: str, history: list[dict], last_turns: int):
-        if not history:
-            return None
-        
+        response = self.chat_completion(messages, {"temperature": 0.2, "max_tokens": 512})
+
+        if response and "choices" in response:
+            ctx.summary = response["choices"][0]["message"]["content"]
+            ctx.history = ctx.history[-(ctx.turns_to_leave * 2) :]
+            ctx.token_count = RAG.count_chat_tokens(ctx.history)
+
+    def rewrite_query(self, query: str, ctx: Context):
+        if not ctx.history:
+            return query
+
         conversation_text = "\n".join(
-            f"{m['role'].upper()}: {m['content']}"
-            for m in history[-last_turns:]
+            f"{m['role'].upper()}: {m['content']}" for m in ctx.history
         )
 
         system_prompt = (
             "Tu es un système de reformulation de requêtes pour un moteur de recherche documentaire (RAG).\n"
-            "Ta tâche est de reformuler une question utilisateur pour qu’elle soit autonome, précise et adaptée à la recherche.\n"
+            "Ta tâche est de reformuler une question utilisateur pour qu'elle soit autonome, précise et adaptée à la recherche.\n"
             "Tu ne dois PAS répondre à la question.\n"
-            "Tu ne dois PAS ajouter d’informations nouvelles.\n"
+            "Tu ne dois PAS ajouter d'informations nouvelles.\n"
             "Tu produis UNIQUEMENT la requête reformulée."
         )
 
-        user_prompt = (
-            prompts.REWRITE_PROMPT.format(summary=summary,history=conversation_text, question=query)
+        user_prompt = prompts.REWRITE_PROMPT.format(
+            summary=ctx.summary, history=conversation_text, question=query
         )
 
         messages = [
@@ -110,48 +115,51 @@ class RAG:
             {"role": "user", "content": user_prompt},
         ]
 
-        return self.chat_completion(
-            messages,
-            {
-                "temperature": 0.1,
-                "max_tokens": 1028,
-                "stop": ["\n"]
-            }
+        response = self.chat_completion(
+            messages, {"temperature": 0.1, "max_tokens": 1028, "stop": ["\n"]}
         )
-    
-    def run_turn(self, query, summary, history, max_turns):
-        response = self.update_summary(history, summary, max_turns)
-        if response is None:
-            new_summary = "Pas de resumé précédent"
-        else:
-            new_summary = response["choices"][0]["message"]["content"]
-        print(new_summary)
-        response = self.rewrite_query(query, new_summary, history, max_turns)
-        rewritten_query = response["choices"][0]["message"]["content"] if response is not None else query
+
+        if response and "choices" in response:
+            return response["choices"][0]["message"]["content"]
+        
+        return query
+
+    def run_turn(self, query, ctx: Context):
+        self.update_ctx(ctx)
+        
+        rewritten_query = self.rewrite_query(query, ctx)
         print(rewritten_query)
+        
         docs = self.retriever(rewritten_query)
         sys_prompt = self.get_system_prompt(docs)
-        messages = [{'role':"system","content":sys_prompt}] + history[-max_turns:] + [{"role":"user","content":query}]
-        return self.chat_completion(messages,{"temperature": 0.1,"stream":False})
-
+        user_entry = {"role": "user", "content": query}
+        messages = [{"role": "system", "content": sys_prompt}] + ctx.history + [user_entry]
+        
+        response = self.chat_completion(messages, {"temperature": 0.1, "stream": False})
+        
+        if response and "choices" in response:
+            answer = response["choices"][0]["message"]["content"]
+            ctx.history.extend([user_entry, {"role": "assistant", "content": answer}])
+            ctx.token_count = RAG.count_chat_tokens(ctx.history)
+        
+        return response
 
     def chat_completion(self, messages, options):
         headers = {"Content-Type": "application/json"}
-        payload = {
-            "messages": messages,
-            **options
-        }
-        response = requests.post(
-            self.Model_API_URL, headers=headers, data=json.dumps(payload)
-        )
-        return response.json()
+        payload = {"messages": messages, **options}
+        try:
+            response = requests.post(
+                self.Model_API_URL, headers=headers, data=json.dumps(payload), timeout=30
+            )
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"API Error: {e}")
+            return None
 
     def response_generator(self, messages, options):
         headers = {"Content-Type": "application/json"}
-        payload = {
-            "messages": messages,
-            **options
-        }
+        payload = {"messages": messages, **options}
         response = requests.post(
             self.Model_API_URL, headers=headers, data=json.dumps(payload)
         )

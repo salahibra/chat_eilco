@@ -1,9 +1,8 @@
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 import requests, json
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-
 
 class Knowledge_base:
     def __init__(self, list_file_paths):
@@ -21,14 +20,39 @@ class Knowledge_base:
         return data
 
     
+
     def splitter(self, documents):
+        headers_to_split_on = [
+            ("#", "Header_1"),
+            ("##", "Header_2"),
+            ("###", "Header_3"),
+            ("####", "Header_4"),
+        ]
+
+        markdown_splitter = MarkdownHeaderTextSplitter(
+            headers_to_split_on=headers_to_split_on, 
+            strip_headers=False 
+        )
+
         text_splitter = RecursiveCharacterTextSplitter(
-            separators=["\n\n"],
             chunk_size=2000,
             chunk_overlap=400,
-            length_function=len
+            separators=["\n\n", "\n", " ", ""]
         )
-        self.chunks = text_splitter.split_documents(documents)
+
+        all_final_chunks = []
+
+        for doc in documents:
+            titre_sections_splits = markdown_splitter.split_text(doc.page_content)
+            
+            for section_split in titre_sections_splits:
+                section_split.metadata.update(doc.metadata)
+                
+            final_chunks = text_splitter.split_documents(titre_sections_splits)
+            
+            all_final_chunks.extend(final_chunks)
+
+        self.chunks = all_final_chunks
         return self.chunks
 
     def converter(self, texts):
@@ -41,6 +65,11 @@ class Knowledge_base:
     def storer(self, chunks : list, path : str = "faiss_index"):
         embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
         self.vectorstore = FAISS.from_documents(chunks, embeddings)
+<<<<<<< HEAD
         self.vectorstore.save_local(path)
         return self.vectorstore
     
+=======
+        self.vectorstore.save_local("faiss_index-v2")
+        return self.vectorstore
+>>>>>>> main

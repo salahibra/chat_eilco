@@ -2,10 +2,23 @@ from RAG import RAG
 from OllamaStuff import OllamaEmbeddings, OllamaRAG, Ollama_Knowledge_base
 import os
 
+<<<<<<< HEAD
 def initialize_rag():
     """Initialize the RAG system with knowledge base."""
     embeddings = OllamaEmbeddings("nomic-embed-text", "http://localhost:11434/api/embed")
     vectordb_path = "faiss_index"
+=======
+build_knowledge_base = True
+run_rag = True
+
+if build_knowledge_base:
+    markdown_folder = "./markdown_docs/"
+    files_paths = []
+    for file_name in os.listdir(markdown_folder):
+        if file_name.endswith(".md"):
+            file_path = os.path.join(markdown_folder, file_name)
+            files_paths.append(file_path)
+>>>>>>> main
     
     rag = OllamaRAG(
         "http://localhost:11434/api/generate",

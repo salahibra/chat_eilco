@@ -65,11 +65,6 @@ class Knowledge_base:
     def storer(self, chunks : list, path : str = "faiss_index"):
         embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
         self.vectorstore = FAISS.from_documents(chunks, embeddings)
-<<<<<<< HEAD
         self.vectorstore.save_local(path)
         return self.vectorstore
     
-=======
-        self.vectorstore.save_local("faiss_index-v2")
-        return self.vectorstore
->>>>>>> main

@@ -17,8 +17,8 @@ class Ollama_Knowledge_base(Knowledge_base):
 
 
 class OllamaRAG(RAG):
-    def __init__(self, api_url, model_name, options : dict[str:int]):
-        super().__init__(api_url, model_name)
+    def __init__(self, api_url, model_name, options : dict[str:int], rewrite_query = False):
+        super().__init__(api_url, model_name,rewrite_query=rewrite_query)
         self.options = options
     
     def load_knowledge_base(self, path: str, embeddings : Embeddings):

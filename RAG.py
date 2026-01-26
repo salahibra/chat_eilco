@@ -2,20 +2,26 @@ import requests, json
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import prompts
+import tiktoken
 
 
 
 class RAG:
 
-    
-    HISTORY = []
-    SUMMARY = ""
+    enc = tiktoken.get_encoding("cl100k_base")
 
-    def __init__(self, api_url: str, model_name: str):
+    @classmethod
+    def count_chat_tokens(messages):
+        total = 0
+        for m in messages:
+            total += len(RAG.enc.encode(m["content"]))
+        return total
+
+    def __init__(self, api_url: str, model_name: str, rewrite_query: bool = False):
+        self.rewrite = rewrite_query
         self.vectorstore = None
         self.Model_API_URL = api_url
         self.Model_NAME = model_name
-        self.history = []
 
     def load_knowledge_base(self, path: str):
         self.vectorstore = FAISS.load_local(
@@ -27,82 +33,126 @@ class RAG:
     def retriever(self, query):
         docs = self.vectorstore.similarity_search(query, k=5)
         return docs
-
-    def rewrite_query(self, query, max_turns=3):
-        if RAG.SUMMARY == "":
-            RAG.SUMMARY = "pas de sommaire pour le momment."
-
-        history = RAG.HISTORY
-        if not history:
-            return query
-            
-        if len(history) > max_turns:
-            e = history[-(max_turns + 1)]
-            
-            summary_prompt = (
-                "Résume de manière concise et factuelle la conversation suivante "
-                "(max 200 tokens) :\n\n"
-                f"Ancien sommaire : {RAG.SUMMARY}\n"
-                f"Nouvel échange à intégrer :\n"
-                f"Utilisateur : {e['user']}\n"
-                f"Assistant : {e['ai']}\n"
-            )
-            RAG.SUMMARY = self.response_generator(summary_prompt)["message"]["content"]
-
-        recent = history[-max_turns:]
-        hist_str = ""
-        for e in recent:
-            hist_str += (
-                f"Utilisateur : {e['user']}\n"
-                f"Assistant : {e['ai']}\n"
-            )
-
-        augmented_prompt = prompts.HISTORY_PROMPT.format(
-            history=hist_str,
-            summary=RAG.SUMMARY,
-            question=query
-        )
-
-        return self.response_generator(augmented_prompt)["message"]["content"]
-
-    def _update_incremental_summary(self, old_summary, new_turn):
-        """Met à jour le sommaire existant avec un nouveau tour de parole (Appel LLM)."""
-        update_prompt = (
-            "Mets à jour le sommaire suivant en y intégrant les informations cruciales du nouvel échange. "
-            "Le sommaire doit rester concis (max 150 mots).\n\n"
-            f"Sommaire actuel : {old_summary}\n"
-            f"Nouvel échange à intégrer :\nU: {new_turn['user']}\nA: {new_turn['ai']}\n\n"
-            "Nouveau sommaire mis à jour :"
-        )
-        return self.response_generator(update_prompt)["message"]["content"]
+    
+    def get_system_prompt(self, docs:list[str]):
+        docs_text = [d.page_content for d in docs]
         
-    def prompt_augmentation(self, docs, query):
-        rewritten_query = self.rewrite_query(query)
-        print(rewritten_query)
-        augmented_prompt = prompts.ZERO_SHOT_PROMPT_FR.format(
-            context_str=docs,
-            strict_instructions=prompts.INSTRUCTIONS_FR,
-            query_str=rewritten_query,
+        return prompts.ZERO_SHOT_PROMPT_FR.format(
+            context_str="\n\n".join(docs_text), # Now joining strings, not objects
+            strict_instructions=prompts.STRICT_INSTRUCTIONS_FR
         )
-        #augmented_prompt = f"en se basant sur les documents suivants : {docs}, reponds a la question suivante : {rewritten_query}"
-        return augmented_prompt
+    
+    def update_summary(self, history: list[dict], current_summary: str, max_turns: int = 3):
 
-    def response_generator(self, augmented_prompt):
-        print(augmented_prompt)
+        if len(history) <= max_turns:
+            return None
+
+        messages_to_summarize = history[:-max_turns]
+
+        conversation_text = "\n".join(
+            f"{m['role'].upper()}: {m['content']}"
+            for m in messages_to_summarize
+        )
+
+        system_prompt = (
+            "Tu es un système de mise à jour de résumé de conversation.\n"
+            "Tu dois maintenir un résumé concis, factuel et neutre.\n"
+            "Tu n'ajoutes aucune interprétation ni information absente.\n"
+            "Tu intègres uniquement les faits nouveaux."
+        )
+
+        user_prompt = (
+            "Résumé existant:\n"
+            f"{current_summary or 'Aucun.'}\n\n"
+            "Nouveaux échanges à intégrer:\n"
+            f"{conversation_text}\n\n"
+            "INSTRUCTION:\n"
+            "Mets à jour le résumé en tenant compte uniquement des nouveaux échanges.\n\n"
+            "Résumé mis à jour:"
+        )
+
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ]
+
+        return self.chat_completion(
+            messages,
+            {
+                "temperature": 0.2,
+                "max_tokens": 512,
+            }
+        )
+    
+    def rewrite_query(self, query: str, summary: str, history: list[dict], last_turns: int):
+        if not history:
+            return None
+        
+        conversation_text = "\n".join(
+            f"{m['role'].upper()}: {m['content']}"
+            for m in history[-last_turns:]
+        )
+
+        system_prompt = (
+            "Tu es un système de reformulation de requêtes pour un moteur de recherche documentaire (RAG).\n"
+            "Ta tâche est de reformuler une question utilisateur pour qu’elle soit autonome, précise et adaptée à la recherche.\n"
+            "Tu ne dois PAS répondre à la question.\n"
+            "Tu ne dois PAS ajouter d’informations nouvelles.\n"
+            "Tu produis UNIQUEMENT la requête reformulée."
+        )
+
+        user_prompt = (
+            prompts.REWRITE_PROMPT.format(summary=summary,history=conversation_text, question=query)
+        )
+
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ]
+
+        return self.chat_completion(
+            messages,
+            {
+                "temperature": 0.1,
+                "max_tokens": 1028,
+                "stop": ["\n"]
+            }
+        )
+    
+    def run_turn(self, query, summary, history, max_turns):
+        response = self.update_summary(history, summary, max_turns)
+        if response is None:
+            new_summary = "Pas de resumé précédent"
+        else:
+            new_summary = response["choices"][0]["message"]["content"]
+        print(new_summary)
+        response = self.rewrite_query(query, new_summary, history, max_turns)
+        rewritten_query = response["choices"][0]["message"]["content"] if response is not None else query
+        print(rewritten_query)
+        docs = self.retriever(rewritten_query)
+        sys_prompt = self.get_system_prompt(docs)
+        messages = [{'role':"system","content":sys_prompt}] + history[-max_turns:] + [{"role":"user","content":query}]
+        return self.chat_completion(messages,{"temperature": 0.1,"stream":False})
+
+
+    def chat_completion(self, messages, options):
         headers = {"Content-Type": "application/json"}
         payload = {
-            "model": self.Model_NAME,
-            "messages": [
-                {"role": "developer", "content": "You are a helpful assistant."},
-                {"role": "user", "content": augmented_prompt},
-            ],
-            "max_tokens": 1024,
-            "temperature": 0.2,
-            "stream": False,
+            "messages": messages,
+            **options
         }
         response = requests.post(
             self.Model_API_URL, headers=headers, data=json.dumps(payload)
         )
         return response.json()
 
-
+    def response_generator(self, messages, options):
+        headers = {"Content-Type": "application/json"}
+        payload = {
+            "messages": messages,
+            **options
+        }
+        response = requests.post(
+            self.Model_API_URL, headers=headers, data=json.dumps(payload)
+        )
+        return response.json()

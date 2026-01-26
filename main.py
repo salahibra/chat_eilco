@@ -1,31 +1,15 @@
 from RAG import RAG
-from OllamaStuff import OllamaEmbeddings, OllamaRAG, Ollama_Knowledge_base
+from Knowledge_base import Knowledge_base
 import os
 
-<<<<<<< HEAD
 def initialize_rag():
     """Initialize the RAG system with knowledge base."""
-    embeddings = OllamaEmbeddings("nomic-embed-text", "http://localhost:11434/api/embed")
-    vectordb_path = "faiss_index"
-=======
-build_knowledge_base = True
-run_rag = True
-
-if build_knowledge_base:
-    markdown_folder = "./markdown_docs/"
-    files_paths = []
-    for file_name in os.listdir(markdown_folder):
-        if file_name.endswith(".md"):
-            file_path = os.path.join(markdown_folder, file_name)
-            files_paths.append(file_path)
->>>>>>> main
-    
-    rag = OllamaRAG(
-        "http://localhost:11434/api/generate",
-        "gemma3:4b",
-        {"temperature": 0.5, "num_predict": 1024,"num_ctx":8192,"num_predict":8192},
+    vectordb_path = "faiss_index"    
+    rag = RAG(
+        "http://localhost:8080/v1/chat/completions",
+        "gemma",
     )
-    rag.load_knowledge_base(vectordb_path, embeddings)
+    rag.load_knowledge_base(vectordb_path)
     
     return rag
 
@@ -71,10 +55,10 @@ def chat_loop(rag):
             
             # Process query
             print("\nAI: ", end="", flush=True)
-            docs = rag.retriever(user_input)
-            augmented_prompt = rag.prompt_augmentation(docs, user_input)
-            response = rag.response_generator(augmented_prompt)
-            ai_content = response.get("message", {}).get("content", str(response))
+            docs = ""#rag.retriever(user_input)
+            #augmented_prompt = rag.prompt_augmentation(docs, user_input)
+            response = rag.response_generator({"system":"","user":user_input})
+            ai_content = response['choices'][0]['message']['content']
             
             # Update history
             RAG.HISTORY.append({"user": user_input, "ai": ai_content})

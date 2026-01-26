@@ -21,12 +21,10 @@ Vous êtes un assistant expert, source unique de vérité, répondant uniquement
 
 ### CONTRAINTES
 {strict_instructions}
-
-### QUESTION
-{query_str}"""
+"""
 
 
-HISTORY_PROMPT = """
+REWRITE_PROMPT = """
 ### RÔLE
 Tu es un expert en ingénierie de requêtes (Prompt Engineering). Ton rôle est de transformer une question utilisateur issue d'une conversation en une question autonome et précise.
 

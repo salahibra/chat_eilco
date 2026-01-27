@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from RAG import RAG, Context
+import os
 import uvicorn
 
 app = FastAPI(
@@ -9,9 +10,11 @@ app = FastAPI(
     version="1.0.0"
 )
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 API_URL = "http://localhost:8080/v1/chat/completions"
 MODEL_NAME = "gemma"
-VECTOR_DB_PATH = "./faiss_index-v2"
+VECTOR_DB_PATH = os.path.join(BASE_DIR, "faiss_index-v2")
 
 rag_system = RAG(api_url=API_URL, model_name=MODEL_NAME)
 user_contexts = {}

@@ -1,0 +1,669 @@
+
+
+************sep***********
+
+Le tableau présente le calendrier académique pour le Cycle Ingénieur, qui est divisé en deux années, avec deux semestres par année. Chaque semestre dure soit 18 semaines (pour les semestres S5 et S6) ou 15 semaines (pour les semestres S7 et S8). Les examens de première session et le contrôle continu ont lieu à la fin de chaque semestre, ainsi que la soutenance des projets pour les semestres S5 et S6. Il y a également une deuxième session d'examens qui couvre les deux semestres de chaque année. La durée maximale de la scolarité est de 4 ans pour le Cycle Ingénieur.
+
+************sep***********
+
+Le tableau présente le calendrier des évaluations et des contrôles des connaissances pour les deux premières années du Cycle Ingénieur. Pour la première année, le calendrier est divisé en deux semestres de 15 semaines chacun, avec des examens de première et deuxième session, ainsi qu'un contrôle continu. La deuxième année est divisée en deux semestres également, mais de durée différente (21 et 26 semaines), avec des examens de première et deuxième session, une soutenance de projets et un stage d'assistant ingénieur. Les dates clés pour chaque semestre sont indiquées pour chaque année.
+
+************sep***********
+
+Le tableau présente le calendrier des évaluations et des contrôles des connaissances pour les deuxième et troisième années du Cycle Ingénieur. Pour la deuxième année, le semestre S9 (de septembre à décembre) comprend des examens de première session, un contrôle continu, des soutenances de stages d'assistant ingénieur et des projets PIC. Le semestre S10 (de janvier à mai) comprend une deuxième session d'examens, un projet de fin d'études et des soutenances de projets de fin d'études. Pour la troisième année, le calendrier est similaire, avec des examens de première et deuxième session, des projets de fin d'études et des soutenances correspondantes. Les dates spécifiques pour chaque événement sont indiquées dans le tableau.
+
+************sep***********
+
+Le tableau 4 présente la répartition des coefficients des différents modes d'évaluation d'un ECUE (Éléments Constituants de l'Unité d'Enseignement). Il y a deux parties dans un ECUE : la partie théorique et la partie pratique. La partie théorique est évaluée par trois types de contrôle : EF (Examen Final), CC (Contrôle Continu) et DM (Devoirs sur Table). La partie pratique est évaluée par trois types de contrôle également : CR (Contrôle en Situation), CT (Contrôle Technique) et EI (Exercices en Salle de Travail). Pour chaque type de contrôle, le pourcentage de la note finale et le coefficient sont indiqués. La moyenne de l'ECUE est calculée en prenant en compte le nombre d'heures de chaque matière dans le cas où plusieurs matières constituent un ECUE.
+
+************sep***********
+
+Le tableau présente les règles de calcul des résultats pour la validation des Unités d'Enseignement (UE) dans le cadre des crédits ECTS. Il indique que la validation d'une UE entraîne automatiquement l'attribution des crédits ECTS qui lui sont rattachés. Le tableau 5 montre la répartition des grades ECTS pour les étudiants admis, avec une échelle de notation qui classe les étudiants sur une base statistique. Les étudiants ayant les meilleurs résultats reçoivent le grade A (10%), suivi des grades B (25%), C (30%), D (25%) et E (10%). Les étudiants ajournés reçoivent le grade F ou FX.
+
+************sep***********
+
+Le tableau présente la méthode de calcul de la moyenne des élèves ingénieurs en mobilité pour les semestres S8 ou S9. Les notes obtenues dans les ECUE suivis dans l'établissement d'accueil et la note du stage assistant ingénieur sont prises en compte. Si les notes sont communiquées sous forme de grade ECTS, une grille de conversion est utilisée pour transformer chaque grade en une note sur 20. Pour les mobilités réalisées à l'UQAC ou à l'UdeS, une autre grille de conversion est utilisée pour transformer les notes canadiennes (sur 4,3) en une note sur 20. Les grades ECTS sont convertis comme suit : A (5) = 18, B (4) = 16, C (3) = 14, D (2) = 12, E (1) = 10, P = 10, Fx (0) = 8, F = 4.
+
+************sep***********
+
+Le tableau 6 présente une grille de conversion des notes obtenues lors d'une mobilité à l'Université du Québec à Chicoutimi (UQAC) ou à l'Université de Sherbrooke (UdeS) en notes sur 20 pour l'École internationale des sciences du numérique de l'Université de Lorraine (EILCO). La conversion est basée sur une échelle de notes sur 4,3 au Canada. Le tableau 7 explique que pour le calcul de la moyenne du semestre et de l'année, chaque note obtenue est pondérée par le nombre d'ECTS correspondant. Cela signifie que les notes des matières ayant un plus grand nombre d'ECTS auront une plus grande influence sur la moyenne globale de l'étudiant. Cette information est importante dans le contexte de la section sur la mobilité sortante des élèves ingénieurs, car elle montre comment les notes obtenues lors d'une mobilité sont prises en compte dans le calcul de la moyenne de l'étudiant.
+
+************sep***********
+
+Le tableau présente la structure des enseignements de la première année du Cycle Ingénieur (CING1), répartis en deux semestres de 18 semaines chacun. Le semestre S5 comprend cinq Unités d'Enseignement (UE) : SB1, SB2, SHEJS1, OI1 et Conférences, ainsi qu'un Bonus. La colonne "Horaires (en heures)" indique le nombre d'heures посвящен aux différents types d'enseignement : cours magistraux (CM), travaux dirigés (TD), travaux pratiques (TP), évaluation et autre. Les coefficients et le nombre d'ECTS sont également mentionnés pour chaque UE.
+
+La première UE, SB1, est consacrée aux Mathématiques et Informatique et comprend cinq ECUE (Éléments Constituants Unités d'Enseignement) pour un total de 130 heures et 12 ECTS. La deuxième UE, SB2, porte sur les Systèmes, Electronique et Info. Indus et comprend quatre ECUE pour un total de 110 heures et 9 ECTS. La troisième UE, SHEJS1, regroupe les Sciences Humaines, Economiques, Juridiques et Sociales et comprend six ECUE pour un total de 100 heures et 6 ECTS. La quatrième UE, OI1, est dédiée à l'Ouverture Internationale et comprend quatre ECUE pour un total de 50 heures et 3 ECTS. Enfin, la cinquième UE, Conférences, comprend un ECUE pour un total de 0 heure et 0 ECTS. Le Bonus, quant à lui, est consacré aux Activités Sportives, Culturelles et Artistiques et ne donne pas lieu à une notation.
+
+Le tableau 1 présente le programme du semestre S5 de septembre à janvier (18 semaines) et le tableau 2 présente le programme du semestre S6 de février à juin (18 semaines). Les deux semestres comprennent un total de 390 heures d'enseignement et 30 ECTS.
+
+************sep***********
+
+Le tableau présente le programme du semestre S5 de septembre à janvier et du semestre S6 de février à juin pour la première année du Cycle Ingénieur (CING1). Le programme est organisé en différentes Unités d'Enseignement (UE) qui sont les suivantes : SB3 (Mathématiques et Informatique), STI1 (Sciences et Techniques de l'Ingénieur), SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales), OI2 (Ouverture Internationale) et Conférences.
+
+Pour chaque UE, le tableau détaille les différentes Enseignements Composants (ECUE) ainsi que le nombre d'heures de cours magistral (CM), de travaux dirigés (TD), de travaux pratiques (TP), d'évaluation (Eval.) et d'autres activités. Le tableau indique également le coefficient et le nombre d'ECTS (European Credit Transfer System) associés à chaque UE.
+
+Le tableau montre que la plus importante UE en termes d'heures de cours est SB3 avec un total de 140 heures, suivie de STI1 avec 160 heures. La plus petite UE en termes d'heures de cours est OI2 avec un total de 50 heures. Le tableau indique également que certaines UE ont des coefficients et des nombres d'ECTS différents, ce qui suggère qu'elles ont des poids différents dans la formation des étudiants.
+
+En résumé, le tableau présente le programme détaillé des enseignements pour la première année du Cycle Ingénieur, en détaillant les différentes UE, les ECUE, le nombre d'heures de cours, les coefficients et les ECTS associés. Le tableau permet ainsi de comprendre la structure et l'importance relative de chaque UE dans la formation des étudiants.
+
+************sep***********
+
+Le tableau présente le programme du semestre S7 et S8 de la deuxième année du Cycle Ingénieur (CING2). Le semestre S7 dure 14 semaines et le semestre S8 également.
+
+Le tableau est divisé en plusieurs sections : STI2, STI3, SHEJS3, OI3 et Conférences.
+
+La section STI2 (Sciences et Techniques de l'ingénieur) comprend 4 Unités d'Enseignement (UE) : Ingénierie mathématique 3, Intelligence artificielle, Traitement d'images et vision. Le total des heures de cours magistral (CM), travaux dirigés (TD) et travaux pratiques (TP) pour cette section est de 110 heures, avec un coefficient de 3 et 11 crédits ECTS.
+
+La section STI3 (Sciences et Techniques de l'ingénieur) comprend 5 UE : Administration réseau, Systèmes embarqués, Génie logiciel, Méthodes agiles. Le total des heures de CM, TD et TP pour cette section est de 140 heures, avec un coefficient de 4 et 13 crédits ECTS.
+
+La section SHEJS3 (Sciences Humaines, Economiques, Juridiques et Sociales) comprend 3 UE : Entrepreneuriat, Marketing pour l'entreprise. Le total des heures de CM, TD et TP pour cette section est de 50 heures, avec un coefficient de 2 et 3 crédits ECTS.
+
+La section OI3 (Ouverture Internationale) comprend 4 UE : LV1 (Anglais), LV1 (TOEIC), LV2 (Allemand, Espagnol...). Le total des heures de TD et TP pour cette section est de 50 heures, avec un coefficient de 1 et 3 crédits ECTS.
+
+La section Conférences comprend une seule UE : Conférences.
+
+Le tableau indique également un Bonus pour les Activités Sportives, Culturelles et Artistiques.
+
+Le total des heures de CM, TD et TP pour l'ensemble du programme est de 350 heures, avec un coefficient total de 30 crédits ECTS.
+
+************sep***********
+
+Le tableau présente le programme du semestre S7 de septembre à décembre (14 semaines) pour les étudiants de deuxième année du Cycle Ingénieur (CING2). Le programme est organisé en différentes Unités d'Enseignement (UE) qui comprennent des cours magistraux (CM), des travaux dirigés (TD), des travaux pratiques (TP) et d'autres activités d'évaluation.
+
+La première UE est STI4 (Sciences et Techniques de l'ingénieur) qui comprend quatre enseignements : Modélisation des systèmes dynamiques, Temps réel, Instrumentation et programmation visuelle. Le total des heures pour cette UE est de 90 heures, avec un coefficient de 7 et 7 crédits ECTS.
+
+La deuxième UE est STI5 (Sciences et Techniques de l'ingénieur) qui comprend trois enseignements : Recherche opérationnelle, Bases de données avancées et Web-services et architecture logicielle. Le total des heures pour cette UE est de 90 heures, avec un coefficient de 6 et 6 crédits ECTS.
+
+La troisième UE est SS1 : Recherche et développement (Sciences de Spécialité) qui comprend deux enseignements : Présentation de la recherche et Bureau d'études techniques. Le total des heures pour cette UE est de 30 heures, avec un coefficient de 8 et 8 crédits ECTS.
+
+La quatrième UE est SHEJS4 (Sciences Humaines, Economiques, Juridiques et Sociales) qui comprend quatre enseignements : Stratégie d'entreprises, Droit de la propriété intellectuelle, Droit de l'environnement et Projet associatif. Le total des heures pour cette UE est de 50 heures, avec un coefficient de 6 et 6 crédits ECTS.
+
+La cinquième UE est OI4 : Ouverture Internationale qui comprend cinq enseignements : LV1 (Anglais), LV1 (TOEIC), LV2 (Allemand, Espagnol...), Soutien Anglais et Total OI4. Le total des heures pour cette UE est de 50 heures, avec un coefficient de 3 et 3 crédits ECTS.
+
+Enfin, il y a une UE de Conférences et une UE de Bonus pour les activités sportives, culturelles et artistiques.
+
+Le tableau 4 présente le programme du semestre S8 de janvier à avril (14 semaines) avec un
+
+************sep***********
+
+Le tableau décrit le programme du semestre S9 du Cycle Ingénieur (CING3), qui comprend notamment un Projet d'Innovation et de Conception (PIC) de 150 heures minimum, ainsi qu'une Alternance Recherche. Les étudiants peuvent également choisir de suivre un programme d'un semestre à l'international ou pour l'obtention d'un double diplôme.
+
+Le tableau présente les différentes Unités d'Enseignement (UE) et les crédits ECTS associés. Les UE sont réparties en plusieurs majeures et mineures, ainsi qu'en Ouverture Internationale et en Stages. Les majeures sont les suivantes : STI6 (Sciences et Techniques de l'Ingénieur), STI7 (Sciences et Techniques de l'Ingénieur), SS2 (Recherche et développement), SS3a (Ingénierie informatique et perception), SS3b (Ingénierie logicielle et Data Science), SS3c (Intelligence Artificielle) et OI5 (Ouverture Internationale).
+
+La majeure STI6 comprend des cours sur la sécurité des systèmes d'information, les e-services, le développement d'applications mobiles et la qualité-hygiène-sécurité-environnement. La majeure STI7 comprend des cours sur la business intelligence, les objets intelligents et l'apprentissage automatique. La majeure SS2 comprend un projet d'innovation et de conception (PIC) et une alternance recherche. Les mineures SS3a, SS3b et SS3c comprennent des cours sur la géolocalisation, l'imagerie couleur et classification, la perception 2D/3D, les architectures logicielles pour le big data, la data science, le deep learning, la résolution de problèmes difficiles et l'IA de confiance. L'Ouverture Internationale comprend des cours de langues étrangères et un soutien en anglais.
+
+Le tableau indique également les horaires de cours (en heures) pour chaque UE, ainsi que les coefficients et les crédits ECTS associés. Les étudiants ont également la possibilité de suivre des stages et des conférences, ainsi que des activités sportives, culturelles et artistiques.
+
+En résumé, le programme du semestre S9 est très chargé et comprend de nombreuses UE, ainsi que des stages et des conférences. Les étudiants doivent suivre un PIC et une alternance recherche, et ont la possibilité de suivre un programme d'un sem
+
+************sep***********
+
+Le tableau présente le programme des semestres S9 et S10 pour la troisième année du Cycle Ingénieur (CING3). Le semestre S9, qui dure 21 semaines, comprend un seul enseignement obligatoire (UE) intitulé "STAGES" avec un module unique appelé "Projet de Fin d’Etudes (PFE)". Ce module représente un total de 910 heures et est valorisé par 30 crédits ECTS. Le semestre S10, qui dure 26 semaines, est entièrement dédié à un stage de 3ème année pour la réalisation du Projet de Fin d’Etudes.
+
+************sep***********
+
+Le tableau décrit les éléments constitutifs des unités d'enseignement pour la première année du Cycle Ingénieur (CING1), en particulier les cours d'Ingénierie mathématique 1 et d'Algorithmique avancée et programmation.
+
+L'Ingénierie mathématique 1 porte sur la théorie du signal et l'analyse numérique matricielle. Le cours est enseigné par l'enseignant responsable A. BOUHAMIDI et est évalué par un examen final et un contrôle continu. Les objectifs sont d'utiliser les outils mathématiques de modélisation et d'analyse des signaux, ainsi que des méthodes numériques de calcul utilisées par les calculateurs. Les prérequis sont un programme de mathématiques de niveau L2 et de classes préparatoires aux grandes écoles. Le programme couvre la théorie du signal, l'analyse numérique matricielle et une initiation à Matlab. La bibliographie recommandée comprend quatre ouvrages sur l'analyse de Fourier, l'analyse numérique des équations différentielles, les mathématiques pour l'ingénieur et l'analyse matricielle appliquée à l'art de l'ingénieur.
+
+L'Algorithmique avancée et programmation est un autre cours important pour la première année du Cycle Ingénieur. Le tableau ne fournit pas de détails sur les objectifs, les prérequis, le programme, la bibliographie ou les modalités d'évaluation de ce cours. Cependant, il indique que le cours est évalué par des travaux pratiques/projets, avec un total de 28 heures dédiées à ces activités.
+
+En résumé, le tableau fournit des informations clés sur les cours d'Ingénierie mathématique 1 et d'Algorithmique avancée et programmation pour la première année du Cycle Ingénieur, y compris les enseignants responsables, les objectifs, les prérequis, le programme, la bibliographie et les modalités d'évaluation.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement : "Algorithmique avancée et programmation" et "Bases de données", qui sont enseignées en première année du cycle ingénieur.
+
+Pour l'unité "Algorithmique avancée et programmation", l'évaluation se fait à travers un examen final et un contrôle continu (TP). Le cours a pour objectif de poser les bases du développement informatique en se concentrant sur l'analyse et l'implémentation de différentes structures de données et leur manipulation à travers différents algorithmes, en utilisant le langage C. Les prérequis sont d'avoir des notions de base en algorithmique et de connaître les bases des langages C. Le programme covers des sujets tels que les chaînes de caractères, les tableaux et les fichiers en C, les listes linéaires chaînées, les piles et les files, les arbres de recherche binaire, les tas et les tables de hachage, ainsi que les graphes et les algorithmes du plus court chemin. La bibliographie comprend trois ouvrages.
+
+Pour l'unité "Bases de données", l'évaluation se fait également à travers un examen final et un contrôle continu (TP). Le cours couvre les concepts fondamentaux des bases de données, y compris la modélisation de données, la conception de bases de données relationnelles, la manipulation de données et la sécurité des bases de données. Les prérequis sont d'avoir des notions de base en algorithmique et en programmation en C. Le programme covers des sujets tels que les systèmes de gestion de bases de données, les langages de requête, les transactions et la sécurité des bases de données. La bibliographie comprend plusieurs ouvrages.
+
+En résumé, ces deux unités d'enseignement sont essentielles pour les étudiants en première année du cycle ingénieur, car elles fournissent les fondations nécessaires pour comprendre et manipuler les structures de données et les bases de données, qui sont des compétences clés pour les futurs ingénieurs.
+
+************sep***********
+
+Le tableau décrit les éléments constitutifs des unités d'enseignement pour la première année du Cycle Ingénieur (CING1), avec un focus sur les unités d'enseignement Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités. Il présente deux matières : Bases de données et Systèmes d'exploitation.
+
+Pour la matière Bases de données, l'évaluation se fait via un examen final et un contrôle TP, avec un coefficient de 1. Le cours est enseigné par M. BOUNEFFA et dure 12 heures de CM, 10 heures de TD et 16 heures de TP/Projet. L'objectif est d'acquérir les notions fondamentales pour concevoir une base de données relationnelles et la manipuler. Le programme covers l'historique de la gestion des données persistantes, les différents types de SGBD, la conception des bases de données relationnelles, l'algèbre relationnelle de CODD et le langage SQL. La bibliographie recommandée comprend quatre livres.
+
+Pour la matière Systèmes d'exploitation, l'évaluation se fait également via un examen final et un contrôle TP, avec un coefficient de 1. Le cours est enseigné par un enseignant responsable non spécifié et dure 8 heures de CM, 8 heures de TD et 12 heures de TP/Projet. L'objectif et le programme de cette matière ne sont pas mentionnés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement : "Systèmes d'exploitation" et "Systèmes électroniques" au Cycle Ingénieur 1 (CING1).
+
+Pour "Systèmes d'exploitation", l'évaluation se fait par un examen final, un contrôle continu et un contrôle de travaux pratiques (TP). L'enseignement est dispensé par M. CHOAIB et a pour objectifs de connaître et maîtriser les concepts de base des systèmes d'exploitation et les notions de programmation système. Les prérequis sont les bases de programmation et être utilisateur d'un PC et familiarisé avec Linux. Le programme couvre les fonctions principales d'un système d'exploitation, deux exemples de systèmes d'exploitation (Linux et Windows), les entrées/sorties, la gestion de la mémoire, les notions de processus et de synchronisation des processus, et la programmation des Shell scripts sous Linux. La bibliographie propose plusieurs ouvrages et sites web pour approfondir les sujets.
+
+Pour "Systèmes électroniques", l'évaluation se fait également par un examen final, un contrôle continu et un contrôle de TP. L'enseignement est dispensé par M. CHOAIB et a pour objectifs de comprendre les concepts de base des systèmes électroniques et de pouvoir concevoir et analyser des circuits électroniques simples. Les prérequis sont les connaissances en mathématiques, physique et électronique. Le programme couvre les circuits électroniques, les signaux et systèmes, l'électronique numérique, l'électronique de puissance et les microcontrôleurs. La bibliographie propose plusieurs ouvrages pour approfondir les sujets.
+
+En résumé, ces deux unités d'enseignement sont axées sur les systèmes d'exploitation et les systèmes électroniques, avec des objectifs et des prérequis spécifiques. L'évaluation se fait par un examen final, un contrôle continu et un contrôle de TP, et la bibliographie propose plusieurs ouvrages et sites web pour approfondir les sujets.
+
+************sep***********
+
+Le tableau décrit les unités d'enseignement "Systèmes électroniques" et "Informatique industrielle" pour la première année du Cycle Ingénieur (CING1). Voici un résumé des données clés pour chaque unité d'enseignement :
+
+**Systèmes électroniques** :
+- Modalités d'évaluation : Examen final (coefficient 2), contrôle continu et contrôle TP.
+- Objectifs : Analyser un schéma électronique, comprendre le fonctionnement d'un circuit de base en électronique, déterminer le rôle élémentaire de chaque composant, effectuer la synthèse d'un système combinatoire ou séquentiel.
+- Prérequis : Bases en circuits électriques (lois de l'électricité).
+- Programme : Les dipôles, Les quadripôles, Principales fonctions de l'électronique (amplification, filtrage, ...), Analyses de quelques montages élémentaires. Principes des transducteurs et capteurs. Conditionneurs de signaux, pont de mesure, amplificateurs d’instrumentation, d’isolement, convertisseurs tension-fréquence, Numérique analogique, Analogique Numérique. Les Systèmes combinatoires et séquentiels. Introduction aux circuits numériques programmables.
+- Bibliographie : Malvino, Albert Paul. Principes d'électronique : cours et exercices corrigés. Paris : Dunod, 7e édition 2008, Thomas L. Floyd, Reynald Goulet. Fondements d'électronique : circuits, composants et applications 2013, Paul Horowitz, Winfield Hill. The Art of Electronics. Cambridge University Press, 3e édition 2015, G. Asch et coll., Dunod "Les capteurs en instrumentation industrielle", (2006).
+
+**Informatique industrielle** :
+- Modalités d'évaluation : Examen final (coefficient 1), contrôle continu et comptes rendus de TP.
+- Le tableau ne fournit pas d'informations sur les objectifs, prérequis, programme ou bibliographie pour cette unité d'enseignement.
+
+En résumé, l'unité d'enseignement "Systèmes électroniques" est centrée sur l'analyse et la compréhension du fonctionnement des circuits électroniques, ainsi que sur la synthèse de systèmes combinatoires ou séquentiels. L'unité d'enseignement "Informatique industrielle" est évaluée par un examen final, un contrôle continu et
+
+************sep***********
+
+Le tableau décrit les éléments constitutifs des unités d'enseignement pour la première année du Cycle Ingénieur (CING1), avec un focus sur les Unités d'enseignement Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités. Il présente deux matières : Informatique industrielle et Harmonisation des connaissances – Informatique.
+
+Pour l'Informatique industrielle, les modalités d'évaluation comprennent un examen final, un contrôle continu et des comptes rendus de TP. Le coefficient est de 1, avec 10 heures de cours magistral (CM), 14 heures de travaux dirigés (TD) et 4 heures de travaux pratiques/projets (TP/Projet). L'objectif est d'introduire les représentations et les principales propriétés des systèmes dynamiques linéaires à temps discret, de donner les éléments fondamentaux de la commande numérique pour les systèmes linéaires, de présenter différentes approches de synthèse de correcteurs numériques à temps discret et de mettre en application une commande numérique d'un système dynamique (asservissement en position). Les prérequis incluent l'analyse et la commande des systèmes linéaires à temps continu, ainsi que des notions mathématiques telles que l'algèbre linéaire, les nombres complexes, la transformée de Laplace et la transformée en z. Le programme covers les concepts pour la commande numérique par calculateur, la représentation par fonction de transfert à temps discret des systèmes linéaires, l'intégration, la dérivation numérique, le PID numérique, la synthèse des correcteurs numériques et les travaux pratiques incluant l'utilisation d'un logiciel de simulation de systèmes et l'implantation expérimentale de lois de commande d'un asservissement en position. La bibliographie recommandée comprend quatre ouvrages sur les systèmes et asservissements linéaires échantillonnés, les réglages échantillonnés, l'identification et la commande des systèmes, et l'automatique : commande des systèmes linéaires.
+
+Pour l'Harmonisation des connaissances – Informatique, il n'y a pas de travaux pratiques/projets (TP/Projet), avec 0 heure de CM, 20 heures de TD et 0 heure de TP/Projet. Les modalités d'évaluation comprennent un examen final et un contrôle continu.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation pour les unités d'enseignement "Harmonisation des connaissances - Informatique" et "Harmonisation des connaissances - Mathématiques" au Cycle Ingénieur 1 (CING1). Pour l'informatique, l'évaluation se fait par un examen final et un contrôle continu, avec un enseignant responsable commun pour les cours magistraux (CM), travaux dirigés (TD) et travaux pratiques/projets (TP/Projet). L'objectif est de mettre à niveau les étudiants pour savoir créer et programmer un algorithme de base, en utilisant le langage C et l'IDE Code::Blocks. Pour les mathématiques, les modalités d'évaluation sont similaires, mais il n'y a pas de détails supplémentaires fournis sur les objectifs, le programme ou la bibliographie.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation pour deux unités d'enseignement, l'Harmonisation des connaissances – Mathématiques et l'Ingénierie mathématique 2 (probabilités et statistiques), qui sont enseignées en première année du Cycle Ingénieur (CING1).
+
+Pour l'Harmonisation des connaissances – Mathématiques, il n'y a pas de temps de cours magistral (CM) prévu, mais 20 heures de travaux dirigés (TD) et aucun temps de travaux pratiques/projet (TP/Projet). L'enseignant responsable est J. Mikolajczak. Les objectifs du cours sont de conforter les acquis des étudiants en mathématiques et de les préparer aux modules scientifiques qui seront enseignés pendant le Cycle d'Ingénieur. Le programme covers des chapitres sur les bases de numération, le calcul matriciel, les systèmes linéaires, les valeurs et vecteurs propres, la trigonométrie, les intégrales, les équations différentielles ordinaires, les séries numériques, les fonctions à plusieurs variables, l'analyse vectorielle, les lois de probabilité discrètes et continues usuelles, et les graphes.
+
+Pour l'Ingénierie mathématique 2 (probabilités et statistiques), le coefficient de l'évaluation est de 4. Il y a 18 heures de cours magistral (CM) et de travaux dirigés (TD), ainsi que 12 heures de travaux pratiques/projet (TP/Projet). Le programme et la bibliographie ne sont pas mentionnés dans le tableau.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement, "Ingénierie mathématique 2 (probabilités et statistiques)" et "Programmation orientée objet", qui sont enseignées en première année du cycle ingénieur.
+
+Pour l'Ingénierie mathématique 2, le coefficient de l'évaluation est de 4, avec 18 heures de cours, 18 heures de TD et 12 heures de TP/Projet. L'enseignant responsable est D. Schneider. Les objectifs sont de comprendre les concepts de base de probabilités et de statistiques, d'appliquer ces concepts dans des situations variées, d'extraire de l'information pertinente de bases de données à l'aide d'outils d'analyse exploratoire, d'adopter une approche méthodologique efficace dans l'organisation d'expériences, et de développer des modèles probabilistes ou empiriques simples pour des phénomènes donnés et les intégrer dans des simulations. Les prérequis sont None. Le programme covers Utilisation du papier Gauss, Statistiques à une variable, Statistiques à deux variables, Étude de régression et ce avec calcul des éléments caractéristiques. La bibliographie inclut plusieurs livres sur les statistiques et probabilités. L'évaluation se fait par un examen final et un contrôle continu.
+
+Pour la Programmation orientée objet, le coefficient de l'évaluation est également de 4, avec 8 heures de CM, 14 heures de TD et 16 heures de TP/Projet. Les objectifs, prérequis, programme et bibliographie ne sont pas mentionnés dans le tableau. L'évaluation se fait également par un examen final et un contrôle continu.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement : "Programmation orientée objet" et "Architecture des ordinateurs", toutes deux faisant partie du premier cycle ingénieur (CING1).
+
+La "Programmation orientée objet" est évaluée à 4 coefficients et est enseignée par l'enseignant responsable C. Fonlupt. Ses objectifs sont de maîtriser les concepts avancés de la programmation orientée objet, tels que la programmation générique, les templates et la bibliothèque Java, en utilisant le langage Java. Les prérequis pour cette unité sont l'algorithmique avancée et la programmation. Le programme couvre l'héritage, les classes abstraites et les interfaces, l'encapsulation, les interfaces graphiques (retour sur Swing, introduction à GWT) et le multithreading et le réseau. La bibliographie recommandée comprend deux ouvrages de Bruce Eckel et un livre sur GWT.
+
+L'évaluation se fait à la fois par un examen final et un contrôle continu. Il n'y a pas de projet ou de travail pratique (TP) associé à cette unité.
+
+L'autre unité, "Architecture des ordinateurs", est évaluée à 1 coefficient et est également enseignée par l'enseignant responsable C. Fonlupt. Il n'y a pas de détails supplémentaires fournis pour cette unité dans le tableau.
+
+En résumé, le tableau fournit des informations détaillées sur les deux unités d'enseignement, avec un accent particulier sur la "Programmation orientée objet", et met en évidence les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie associés à ces unités.
+
+************sep***********
+
+Le tableau présente les informations sur deux unités d'enseignement, "Architecture des ordinateurs" et "Réseaux et communication", qui font partie du premier cycle d'études ingénieurs (CING1). Voici un résumé des données clés pour chaque unité d'enseignement :
+
+**Architecture des ordinateurs** :
+- Modalités d'évaluation : Examen final + Contrôle continu (coefficient 1)
+- Enseignant responsable : F. ABAKARIM
+- Objectifs : Connaître l'architecture matérielle d'un ordinateur
+- Prérequis : Bases de programmation, être utilisateur d'un PC
+- Programme : Étude de l'architecture des ordinateurs, choix du processeur, adressage et processus, initiation à l'assembleur
+- Bibliographie : <https://fr.wikipedia.org/wiki/Informatique>
+
+**Réseaux et communication** :
+- Modalités d'évaluation : Examen final + Contrôle continu (coefficient 2)
+- Enseignant responsable : Non spécifié
+- Objectifs et prérequis non mentionnés
+- Programme non spécifié
+- Bibliographie non spécifiée
+
+En résumé, ces deux unités d'enseignement sont évaluées à la fois par un examen final et un contrôle continu. L'unité "Architecture des ordinateurs" est enseignée par F. ABAKARIM et couvre divers aspects de l'architecture matérielle des ordinateurs, tandis que l'unité "Réseaux et communication" a un coefficient plus élevé pour l'évaluation et nécessite un travail pratique/projet de 12 heures. Les objectifs, prérequis et programme de l'unité "Réseaux et communication" ne sont pas mentionnés dans le tableau.
+
+************sep***********
+
+Le tableau décrit les unités d'enseignement "Réseaux et communication" et "Conception des systèmes d'information" pour la première année du Cycle Ingénieur (CING1). Voici un résumé des données clés :
+
+* Les deux unités d'enseignement ont un coefficient de 2 et sont évaluées par un examen final et un contrôle continu (2 interrogations écrites, 1 devoir maison et 1 note de TD pour "Réseaux et communication").
+* Les enseignements sont dispensés par le même enseignant responsable (F. ABAKARIM) et comprennent des cours magistraux (CM), des travaux dirigés (TD) et des travaux pratiques/projets (TP/Projet).
+* Les objectifs de l'unité d'enseignement "Réseaux et communication" sont d'appréhender les concepts de base des réseaux, comprendre les problématiques des différents supports de communication et de faire des premiers pas de programmation réseaux. Les prérequis incluent des notions de physique élémentaires, mathématiques et algèbre booléenne.
+* Le programme de cette unité d'enseignement couvre les généralités sur les réseaux, la transmission de données, la couche réseaux et les notions fondamentales de réseaux. La bibliographie recommandée comprend des ouvrages de G. PUJOLLE, L. TOUTAIN et J. DORDOIGNE.
+* L'unité d'enseignement "Conception des systèmes d'information" n'a pas de description détaillée dans le tableau fourni.
+
+En résumé, ces deux unités d'enseignement sont des cours importants pour les étudiants de première année du Cycle Ingénieur, avec des évaluations à la fois en contrôle continu et à l'examen final. L'unité d'enseignement "Réseaux et communication" couvre des sujets essentiels pour comprendre les réseaux et la programmation réseaux, tandis que l'unité d'enseignement "Conception des systèmes d'information" nécessite plus de détails pour être pleinement comprise.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement, "Conception des systèmes d’information" et "Développement web", qui sont enseignées en première année du Cycle Ingénieur (CING1).
+
+Pour "Conception des systèmes d’information", l'évaluation se fait à travers un examen final et un contrôle continu composé de deux interrogations écrites (IE), un devoir maison (DM) et une note de travaux dirigés (TD). L'enseignant responsable est B. SABIRI. Les objectifs de l'unité d'enseignement sont de comprendre la décomposition d'une organisation en sous-systèmes, d'acquérir une méthodologie de conception des systèmes d’information et d'appliquer la méthode MERISE. Les prérequis incluent une connaissance des bases de données, bien que ce ne soit pas absolument nécessaire. Le programme couvre l'introduction aux notions de base des systèmes d’information, la conception d'un système d’information à l’aide de la méthode Merise, ainsi que différents modèles tels que le modèle de flux, le modèle conceptuel de traitement, le modèle conceptuel de données, le modèle logique de données et le modèle organisationnel de traitement. La bibliographie recommandée est "Merise Deuxième Génération - Ingénierie Des Systèmes D'information" écrit par Dominique Nanci et publié par Sybex.
+
+Pour "Développement web", l'évaluation se fait également à travers un examen final et un contrôle continu, ainsi qu'un contrôle de travaux pratiques (TP). L'enseignant responsable n'est pas spécifié dans le tableau fourni. Les objectifs, prérequis et programme de cette unité d'enseignement ne sont pas mentionnés dans le tableau.
+
+En résumé, le tableau fournit des informations détaillées sur les modalités d'évaluation, les enseignants responsables, les objectifs et le programme des unités d'enseignement "Conception des systèmes d’information" et "Développement web" pour la première année du Cycle Ingénieur (CING1).
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING1) : Développement web et Systèmes à événements discrets.
+
+Pour le Développement web, l'évaluation se fait par un examen final, un contrôle continu et un contrôle de travaux pratiques (TP). L'objectif est de développer des documents Web dynamiques du point de vue du serveur en construisant des documents génériques interfacés avec des bases de données. Les prérequis sont un niveau avancé en langage Html/Css, un niveau débutant en base de données et en développement orienté objet. Le programme couvre l'architecture Web avancée, le langage PHP pour la génération dynamique de documents, le traitement de formulaires côté serveur, la gestion de serveur Web et l'interfaçage entre script PHP et serveur base de données. La bibliographie propose des liens vers des sites web pour en savoir plus sur PHP, jQuery et l'interfaçage avec MySQL.
+
+Pour les Systèmes à événements discrets, l'évaluation se fait uniquement par un examen final. L'objectif et le programme ne sont pas spécifiés dans le tableau.
+
+En résumé, le tableau fournit des informations détaillées sur les deux unités d'enseignement du CING1, avec des différences notables entre les deux en termes d'évaluation et de contenu.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement : "Systèmes à événements discrets" et "Traitement du signal", toutes deux faisant partie de la première année du Cycle Ingénieur (CING1).
+
+Pour "Systèmes à événements discrets", l'évaluation se fait uniquement par un examen final, avec un coefficient de 1. Les cours magistraux (CM) et les travaux dirigés (TD) sont chacun de 10 heures, tandis que les travaux pratiques/projets en représentent 8 heures. L'enseignant responsable est R. Lherbier. Les objectifs sont de maîtriser les réseaux de Petri et leurs variantes, ainsi que d'utiliser ces réseaux pour modéliser des protocoles de communication. Les prérequis sont la logique séquentielle, l'algèbre de base et la connaissance des protocoles de communication. Le programme couvre l'introduction des systèmes à événements discrets, la présentation et l'utilisation de modèles génériques pour représenter les comportements logiques et temporels de ces systèmes, ainsi que l'analyse formelle et l'utilisation des réseaux de Petri pour modéliser et analyser les protocoles de communication. La bibliographie proposée comprend trois ouvrages sur les réseaux de Petri.
+
+Pour "Traitement du signal", l'évaluation se fait par un examen final et un contrôle continu. Les CM représentent 12 heures, les TD 14 heures et les TP/projets 12 heures. Le programme et la bibliographie ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING1) : Traitement du signal et Réseaux industriels et supervision.
+
+Pour le module Traitement du signal, l'évaluation se fait à travers un examen final et un contrôle continu. L'objectif est d'introduire les concepts de base de la théorie du signal à temps continu et discret, en étudiant leurs propriétés à travers l'analyse spectrale et temporelle, et en introduisant les notions de filtrage fréquentiel. Les prérequis mathématiques incluent les développements en série, les nombres complexes et les notions de probabilité. Le programme couvre les signaux déterministes et aléatoires, les systèmes linéaires, ainsi que la numérisation du signal. La bibliographie recommandée comprend trois ouvrages sur le traitement du signal.
+
+Pour le module Réseaux industriels et supervision, l'évaluation se fait également à travers un examen final et un contrôle continu. L'objectif et le programme ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour l'unité d'enseignement "Réseaux industriels et supervision" en première année du Cycle Ingénieur (CING1). Cette unité d'enseignement est évaluée à la fois par un examen final et des comptes rendus de travaux pratiques, avec un coefficient de 1. Elle est enseignée par l'enseignant responsable N. MAERTEN et comprend 8 heures de cours magistral (CM), 8 heures de travaux dirigés (TD) et 12 heures de travaux pratiques/projet (TP/Projet).
+
+Les objectifs de l'unité d'enseignement sont de donner les éléments méthodologiques pour la mise en œuvre d'une supervision industrielle, en abordant les échanges de données industrielles, les fonctionnalités de la supervision et l'ergonomie de la conception des vues de supervision. Le deuxième objectif consiste à familiariser l'étudiant avec un outil industriel générique (non propriétaire vis-à-vis des constructeurs de matériel).
+
+Les prérequis pour cette unité d'enseignement sont l'automatisme, les automates programmables, les réseaux de communication et la connaissance du langage SQL.
+
+Le programme de l'unité d'enseignement comprend plusieurs sujets, tels que le traitement des données industrielles, les progiciels pour le traitement des données industrielles, la hiérarchie des réseaux industriels, les échanges de données industrielles, les fonctionnalités d'un logiciel de supervision, l'interfaçage homme/machine et les études de cas.
+
+Enfin, le tableau fournit également une liste de bibliographie pour cette unité d'enseignement.
+
+************sep***********
+
+Le tableau décrit les Unités d'Enseignements (UE) pour la deuxième année du Cycle Ingénieur (CING2) en Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités. Il y a deux UE présentées dans le tableau : Ingénierie mathématique 3 (méthodes numériques) et Intelligence artificielle.
+
+Pour l'Ingénierie mathématique 3, le coefficient est de 2, avec 10 heures de cours magistral (CM), 10 heures de travaux dirigés (TD) et 8 heures de travaux pratiques/projet (TP/Projet). L'enseignant responsable est A. COSSE. Les objectifs sont d'introduire des méthodes de différences finies pour calculer des solutions approchées de certaines équations aux dérivées partielles fondamentales et de programmer en MAPLE de quelques-unes de ces méthodes pour relever des taux de décroissance de l'erreur. Le programme est divisé en trois parties : la première porte sur la discrétisation par différences finies d'équations différentielles ordinaires et de l'équation de Poisson avec des conditions aux limites de Dirichlet; la deuxième partie traite de la discrétisation par différences finies de l'équation de la chaleur; la troisième partie concerne la discrétisation par différences finies de l'équation de transport. La bibliographie recommandée est l'ouvrage "Introduction à l'analyse numérique" de J. Rappaz et M. Picasso. Les modalités d'évaluation comprennent un examen final, un contrôle continu et un contrôle TP.
+
+Pour l'Intelligence artificielle, le coefficient est de 3, avec 14 heures de CM, 12 heures de TD et 12 heures de TP/Projet. Les objectifs et le programme de cette UE ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement, "Intelligence artificielle" et "Administration réseau", qui sont toutes deux enseignées en deuxième année du Cycle Ingénieur (CING2).
+
+Pour l'unité d'enseignement "Intelligence artificielle", les modalités d'évaluation comprennent un examen final, un contrôle continu et un contrôle de travaux pratiques (TP). L'objectif est d'initier les étudiants aux concepts théoriques et pratiques de l'intelligence artificielle, en couvrant les domaines de la planification, de l'aide à la décision et de l'apprentissage automatique. Les prérequis sont des connaissances en algorithmique avancée et en programmation. Le programme aborde l'introduction de la notion d'intelligence artificielle et son historique, la logique des propositions, la résolution des problèmes, les méthodes d'optimisation et l'introduction à l'apprentissage automatique. La bibliographie comprend plusieurs ouvrages sur l'intelligence artificielle, l'apprentissage automatique et les métaheuristiques.
+
+Pour l'unité d'enseignement "Administration réseau", les modalités d'évaluation comprennent également un examen final et un contrôle de TP. L'objectif et les prérequis ne sont pas spécifiés dans le tableau. Le programme aborde l'administration de réseaux, y compris la configuration, la gestion et la sécurité des réseaux. La bibliographie ne
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING2) : Administration réseau et Systèmes embarqués.
+
+Pour l'unité d'enseignement Administration réseau, l'évaluation se fait à travers un examen final et un contrôle de travaux pratiques (TP). Le coefficient de l'examen final est de 2 et les heures dédiées aux cours magistraux (CM), travaux dirigés (TD) et TP/projets sont respectivement de 10H00, 10H00 et 08H00. Les objectifs de cette unité sont la maitrise de l'exploitation des systèmes Linux en réseau local et étendu, ainsi que l'apport de solutions technologiques utilisées dans l'administration d'un réseau informatique d'entreprises. Les prérequis sont d'avoir appréhendé les concepts de base des différentes couches réseaux ainsi que les notions de paramétrage et de manipulation d'un système Linux. Le programme aborde les problématiques principales liées à l'administration d'un réseau informatique, les éléments fondamentaux de l'administration réseaux et leurs applications au système Linux, ainsi que la protection des réseaux et la notion de sécurité. La bibliographie propose trois ouvrages.
+
+Pour l'unité d'enseignement Systèmes embarqués, l'évaluation se fait également à travers un examen final et un contrôle continu. Le coefficient de l'examen final est de 3 et les heures dédiées aux CM, TD et TP/projets sont respectivement de 05H00, 13H00 et 20H00. Les objectifs, prérequis, programme et bibliographie ne sont pas mentionnés pour cette unité d'enseignement.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement, "Systèmes embarqués" et "Modélisation des systèmes dynamiques", qui font partie du deuxième année du Cycle Ingénieur (CING2). Pour "Systèmes embarqués", l'évaluation se fait par un examen final et un contrôle continu, avec des coefficients respectifs de 3 et 2. Les enseignements sont dispensés par les enseignants responsables G. LEROY et P.-A. HEBERT, et comprennent des cours magistraux (CM), des travaux dirigés (TD) et des travaux pratiques/projets (TP/Projet). Les objectifs de l'unité d'enseignement sont d'approfondir les modèles, méthodes et techniques relatives aux systèmes embarqués et de préparer au développement logiciel pour cibles légères. Les prérequis sont l'algorithmique avancée et la programmation orientée objet, ainsi que les architectures des ordinateurs et les systèmes d'exploitation dispensés au S5. Le programme couvre l'introduction aux systèmes embarqués, les processeurs embarqués, la communication sur puce, l'optimisation de la mémoire, les circuits spécialisés et le développement sur cibles légères. La bibliographie propose plusieurs ouvrages sur les systèmes embarqués et la modélisation des systèmes dynamiques. Pour "Modélisation des systèmes dynamiques", l'évaluation se fait également par un examen final et un contrôle continu, avec des coefficients respectifs de 3 et 2. Les enseignements sont dispensés par les enseignants responsables G. LEROY et P.-A. HEBERT, et comprennent des cours magistraux (CM) et des travaux dirigés (TD). Les objectifs et les prérequis ne sont pas mentionnés pour cette unité d'enseignement. Le programme et la bibliographie ne sont pas fournis non plus.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails des unités d'enseignement "Modélisation des systèmes dynamiques" et "Traitement d'images et vision" pour la deuxième année du Cycle Ingénieur (CING2).
+
+Pour la "Modélisation des systèmes dynamiques", l'évaluation se fait via un examen final, un contrôle continu et des comptes rendus de TP. Le cours est enseigné par G. ROUSSEL et se concentre sur la modélisation d'état, la simulation, l'analyse temporelle, l'observation et la commande de systèmes complexes. Les applications sont réalisées avec Matlab en TD et en TP. Les ressources pédagogiques incluent des livres de G. Bastin, Rosario Toscan, Jean-Louis Pac et Pierre Borne.
+
+Pour le "Traitement d'images et vision", l'évaluation se fait via un examen final et un contrôle continu. Le cours est enseigné par plusieurs enseignants et se concentre sur les techniques de traitement d'images et de vision, avec des applications dans divers domaines tels que la robotique, la reconnaissance de formes et la vision industrielle. Les étudiants sont évalués sur leur capacité à mettre en œuvre ces techniques et à résoudre des problèmes concrets.
+
+************sep***********
+
+Le tableau décrit les éléments constitutifs des Unités d'Enseignement pour la deuxième année du Cycle Ingénieur (CING2), avec un focus sur les Unités d'Enseignements Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités.
+
+Pour l'Unité d'Enseignement "Traitement d’images et vision", les modalités d'évaluation sont composées d'un examen final, d'un contrôle continu et de comptes rendus de TP. L'enseignement est dispensé par l'enseignant responsable F. DUFRENOIS. Les objectifs sont d'introduire à la vision, de décrire les principaux outils de traitement d’images et d'illustrer et appliquer ces concepts. Les prérequis sont les mathématiques, la programmation informatique et Matlab. Le programme est divisé en cinq parties, allant de l'approche physique et psychophysique de la perception visuelle à la classification. La bibliographie recommandée comprend deux ouvrages.
+
+Pour l'Unité d'Enseignement "Génie logiciel", les modalités d'évaluation sont composées d'un examen final, d'un contrôle continu et de comptes rendus de TP. L'enseignement est dispensé par l'enseignant responsable F. DUFRENOIS. Les objectifs et le programme ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING2) : Génie Logiciel et Méthodes Agiles.
+
+Pour le Génie Logiciel, l'évaluation se fait par un examen final, un contrôle continu et des comptes rendus de TP. Les objectifs sont de connaître les modèles de développement des logiciels, les méthodes, techniques, outils et langages utilisés. Les prérequis sont des connaissances de base en informatique. Le programme est divisé en trois parties : modèles de développement, ingénierie des exigences et modélisation basée UML. La bibliographie propose plusieurs livres sur l'ingénierie logicielle et la modélisation UML.
+
+Pour les Méthodes Agiles, l'évaluation se fait par un examen final et des comptes rendus de TP. Les objectifs et prérequis ne sont pas spécifiés dans le tableau. Le programme n'est pas détaillé non plus. La bibliographie propose des livres sur l'ingénierie logicielle et les design patterns.
+
+En résumé, ces deux unités d'enseignement du CING2 ont des modalités d'évaluation similaires, mais des programmes et objectifs différents. Le Génie Logiciel se concentre sur les modèles de développement des logiciels, tandis que les Méthodes Agiles se concentrent sur les méthodes de développement de logiciels basées sur les principes agiles.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du deuxième année du Cycle Ingénieur (CING2) : Méthodes agiles et Recherche opérationnelle.
+
+Pour les Méthodes agiles, l'évaluation se fait à travers un examen final et des comptes rendus de TP, avec un coefficient de 2 pour les TP/Projet. L'enseignement est dispensé par l'enseignant responsable T. GUALI. Le but de ce module est d'appréhender l'agilité en étudiant l'histoire et les différences des méthodes en gestion de projet, ainsi que les nouvelles approches de la production logicielle. Le programme couvre l'évolution des méthodes de gestion de projet, les limites des méthodes prédictives, les méthodes agiles, la rupture des méthodes agiles, le changement de paradigme dans la gestion de projet et l'agilité à l'échelle. La bibliographie propose trois ouvrages.
+
+Pour la Recherche opérationnelle, l'évaluation se fait à travers un examen final et un contrôle continu. L'enseignement est dispensé par plusieurs enseignants responsables. Le programme couvre les méthodes de recherche opérationnelle, la modélisation des problèmes, l'optimisation combinatoire, la programmation linéaire, la théorie des graphes et des réseaux, la planification et la gestion de la production, la gestion des stocks et des flux, la logistique et la supply chain. La bibliographie propose plusieurs ouvrages et articles.
+
+En résumé, le tableau fournit une vue d'ensemble des éléments constitutifs des unités d'enseignement Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités pour la deuxième année du Cycle Ingénieur (CING2), en particulier pour les modules Méthodes agiles et Recherche opérationnelle.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement de la deuxième année du Cycle Ingénieur (CING2) : Recherche opérationnelle et Bases de données avancées.
+
+Pour la Recherche opérationnelle, l'évaluation se fait par un examen final et un contrôle continu. L'objectif est de sensibiliser les étudiants à la démarche en Recherche Opérationnelle et de leur fournir les outils d'aide à la décision. Les prérequis sont l'algorithmique, les bases de programmation et la théorie des probabilités. Le programme couvre la programmation linéaire, la programmation linéaire en nombres entiers, la programmation dynamique, les parcours de graphes et les méta-heuristiques stochastiques et méthodes hybrides. La bibliographie propose plusieurs ouvrages de référence sur la Recherche opérationnelle.
+
+Pour les Bases de données avancées, l'évaluation se fait également par un examen final et un contrôle continu. L'objectif est de permettre aux étudiants de concevoir et d'implémenter des bases de données avancées. Les prérequis sont la programmation impérative et la programmation orientée objet. Le programme couvre les concepts de base de données avancées, les langages de requête, les transactions, la sécurité et la gestion des données. La bibliographie propose plusieurs ouvrages de référence sur les bases de données avancées.
+
+En résumé, ces deux unités d'enseignement ont des objectifs et des programmes différents mais utilisent des modalités d'évaluation similaires. Elles ont également des prérequis différents mais complémentaires en algorithmique et en programmation. La bibliographie propose plusieurs ouvrages de référence pour chaque unité d'enseignement.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du deuxième année du Cycle Ingénieur (CING2) : "Bases de données avancées" et "Web-services et architecture logicielle".
+
+Pour "Bases de données avancées", l'évaluation se fait à travers un examen final et un contrôle continu. Le cours est une suite logique du cours sur les bases de données du semestre 5 et introduit les langages de quatrième génération, la manipulation des bases de données relationnelles à travers un langage de programmation, des notions approfondies d’intégrité des données, etc. Les prérequis sont une connaissance des bases de données, bien que non absolument nécessaire. Le programme comprend une révision de SQL, l'indexation et l'optimisation de requêtes, l'introduction aux langages de quatrième génération : PLSQL sous Oracle, l'intégrité des données et les déclencheurs d'actions (triggers), ainsi que l'intégration langage de programmation/SQL : Java/JDBC. La bibliographie comprend trois ouvrages.
+
+Pour "Web-services et architecture logicielle", l'évaluation se fait à travers un examen final, un contrôle continu et un contrôle TP. Les objectifs et le programme ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING2) : "Web-services et architecture logicielle" et "Temps réel".
+
+Pour "Web-services et architecture logicielle", l'évaluation se fait par un examen final (coefficient 1), ainsi que par un contrôle continu et un contrôle de travaux pratiques (TP). Les objectifs sont de maîtriser les technologies supports à la mise en œuvre des applications distribuées basées sur la notion de services web. Les prérequis sont un niveau débutant en langage objet et un niveau avancé en langage Html/Css. Le programme covers les notions d'architecture multi-tiers, les langages supports à base de XML (XSLT, XPATH, DTD, Xml Schema) et l'implémentation SAX/DOM en technologies Java/Jee. La bibliographie fournit des liens vers des ressources en ligne pour approfondir ces sujets.
+
+Pour "Temps réel", l'évaluation se fait uniquement par un examen final (coefficient 2). Les objectifs et le programme ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour l'unité d'enseignement "Systèmes Temps-Réel" en deuxième année du Cycle Ingénieur. L'évaluation se fait principalement via un examen final, avec un coefficient de 2, et des contrôles continus, tels que l'instrumentation et la programmation visuelle. Les objectifs incluent la compréhension des modules et mécanismes d'un système temps-réel, l'acquisition d'une méthodologie de conception, la fourniture des notions de base de programmation temps-réel et la capacité à choisir entre différentes politiques d'ordonnancement. Les prérequis sont l'architecture des ordinateurs et la programmation système et JAVA. Le programme est divisé en trois parties, covering l'introduction aux systèmes temps-réel, les architectures et mécanismes fondamentaux, et les protocoles de gestion des précédences et communications entre tâches. La bibliographie recommandée comprend deux livres sur les systèmes temps-réel embarqués et la programmation concurrente avec Java.
+
+************sep***********
+
+Le tableau décrit les éléments constitutifs des Unités d'Enseignements pour la deuxième année du Cycle Ingénieur (CING2) en Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités. Il présente deux matières : "Instrumentation et programmation visuelle" et "Présentation de la recherche".
+
+Pour "Instrumentation et programmation visuelle", les modalités d'évaluation sont composées d'un examen final, d'un contrôle continu et de travaux pratiques (TP) incluant des comptes rendus, un rapport et une soutenance de projet. L'enseignement est dispensé par l'enseignant responsable G. LEROY et a pour objectifs d'apprendre à développer des applications de programmation instrumentale sous LabVIEW pour la commande et la mesure à partir d'un PC, de savoir traiter électroniquement le signal issu d'un capteur, de réduire l'influence de perturbations extérieures et de constituer une chaîne de mesure complète. Les prérequis sont les systèmes électroniques. Le programme est divisé en trois parties : choix des composants et mise en œuvre d'une chaîne de mesure, introduction au langage et concepts de base, et développement d'applications modulaires. La bibliographie recommandée comprend trois ouvrages.
+
+Pour "Présentation de la recherche", les modalités d'évaluation sont composées d'un examen final, d'un contrôle continu et de travaux pratiques (TP) sans projet. Les objectifs, prérequis, programme et bibliographie ne sont pas mentionnés pour cette matière.
+
+************sep***********
+
+Le tableau décrit une unité d'enseignement intitulée "Présentation de la recherche" qui est enseignée par l'enseignant responsable G. ROUSSEL. Cette unité d'enseignement est évaluée par un examen final, un contrôle continu et des travaux pratiques (comptes rendus, rapport et soutenance de projet). Elle a un coefficient de 1 et est composée de 8 heures de cours magistral (CM) et 12 heures de travaux dirigés (TD), sans heure de TP/Projet.
+
+Les objectifs de cette unité d'enseignement sont de présenter la recherche et de sensibiliser les élèves à ses problématiques, ainsi que d'établir un lien avec l'industrie. Il n'y a pas de prérequis pour suivre cette unité d'enseignement.
+
+Le programme de l'unité d'enseignement comprend un cours d'initiation au fonctionnement de la recherche, qui aborde les métiers de la recherche, l'accès à la recherche, le panorama de la recherche nationale, l'organisation de la recherche publique et privée, les carrières dans la recherche et les différents modes de financement de la thèse de doctorat. Il comprend également des conférences thématiques et applicatives, où les étudiants choisissent un thème scientifique en lien avec leur spécialité et découvrent une problématique vue en cours de manière pratique.
+
+En somme, cette unité d'enseignement vise à donner aux étudiants une compréhension générale de la recherche et de ses applications industrielles, ainsi qu'à les sensibiliser aux différentes carrières et financements disponibles dans le domaine de la recherche.
+
+************sep***********
+
+Le tableau décrit les cours de "Sécurité des systèmes d’information" et "Développement d’applications mobiles" pour la troisième année du Cycle Ingénieur (CING3).
+
+Le cours de "Sécurité des systèmes d’information" a un coefficient de 2 et est enseigné par S. ZAGHDOUDI. Il a pour objectif de fournir une vision globale des problématiques de sécurité et de criminalité informatique. Les prérequis sont d’avoir des connaissances de base sur les systèmes d’informations (UNIX/Windows), le scripting (Python, bash) et les couches réseaux. Le programme couvre l’aspect technique de la sécurité informatique, la mise en pratique de différentes techniques de sécurité et les moyens de protection tels que les chiffrements symétrique et asymétrique, la cryptanalyse et la veille de sécurité. La bibliographie recommandée comprend deux livres sur la sécurité informatique. L’évaluation se fait à travers un examen final et un contrôle continu.
+
+Le cours de "Développement d’applications mobiles" a également un coefficient de 2 et est enseigné par un enseignant responsable non spécifié. Le programme covers les différents aspects du développement d’applications mobiles, tels que la conception, la programmation, l’intégration de services et la sécurité. La bibliographie recommandée comprend plusieurs livres sur le développement d’applications mobiles. L’évaluation se fait à travers un examen final et un contrôle continu.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement pour la troisième année du Cycle Ingénieur (CING3) : le Développement d'applications mobiles et la Qualité - Hygiène - Sécurité - Environnement.
+
+Pour le Développement d'applications mobiles, l'évaluation se fait à travers un examen final et un contrôle continu. Les enseignants responsables sont P. BADEUILLE et J. HOCHART. Les objectifs sont d'apprendre les méthodologies, langages et frameworks destinés au développement d'applications pour des dispositifs mobiles. Les prérequis sont de connaître les bases de la programmation Java, de SQL et la mise en forme XML. Le programme covers une introduction générale sur le marché des appareils mobiles, les principaux constructeurs et les principaux systèmes d'exploitation utilisés, ainsi que le développement d'applications mobiles en s'appuyant sur le système Android. La bibliographie recommandée est "Android - Guide de développement d'applications Java pour Smartphones et Tablettes" de Sylvain HÉBUTERNE.
+
+Pour la Qualité - Hygiène - Sécurité - Environnement, l'évaluation se fait également à travers un examen final et un contrôle continu. Les enseignants responsables ne sont pas mentionnés. Le programme covers les aspects liés à la qualité, l'hygiène, la sécurité et l'environnement dans le contexte de l'ingénierie.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING3) : Qualité - Hygiène - Sécurité - Environnement et Business Intelligence et Big Data.
+
+Pour l'unité d'enseignement Qualité - Hygiène - Sécurité - Environnement, l'évaluation se fait à travers un examen final et un contrôle continu. Les objectifs sont de participer à la conception et la mise en place de la politique qualité et des activités associées, de piloter et faciliter les systèmes d'amélioration continue, et d'intervenir et coopérer avec les opérationnels. Les prérequis sont une connaissance du fonctionnement de l'entreprise (stage). Le programme couvre différents sujets tels que l'environnement et la sécurité, le management environnemental et de la sécurité, le management de la qualité, l'analyse des risques environnementale et sécurité, et l'audit. La bibliographie comprend des références telles que l'AFNOR, l'INERIS, l'INRS, l'ARACT et actu-environnement.
+
+Pour l'unité d'enseignement Business Intelligence et Big Data, l'évaluation se fait à travers un examen final, un contrôle continu et des comptes rendus. Les objectifs et les prérequis ne sont pas mentionnés dans le tableau. Le programme couvre des sujets tels que la gestion de données, l'analyse de données, la visualisation de données, l'apprentissage automatique et le traitement de données en temps réel. La bibliographie n'est pas mentionnée dans le tableau.
+
+En résumé, le tableau fournit des informations détaillées sur les deux unités d'enseignement du CING3, en mettant l'accent sur les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement, "Business Intelligence et Big Data" et "Objets intelligents", qui sont enseignées à la troisième année du Cycle Ingénieur (CING3).
+
+Pour "Business Intelligence et Big Data", l'évaluation se fait par un examen final, un contrôle continu et des comptes rendus. Le cours est enseigné par M. BOUNEFFA et a pour objectif d'introduire la notion d'informatique décisionnelle, en abordant les approches traditionnelles telles que les entrepôts de données et la fouille de données, ainsi que les approches nouvelles issues des travaux d'analyse des quantités colossales d'informations produites et disponibles sur le web, regroupées sous le terme de Big Data. Les prérequis pour ce cours sont des connaissances en bases de données, SQL, XML et d'un langage de programmation. Le programme covers les notions de systèmes d'information décisionnels, la conception d'un entrepôt de données, les notions d'ETL (Extraction Transformation Chargement) et l'intégration de données, la fouille de données, les notions de Big Data et les modèles de données pour le Big Data. La bibliographie recommandée comprend des livres sur la modélisation des systèmes d'information décisionnels, les entrepôts de données et le Big Data.
+
+Pour "Objets intelligents", l'évaluation se fait par un examen final et un contrôle continu. Le cours est enseigné par M. BOUNEFFA et a pour objectif de présenter les différents aspects de l'informatique liés aux objets intelligents, en mettant l'accent sur les aspects liés à la communication et à la sécurité. Les prérequis pour ce cours sont des connaissances en programmation orientée objet et en réseaux. Le programme covers les notions de communication sans fil, les réseaux de capteurs, les protocoles de communication, la sécurité des réseaux de capteurs et les applications des objets intelligents. La bibliographie recommandée comprend des livres sur les réseaux de capteurs, la sécurité des réseaux de capteurs et les objets intelligents.
+
+En résumé, les deux cours sont enseignés par M. BOUNEFFA et ont des objectifs différents mais complémentaires dans le domaine de l'informatique. Les modalités d'évaluation sont similaires pour les deux cours, avec un examen final et un contrôle continu. Les pré
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement du troisième cycle ingénieur (CING3) : "Objets intelligents" et "Apprentissage automatique (Machine Learning)".
+
+Pour "Objets intelligents", l'évaluation se fait à parts égales entre un examen final et un contrôle continu. Le cours est enseigné par P.BADEUILLE et J. HOCHART et a une durée totale de 26 heures, réparties entre cours magistraux (CM), travaux dirigés (TD) et travaux pratiques/projets (TP/Projet). Les objectifs du cours sont de présenter et d'utiliser les éléments hardware et software rencontrés dans les systèmes cyberphysiques connectés par internet, également connus sous le nom d'internet des objets (IoT). Les prérequis pour suivre ce cours sont les systèmes embarqués, les systèmes d'exploitation linux, les protocoles IP et la programmation. Le programme aborde différents aspects du paradigme des systèmes numériques ouverts et pervasifs, les couches physiques et principaux protocoles utilisés dans la communication M2M, la gestion des grandes masses de données, les applications pour la Télémétrie, Télémaintenance, Télématique, Télémédecine, Télégestion (domotique), télépaiement et le marché du M2M. La bibliographie recommandée est "L'internet des objets, les principaux protocoles M2M et leur évolution vers l'IP" traduit de l'anglais par Hervé Soulard, Dunod, ISBN 978-2-10-070552-8, 2014.
+
+Pour "Apprentissage automatique (Machine Learning)", l'évaluation se fait également à parts égales entre un examen final et un contrôle continu. Le cours est enseigné par des enseignants responsables non spécifiés et a une durée totale de 26 heures, réparties entre cours magistraux (CM), travaux dirigés (TD) et travaux pratiques/projets (TP/Projet). Les objectifs et le programme de ce cours ne sont pas mentionnés dans le tableau fourni.
+
+En résumé, les deux unités d'enseignement ont des modalités d'évaluation similaires, avec une évaluation à parts égales entre un examen final et un contrôle continu. Les durées et les répartitions des heures de cours sont également similaires
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement pour la troisième année du Cycle Ingénieur (CING3) : Apprentissage automatique (Machine Learning) et E-services.
+
+Pour l'Apprentissage automatique, l'évaluation se fait à travers un examen final et un contrôle continu. Le cours est enseigné par l'enseignant responsable R. Guibadj et est évalué avec un coefficient de 2. Le cours est composé de 10 heures de cours magistraux (CM), sans temps dedicated (TD), et 16 heures de travaux pratiques/projets (TP/Projet). Les objectifs du cours sont de maîtriser les concepts théoriques avancés de l'apprentissage automatique et de manipuler diverses méthodes d'apprentissage automatique pour les appliquer efficacement aux problèmes réels. Les prérequis pour suivre ce cours sont d'être initié à l'apprentissage automatique et d'avoir une bonne connaissance en algorithmique, programmation et structure de données. Le programme du cours covers l'introduction et les concepts de base, l'apprentissage supervisé, l'apprentissage non supervisé et d'autres types d'apprentissage. La bibliographie recommandée comprend trois ouvrages.
+
+Pour les E-services, l'évaluation se fait également à travers un examen final et un contrôle de TP. Le cours est évalué avec un coefficient de 2 et est composé de 6 heures de cours magistraux (CM), 8 heures de temps dedicated (TD), et 12 heures de travaux pratiques/projets (TP/Projet). Les objectifs, les prérequis et la bibliographie de ce cours ne sont pas mentionnés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING3) : "Développement d'applications et d'architectures multi-tiers pour les E-services" et "Architectures logicielles pour le big data".
+
+Pour la première unité d'enseignement, l'évaluation se fait à travers un examen final et un contrôle continu (TP/Projet). L'objectif est la maîtrise du développement d'applications et d'architectures de type multi-tiers pour la mise en place de E-services. Les prérequis sont la connaissance du langage de programmation Java et des systèmes de gestion de bases de données. Le programme covers les généralités sur les architectures multi-tiers, l'étude des différents aspects du framework Java/J2EE, l'étude du framework .NET et la mise en œuvre d'applications J2EE et .Net dans le cadre des E-services. La bibliographie recommandée comprend deux ouvrages sur la conception d'applications en Java/JEE et la maîtrise du développement n-tiers en Java EE.
+
+Pour la deuxième unité d'enseignement, l'évaluation se fait également à travers un examen final et un contrôle continu (TP/Projet). Les objectifs, les prérequis et le programme ne sont pas spécifiés dans le tableau fourni.
+
+En résumé, les deux unités d'enseignement du CING3 présentées dans le tableau ont des modalités d'évaluation similaires, avec un examen final et un contrôle continu. La première unité d'enseignement porte sur le développement d'applications et d'architectures multi-tiers pour les E-services, tandis que la deuxième unité d'enseignement porte sur les architectures logicielles pour le big data. Les prérequis et le programme de la deuxième unité d'enseignement ne sont pas mentionnés dans le tableau.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du troisième cycle ingénieur (CING3) : "Architectures logicielles pour le big data" et "Data Science".
+
+Pour "Architectures logicielles pour le big data", l'évaluation se fait à travers un examen final et un contrôle continu. L'objectif est de comprendre les enjeux du big data, l'accès et le stockage de grands volumes de données, les spécificités des bases de données distribuées, le traitement des grands volumes de données et la programmation de calculs distribués. Les prérequis sont les connaissances des bases de données, les fondamentaux de l'IA, l'algorithmique et la programmation. Le programme est divisé en cinq parties, allant des architectures logicielles pour le big data et NoSQL aux calculs distribués avec Spark, en passant par les technologies du big data et l'environnement Hadoop. La bibliographie recommandée comprend trois ouvrages sur les bases de données NoSQL, Hadoop et les technologies du Big Data.
+
+Pour "Data Science", l'évaluation se fait également à travers un examen final et un contrôle continu. L'objectif est de comprendre les enjeux de la data science, l'analyse de données, la visualisation de données et la prise de décision basée sur les données. Les prérequis sont les connaissances en mathématiques, en statistiques et en programmation. Le programme est divisé en cinq parties, allant de l'introduction à la data science aux techniques d'apprentissage automatique, en passant par l'analyse exploratoire de données et la visualisation de données. La bibliographie recommandée comprend trois ouvrages sur la data science, l'apprentissage automatique et la visualisation de données.
+
+En résumé, ces deux unités d'enseignement du troisième cycle ingénieur (CING3) ont des objectifs et des prérequis différents, mais utilisent des modalités d'évaluation similaires. Le programme et la bibliographie recommandée pour chaque unité d'enseignement sont adaptés à leurs objectifs respectifs.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING3) : Data Science et DevOps et Intégration continue.
+
+Pour l'unité d'enseignement Data Science, l'évaluation se fait à travers un examen final et un contrôle continu. Les objectifs incluent l'introduction aux notions de base de la science des données, les techniques de gestion de grandes masses de données, les architectures Big Data et les techniques d'extraction de connaissances. Les prérequis sont les connaissances des bases de données, les fondamentaux de l'IA, l'algorithmique et la programmation. Le programme est divisé en cinq parties, allant de l'introduction aux Big Data aux techniques statistiques et à l'utilisation du Machine Learning. La bibliographie propose deux ouvrages de référence.
+
+Pour l'unité d'enseignement DevOps et Intégration continue, l'évaluation se fait également à travers un examen final et un contrôle continu. Les objectifs et le programme ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation pour deux unités d'enseignement, "DevOps et Intégration continue" et "Géolocalisation", qui font partie du troisième année du Cycle Ingénieur (CING3). Les deux unités ont un coefficient d'évaluation de 1 et sont évaluées à la fois par un examen final et un contrôle continu. Le contrôle continu est composé de cours magistraux (CM), de travaux dirigés (TD) et de travaux pratiques/projets (TP/Projet). Pour "DevOps et Intégration continue", les durées allouées pour chaque type d'évaluation sont respectivement de 6 heures, 8 heures et 12 heures. Pour "Géolocalisation", les durées sont les mêmes. Le tableau ne fournit pas d'informations sur les objectifs, les prérequis, le programme ou la bibliographie pour ces deux unités d'enseignement.
+
+************sep***********
+
+Le tableau décrit un enseignement de troisième année du Cycle Ingénieur (CING3) portant sur le géopositionnement et la navigation par satellites, ainsi que sur les traitements réalisés par un récepteur GNSS pour calculer sa position sur Terre. L'enseignement aborde également la diversification et la modernisation des différents systèmes GNSS (GPS, Galileo, GLONASS, etc.). Les prérequis pour suivre cet enseignement sont des connaissances en traitement du signal. Le programme couvre les problèmes liés à la propagation, au traitement numérique des signaux GNSS et au calcul de la position suivant un système de référence ECEF. Les étudiants seront amenés à réaliser deux étapes principales de traitement : le traitement du signal GNSS et le positionnement. Les travaux dirigés (TD) et les travaux pratiques (TP) permettront d'atteindre une précision relative de quelques centimètres et de définir les verrous permettant d'obtenir une précision centimétrique en positionnement absolu. La modalité d'évaluation est un examen final. La bibliographie proposée comprend plusieurs ouvrages et un site web dedicacé aux systèmes de navigation par satellites.
+
+************sep***********
+
+Le tableau décrit une unité d'enseignement de troisième année du Cycle Ingénieur (CING3) intitulée "Perception 2D/3D". Cette unité d'enseignement a pour objectif d'appréhender les problématiques liées à l'utilisation de capteurs pour des objets en mouvement et pouvant coopérer entre eux. Elle covers une présentation des différents capteurs, avec un regard particulier porté sur les télémètres et l'utilisation du GPS. L'aspect suivi des objets en mouvement dans la scène observée et une approche fusion des différentes informations provenant du système de perception multicapteurs seront également présentés. Une programmation en C sur des mini-robots illustrera ces différents aspects.
+
+Les prérequis pour cette unité d'enseignement sont les mathématiques pour l'ingénieur, le traitement du signal et les notions de filtrage, ainsi que des notions de mécanique élémentaire (cinématique).
+
+Le programme de l'unité d'enseignement covers les principes de l'analyse de scènes dynamiques, la classification et les caractéristiques des capteurs, le suivi d'objets en mouvement, la perception multicapteurs, la coopération de capteurs, le filtrage statistique et la fusion d'informations. Toutes ces notions seront illustrées dans le cadre de TP traitant du suivi d'objets par des mini-robots équipés de capteurs proprioceptifs et extéroceptifs.
+
+La bibliographie recommandée pour cette unité d'enseignement comprend trois ouvrages : "Perception de l'environnement en robotique" d'E. Colle et F. Chavand, "Capteurs et méthodes pour la localisation des robots mobiles" de M.J. Aldon, et "Perception multicapteur et analyse de scènes dynamiques" d'A. Houénou.
+
+L'évaluation de cette unité d'enseignement se fait sous la forme d'un examen final et d'un contrôle continu.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING3) : "Imagerie couleur et classification" et "Deep learning".
+
+Pour l'unité "Imagerie couleur et classification", l'évaluation se fait par un examen final et un contrôle continu. Les objectifs sont de présenter des systèmes spécifiques de l'imagerie couleur pour l'acquisition, le traitement et l'analyse des images couleur dans diverses applications. Les prérequis sont un module de traitement d'images et vision. Le programme comprend des cours et TD sur la représentation numérique des couleurs, la texture couleur en imagerie, la sélection d'attributs de texture couleur et l'application à la classification, ainsi que des TP sur la classification de textures couleur. La bibliographie comprend plusieurs ouvrages et articles sur l'imagerie couleur numérique et la représentation numérique des couleurs.
+
+Pour l'unité "Deep learning", l'évaluation se fait par un examen final et des comptes rendus de TP. Les objectifs et les prérequis ne sont pas mentionnés dans le tableau. Le programme et la bibliographie ne sont pas non plus fournis pour cette unité.
+
+En résumé, le tableau fournit des informations détaillées sur les deux unités d'enseignement du CING3, en mettant l'accent sur les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour l'unité "Imagerie couleur et classification". Cependant, il manque des informations pour l'unité "Deep learning".
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement de la troisième année du Cycle Ingénieur (CING3) : "Deep learning" et "Résolution de problèmes difficiles".
+
+Pour l'unité d'enseignement "Deep learning", l'évaluation se fait via un examen final et des comptes rendus de TP. Le coefficient est de 1 pour l'examen final et les TP/Projets. L'enseignement est dispensé par l'enseignant responsable A. LIEFOOGHE. Les objectifs sont d'introduire aux concepts et méthodes de l'apprentissage profond et de développer des expériences pratiques en utilisant Tensorflow, Keras, Pytorch et Jupyter lab. Les prérequis sont des bases sur les algorithmes d'apprentissage, les perceptrons et réseaux de neurones, ainsi qu'une connaissance de l'algorithmique et de la programmation en Python et du module Numpy. Le programme covers l'historique et les rappels des bases sur la descente de gradient, les perceptrons et réseaux de neurones, ainsi que des sujets plus avancés tels que les réseaux convolutifs, les autoencodeurs, les réseaux génératifs, les réseaux antagonistes génératifs, les transformers, la neuroévolution et les réseaux récurrents. La bibliographie comprend des ouvrages de Nielsen et Chollet, ainsi qu'une formation CNRS.
+
+Pour l'unité d'enseignement "Résolution de problèmes difficiles", l'évaluation se fait via un examen final et un contrôle continu. Le coefficient est de 1 pour l'examen final et les TD/TP/Projets. Les objectifs et le programme ne sont pas spécifiés dans le tableau.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis et le programme pour l'unité d'enseignement "Optimisation et Intelligence Artificielle de Confiance" en troisième année du Cycle Ingénieur (CING3). L'évaluation se fait via un examen final et un contrôle continu, avec un coefficient de 1 pour chaque modalité. Les enseignants responsables sont M. BASSEUR, A. LIEFOOGHE et S. TARI.
+
+Les objectifs de l'unité d'enseignement sont d'apprendre à proposer des méthodes d'optimisation pour résoudre des problèmes d'optimisation difficiles, de se familiariser avec les approches génériques de résolution approchée ou exacte, d'introduire les concepts d'analyse de paysages de recherche et d'algorithme autonome, et de sensibiliser aux aspects incertains, dynamiques et/ou multiobjectif des problèmes réels et de leurs conséquences sur les processus d'optimisation.
+
+Les prérequis pour cette unité d'enseignement sont les bases de l'IA, l'algorithmique et les notions de complexité algorithmique, ainsi que la connaissance des paradigmes de résolution de problèmes d'optimisation tels que la recherche arborescente, la programmation dynamique et les heuristiques.
+
+Le programme couvre les méthodes complètes (exactes), les (méta-)heuristiques et hybrides, l'introduction aux stratégies évolutionnaires et aux notions d'analyse et d'exploration de paysage de recherche, l'émergence (intelligence collective), l'apprentissage pour l'optimisation et la conception d'algorithmes autonomes, ainsi que les problématiques de modélisation et résolution de problèmes réels tels que l'incertitude, l'optimisation dynamique, le coût d'évaluation et les objectifs multiples. Les approches de résolution exactes et approchées en optimisation et décision multiobjectif sont également abordées.
+
+La bibliographie recommandée comprend des liens vers des articles de Wikipedia sur les métaheuristiques, les paysages de recherche et l'optimisation multiobjectif.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement différentes : "Intelligence Artificielle de Confiance" et "Alternance Recherche". Pour l'Intelligence Artificielle de Confiance, l'évaluation se fait par un examen final et un contrôle continu. Les objectifs incluent la compréhension des décisions des processus d'IA, l'éthique, l'équité, la sécurité et la sûreté de fonctionnement. Les prérequis sont les bases de l'intelligence artificielle et de l'apprentissage automatique, ainsi que la programmation en Python. Le programme est basé sur des ateliers et projets de mise en œuvre utilisant le cloud public, avec une partie consacrée à l'IA symbolique et à l'hybridation de modèles statistique/symbolique. La bibliographie inclut deux livres sur l'IA explicable. Pour l'Alternance Recherche, l'évaluation se fait par un projet bibliographique et une soutenance.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie d'un projet de recherche en troisième année du Cycle Ingénieur (CING3). Le projet est évalué à parts égales par un examen final et un contrôle continu, qui consiste en un projet bibliographique et une soutenance. Le projet a pour objectifs d'approfondir un thème de recherche à partir de la littérature scientifique, de rédiger un rapport scientifique, de développer une expérience en autoformation, de faire une présentation didactique et de lire et comprendre des articles en anglais. Les prérequis pour ce projet sont un bon niveau de lecture en anglais. Le programme comprend 2h de TD pour la présentation du projet et de la méthode de travail, 23h30 de travail personnel pour la lecture des sources bibliographiques et la rédaction de l'étude bibliographique, 4h de préparation de la soutenance et 0h30 pour la soutenance elle-même. La bibliographie et les enseignants responsables du projet ne sont pas spécifiées dans le tableau.
+
+************sep***********
+
+Le tableau fournit des informations sur deux unités d'enseignement, "Management de projets" et "L'ingénieur écoresponsable", qui sont enseignées pendant la première année du Cycle Ingénieur (CING1).
+
+Pour "Management de projets", le cours vise à donner aux étudiants les bases, la méthodologie et certains outils pour mener efficacement un projet. Le cours couvre le pilotage, la direction et la gestion des outils du projet, ainsi que des outils de développement personnel et de bon management. Les prérequis pour ce cours sont la connaissance du fonctionnement d'une entreprise ou d'une organisation. Le programme du cours comprend la créativité, la validation du projet, l'enrichissement du projet par des interventions en solidarité et actions internationales, et l'application de la méthodologie de projet. La bibliographie recommandée comprend plusieurs livres sur la gestion de projet et la responsabilité sociale de l'entreprise. L'évaluation se fait par un examen final et un contrôle continu.
+
+Pour "L'ingénieur écoresponsable", le tableau ne fournit pas de détails sur le contenu du cours, mais indique que le coefficient est de 1, avec 18 heures de cours magistral et aucun temps dédié aux travaux dirigés ou aux projets.
+
+En résumé, ces deux unités d'enseignement sont destinées à donner aux étudiants les compétences nécessaires pour gérer efficacement des projets et pour être écoresponsables en tant qu'ingénieurs.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation et les détails de deux unités d'enseignement pour les étudiants de première année du Cycle Ingénieur (CING1) en Sciences Humaines, Economiques, Juridiques et Sociales. La première unité, "L'ingénieur écoresponsable", est évaluée à parts égales par un examen final et un contrôle continu. Elle est enseignée par le professeur C. GOGNAU et vise à faire découvrir et aimer l'entreprise de manière ludique, à faire découvrir le rôle de l'ingénieur dans l'entreprise, et à donner l'envie d'apprendre les matières qui seront enseignées au cours des 3 années passées à l'EILCO. Les prérequis pour cette unité sont d'avoir du bon sens, d'être curieux et de se sentir concerné par les enjeux des futures entreprises, ainsi que de se rendre sur le site [http://www.educentreprise.fr/](http:/www.educentreprise.fr) pour y découvrir une collection numérique gratuite et effectuer les tests de connaissances.
+
+La deuxième unité, "Gestion de l'entreprise", est évaluée uniquement par un examen final. Elle est également enseignée par le professeur C. GOGNAU et vise à aider les élèves ingénieurs à comprendre comment travailler autour d'un projet commun avec des hommes et des femmes afin de développer une activité économique viable. Les étudiants étudieront différents aspects de l'entreprise, tels que son fonctionnement, son organisation, ses enjeux, ses droits et ses devoirs ainsi que ses responsabilités. Ils seront également mis dans certaines situations qu'ils pourraient rencontrer en entreprise afin de comprendre le rôle, les missions et les responsabilités de l'ingénieur, notamment en ce qui concerne le management, la sécurité, les responsabilités sociales, l'éthique et la déontologie. En effectuant divers travaux, les enjeux auxquels les entreprises sont confrontées au quotidien seront découverts, notamment la productivité, la compétitivité, le développement durable. La bibliographie pour cette unité est le site [http://www.educentreprise.fr/](http:/www.educentreprise.fr).
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation pour deux unités d'enseignement, "Gestion de l'entreprise" et "Droit de l'entreprise", qui sont enseignées en première année du Cycle Ingénieur (CING1) dans les domaines des Sciences Humaines, Economiques, Juridiques et Sociales.
+
+Pour "Gestion de l'entreprise", l'évaluation se fait uniquement par un examen final, avec un coefficient de 1. L'enseignant responsable est F. LIEN. Les objectifs sont de sensibiliser les étudiants au traitement des données comptables de l'entreprise et d'appréhender les principaux outils de gestion pour un pilotage efficace de l'entreprise. Les prérequis sont les généralités d'entreprises et la connaissance des fondamentaux de l'économie et de l'organisation d'entreprise. Le programme est divisé en deux parties : une introduction à la comptabilité d'entreprise et des applications de ces concepts à une étude de cas. La bibliographie recommandée comprend trois ouvrages.
+
+Pour "Droit de l'entreprise", l'évaluation se fait par un examen final et un contrôle continu, avec un coefficient de 1. L'enseignant responsable n'est pas spécifié. Les objectifs et le programme ne sont pas mentionnés dans le tableau fourni.
+
+************sep***********
+
+Le tableau décrit les éléments constitutifs des Unités d'Enseignements (UE) pour la première année du Cycle Ingénieur (CING1) en Sciences Humaines, Economiques, Juridiques et Sociales. Il présente deux UE : Droit de l'entreprise et Technique de communication.
+
+Pour l'UE Droit de l'entreprise, l'évaluation se fait à travers un examen final et un contrôle continu. L'enseignant responsable est F. LIEN. Les objectifs de cette UE sont d'initier les étudiants aux concepts juridiques de base en milieu des affaires, d'organiser la vie juridique des entreprises et d'introduire le droit du travail. Les prérequis sont d'avoir des notions sur les sources du droit et les différentes juridictions. Le programme couvre le mode de formation des entreprises, les obligations comptables et fiscales, ainsi que la sociologie du droit du travail. La bibliographie recommandée comprend un memento "droit commercial" des éditions Francis Lefebvre et "droit des affaires" des éditions LAMY.
+
+Pour l'UE Technique de communication, l'évaluation se fait uniquement à travers un examen final. Il n'y a pas de coefficient mentionné pour cette UE. Les objectifs, les prérequis et le programme ne sont pas fournis dans le tableau.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement dans le cadre du Cycle Ingénieur (CING1) en Sciences Humaines, Economiques, Juridiques et Sociales. La première unité est centrée sur les techniques de communication, avec un examen final comme modalité d'évaluation, un coefficient de 1, et aucun crédit pour les travaux dirigés (TD) ou les travaux pratiques (TP). L'objectif est de permettre aux étudiants d'acquérir les techniques de communication en tant qu'étudiants et futurs managers, avec des prérequis en maîtrise de la langue française, orale et rédactionnelle. Le programme comprend la rédaction d'un CV et d'une lettre de motivation, la prise de parole en public, la communication en entreprise, la rédaction d'un rapport de stage et la communication avec le monde asiatique. La bibliographie propose plusieurs ouvrages sur la communication et la présentation.
+
+La deuxième unité est consacrée au Droit du travail, avec une évaluation basée à la fois sur un examen final et un contrôle continu. Les crédits sont répartis entre les cours magistraux (CM), les TD et les TP, avec un coefficient de 1 pour l'ensemble. Les objectifs, prérequis et programme de cette unité ne sont pas spécifiés dans le tableau fourni.
+
+************sep***********
+
+Le tableau présente les informations sur deux unités d'enseignement, "Droit du travail" et "Management des équipes", qui font partie du premier cycle ingénieur en sciences humaines, économiques, juridiques et sociales.
+
+Pour "Droit du travail", l'évaluation se fait à travers un examen final et un contrôle continu. L'enseignement est dispensé par l'enseignant responsable P. Jazé et a pour objectifs de donner un aperçu des notions essentielles du droit du travail, notamment le contrat de travail, la procédure disciplinaire et les représentants du personnel. Les prérequis sont de connaître les bases du droit et des notions de droit des sociétés peuvent être utiles. Le programme couvre les relations individuelles et collectives du travail, y compris le recrutement, le contrat de travail, les clauses, le règlement intérieur de l'entreprise et la gestion de la masse salariale. La bibliographie recommandée comprend "Lamy Social", "Francis Lefebvre Social" et "Droit du travail, Précis" éditions DALLOZ.
+
+Pour "Management des équipes", l'évaluation se fait uniquement à travers un examen final. Les heures d'enseignement sont réparties entre les TD (18 heures) et il n'y a pas de CM, TP ou projet. Le programme et les objectifs ne sont pas spécifiés dans le tableau fourni.
+
+En résumé, ces deux unités d'enseignement sont importantes pour les étudiants en première année du cycle ingénieur, car elles leur permettent d'acquérir des connaissances essentielles en droit du travail et en management des équipes.
+
+************sep***********
+
+Le tableau fournit des informations sur les unités d'enseignement en Sciences Humaines, Economiques, Juridiques et Sociales pour la première année du Cycle Ingénieur (CING1). Il décrit deux matières : "Management des équipes" et "Gestion des ressources humaines".
+
+Pour "Management des équipes", l'évaluation se fait uniquement par un examen final, avec un coefficient de 1. Le cours est dispensé par l'enseignant responsable F. LIEN et dure 18 heures de TD. Les objectifs sont de permettre aux étudiants d'appréhender la fonction management au sein de l'entreprise et de confronter l'étudiant à la posture de manager d'équipe. Le programme covers des sujets tels que la prise de responsabilité, le leadership, le rôle du cadre expert, la gestion d'équipe, la fixation d'objectifs, la délégation, l'entretien individuel et la gestion de conflits. La bibliographie propose plusieurs ouvrages sur le management.
+
+Pour "Gestion des ressources humaines", l'évaluation se fait par un examen final et un contrôle continu, avec un coefficient de 1. Le cours est également dispensé par l'enseignant responsable F. LIEN et dure 14 heures de TD. Le programme n'est pas détaillé dans le tableau.
+
+En résumé, le tableau décrit les modalités d'évaluation, les enseignants responsables, les objectifs, le programme et la bibliographie pour les matières "Management des équipes" et "Gestion des ressources humaines" dans le cadre de la première année du Cycle Ingénieur en Sciences Humaines, Economiques, Juridiques et Sociales.
+
+************sep***********
+
+Le tableau présente les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie de deux unités d'enseignement du Cycle Ingénieur (CING1) en Sciences Humaines, Economiques, Juridiques et Sociales : Gestion des ressources humaines et Finances pour l'entreprise.
+
+Pour la Gestion des ressources humaines, l'évaluation se fait à travers un examen final et un contrôle continu. L'enseignant responsable est S. HENRY. Les objectifs sont de permettre à l'étudiant d'appréhender la fonction gestion des ressources humaines au sein de l'entreprise. Les prérequis sont la maîtrise de la langue française, orale et rédactionnelle, ainsi que la connaissance de l'entreprise suite à une période de stage. Le programme porte sur la recruter un collaborateur et l'intégrer au sein de l'entreprise, rédiger un contrat de travail et animer une équipe et apprécier les compétences. La bibliographie propose trois ouvrages.
+
+Pour les Finances pour l'entreprise, l'évaluation se fait également à travers un examen final et un contrôle continu. L'enseignant responsable n'est pas mentionné. Les objectifs et les prérequis ne sont pas précisés. Le programme et la bibliographie ne sont pas fournis.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour l'Unité d'Enseignement "Finances pour l'entreprise" en première année du Cycle Ingénieur (CING1) dans les domaines des Sciences Humaines, Economiques, Juridiques et Sociales. L'évaluation se fait sous forme d'un examen final QCM et étude de cas, ainsi que d'un contrôle continu sous forme de TD. Les objectifs sont de savoir interpréter les données fournies par les comptes annuels, réaliser un diagnostic financier et participer aux décisions de gestion financières tant stratégiques que courantes. Les prérequis sont la gestion de l'entreprise. Le programme est divisé en trois parties : l'analyse du bilan et du compte de résultat, le diagnostic financier et la création de valeur et les décisions financières. La bibliographie propose plusieurs ouvrages de référence dans le domaine de la gestion financière.
+
+************sep***********
+
+Le tableau décrit les Unités d'Enseignements (UE) de Sciences Humaines, Economiques, Juridiques et Sociales pour la deuxième année du Cycle Ingénieur (CING2). Il y a deux UE présentées dans ce tableau : Entrepreneuriat et Marketing pour l'entreprise.
+
+L'UE Entrepreneuriat a un coefficient de 2, avec 8 heures de cours magistral (CM), 20 heures de travaux dirigés (TD) et aucun travail pratique/projet (TP/Projet). L'objectif de cette UE est de sensibiliser les étudiants à l'esprit d'entreprendre et de les familiariser avec les valeurs et les compétences entrepreneuriales. Elle traite toutes les étapes d'un parcours de création-reprise, de l'analyse du marché à la construction des comptes prévisionnels. Il n'y a pas de prérequis pour cette UE et l'évaluation se fait par un examen final et un contrôle continu. L'enseignant responsable de cette UE est V. GIROIRE.
+
+L'UE Marketing pour l'entreprise a un coefficient de 1, avec 8 heures de CM, 10 heures de TD et aucun TP/Projet. Cette UE vise à donner aux étudiants les connaissances et compétences nécessaires pour mettre en place une stratégie marketing pour une entreprise. Il n'y a pas de prérequis pour cette UE et l'évaluation se fait également par un examen final et un contrôle continu.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING2) en Sciences Humaines, Economiques, Juridiques et Sociales : "Marketing pour l'entreprise" et "Stratégie d'entreprises".
+
+Pour "Marketing pour l'entreprise", l'évaluation se fait à travers un examen final et un contrôle continu. L'enseignement est dispensé par l'enseignant responsable A. SIMONET et est composé de 8 heures de cours magistral (CM) et 10 heures de travaux dirigés (TD). Les objectifs sont d'analyser le marché de l'entreprise en contexte B to B ou B to C, et de positionner une offre commerciale. Les prérequis sont la gestion de l'entreprise et les finances pour l'entreprise. Le programme est divisé en trois parties : le marché, la politique produit et la politique du prix. La bibliographie propose plusieurs ouvrages de référence en marketing.
+
+Pour "Stratégie d'entreprises", l'évaluation se fait également à travers un examen final et un contrôle continu. L'enseignement est composé de 10 heures de cours magistral (CM) et 8 heures de travaux dirigés (TD). Les objectifs et le programme ne sont pas spécifiés dans le tableau.
+
+En résumé, ces deux unités d'enseignement sont axées sur les aspects marketing et stratégiques de l'entreprise, avec des modalités d'évaluation similaires et des enseignements dispensés principalement sous forme de cours magistraux et de travaux dirigés.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour deux unités d'enseignement du Cycle Ingénieur (CING2) en Sciences Humaines, Economiques, Juridiques et Sociales : "Stratégie d'entreprises" et "Droit de la propriété intellectuelle".
+
+Pour "Stratégie d'entreprises", l'évaluation se fait sous forme d'un examen final et d'un contrôle continu, avec un coefficient de 1. Les objectifs sont de maîtriser les concepts de base et de comprendre les liens entre diagnostic, choix stratégiques et déploiement stratégique. Les prérequis sont GRH, Management des équipes, Finances pour l'entreprise, et Marketing pour l'entreprise. Le programme covers l'introduction et la définition de la stratégie, le diagnostic stratégique, les choix stratégiques et les stratégies opérationnelles. La bibliographie comprend plusieurs ouvrages sur la stratégie d'entreprise.
+
+Pour "Droit de la propriété intellectuelle", l'évaluation se fait également sous forme d'un examen final et d'un contrôle continu, avec un coefficient de 1. Les objectifs et les prérequis ne sont pas mentionnés. Le programme et la bibliographie ne sont pas fournis non plus.
+
+************sep***********
+
+Le tableau présente les modalités d'évaluation pour deux unités d'enseignement du Cycle Ingénieur (CING2) en Sciences Humaines, Economiques, Juridiques et Sociales : le Droit de la propriété intellectuelle et le Droit de l'environnement.
+
+Pour le Droit de la propriété intellectuelle, l'évaluation se fait sous forme d'un examen final et d'un contrôle continu sous forme de cas. Le coefficient de l'évaluation est de 1. Les cours magistraux (CM) durent 10 heures, les travaux dirigés (TD) 4 heures et il n'y a pas de travaux pratiques/projets (TP/Projet). L'enseignant responsable est C. HOUNSA. Les objectifs de l'unité d'enseignement sont de transmettre les concepts de base sur l'usage de la propriété industrielle par les entreprises, de mettre en évidence les interactions entre le processus d'innovation et les outils de la propriété industrielle, en particulier le brevet d'invention pour les aspects technologiques, et de voir comment la propriété intellectuelle est appréhendée pour la protection des créations informatiques: logiciel, base de données, etc.
+
+Pour le Droit de l'environnement, l'évaluation se fait également sous forme d'un examen final et d'un contrôle continu. Le coefficient de l'évaluation est de 1. Les cours magistraux (CM) durent 8 heures, les travaux dirigés (TD) 6 heures et il n'y a pas de travaux pratiques/projets (TP/Projet). L'enseignant responsable n'est pas spécifié. Les objectifs de l'unité d'enseignement ne sont pas mentionnés dans le tableau.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les coefficients, les heures de cours magistral (CM), les heures de travaux dirigés (TD) et les heures de travaux pratiques/projets (TP/Projet) pour l'unité d'enseignement "Droit de l'environnement" en deuxième année du Cycle Ingénieur (CING2) dans les domaines des Sciences Humaines, Economiques, Juridiques et Sociales. L'enseignant responsable est F. LIEN. Les objectifs de l'unité d'enseignement sont d'acquérir les connaissances juridiques fondamentales nécessaires à la compréhension du droit de l'environnement. Le programme couvre la définition et l'origine du droit de l'environnement, le concept de développement durable, les principes du droit de l'environnement et les acteurs de l'environnement. L'évaluation se fait uniquement par un examen final.
+
+************sep***********
+
+Le tableau décrit les unités d'enseignement d'Anglais pour les semestres S5 et S6, avec un coefficient de 3 pour chaque semestre. Les enseignants responsables sont G. Fortuni et A. Podvin pour les deux semestres. Les objectifs sont d'améliorer la capacité des élèves ingénieurs à organiser et écrire de petites productions écrites en anglais, à approfondir les structures grammaticales, à lire des textes journalistiques et à préparer des examens d'anglais tels que le TOEIC, le TOEFL et les examens de Cambridge. Les prérequis sont un niveau B1 du cadre européen pour l'Anglais. Le programme comprend l'approfondissement de la grammaire, la compréhension et l'analyse de textes journalistiques, l'apprentissage de résumés et synthèses, la rédaction d'un CV et d'une lettre de motivation, ainsi que la préparation aux examens d'anglais. La bibliographie comprend des livres de préparation pour le TOEIC et d'autres examens d'anglais. Les modalités d'évaluation comprennent un examen final (LV1 TOEIC) et un contrôle continu (LV1 Anglais) pour chaque semestre.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour les cours d'anglais des semestres S6 et S7 dans le cadre de l'Unité d'Enseignement "Ouverture Internationale". Les cours sont enseignés par les professeurs G. Fortuni et A. Podvin et ont un coefficient de 3 pour l'évaluation. Les étudiants sont évalués à la fois par un examen final (LV1 TOEIC) et par un contrôle continu (LV1 Anglais). Les objectifs incluent l'acquisition de bases spécialisées en anglais oral et écrit, l'amélioration des productions écrites et orales, et la compréhension des attentes et des pièges des tests TOEIC. Les prérequis sont les cours d'anglais du semestre précédent. Le programme comprend l'expression orale, la lecture et l'écoute de documents spécialisés. La bibliographie inclut des manuels et des guides de préparation pour le TOEIC.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour les unités d'enseignement d'Anglais aux semestres S7 et S8, avec une ouverture internationale. Les étudiants sont évalués à travers un examen final (LV1 TOEIC) et un contrôle continu (LV1 Anglais), avec un coefficient de 3 pour chaque semestre. Les objectifs incluent l'apprentissage d'une méthode d'acquisition du vocabulaire, l'amélioration des acquis via des analyses de documents et l'acquisition de bonnes méthodes de travail pour préparer les qualifications type TOEIC, CLES. Les prérequis sont un niveau B1 minimum et une bonne connaissance de la grammaire anglaise et française. Le programme d'acquisition lexicale se concentre sur des contextes spécifiques tels que la presse, les films, les séries et l'audio, avec une mise en application par le biais de jeux de rôles, discussions et exposés. La bibliographie recommandée comprend des livres de grammaire, de vocabulaire et de préparation au TOEIC.
+
+************sep***********
+
+Le tableau décrit les modalités d'évaluation, les objectifs, les prérequis, le programme et la bibliographie pour les cours d'anglais des semestres S8 et S9 dans le cadre de l'ouverture internationale des unités d'enseignement.
+
+Pour le semestre S8, l'évaluation se fait par un examen final (LV1 TOEIC) et un contrôle continu (LV1 Anglais) avec un coefficient de 3. Le cours est dispensé par les enseignants G. Fortuni et A. Podvin et comprend 30 heures de TD. Les objectifs sont d'améliorer la compréhension orale, la prononciation et de préparer les étudiants au TOEIC pour obtenir le diplôme d'ingénieur. Le programme comprend des ateliers de mise en situation, de la compréhension audio et vidéo, ainsi que des QCM pour évaluer les niveaux en grammaire, vocabulaire et construction de phrases. La bibliographie recommandée comprend un livre de vocabulaire pour le TOEIC et tout film, série ou chaîne de télévision en anglais pour aider les étudiants à progresser rapidement en entendant de nombreux accents en contexte.
+
+Pour le semestre S9, les modalités d'évaluation sont les mêmes que pour le semestre S8, avec un coefficient de 3. Le cours est dispensé par les mêmes enseignants et comprend 20 heures de TD. Les objectifs, le programme et la bibliographie sont similaires à ceux du semestre S8.
+
+************sep***********
+
+Le tableau décrit une unité d'enseignement d'anglais de niveau 1 pour le semestre S9, avec des modalités d'évaluation composées d'un examen final (LV1 TOEIC) et d'un contrôle continu (LV1 Anglais). L'unité d'enseignement est dispensée par les enseignants G. Fortuni et A. Podvin, avec un coefficient de 3 pour l'évaluation. Le cours est composé de 20 heures de travaux dirigés (TD) et ne comporte pas de travaux pratiques ou de projets. Les objectifs de l'unité d'enseignement sont de développer les compétences orale et écrite des étudiants à travers des jeux de rôles et des mises en situation, ainsi que de favoriser leur autonomie lors d'exercices écrits ou oraux. Les prérequis pour suivre cette unité d'enseignement sont les cours d'anglais des semestres précédents. Le programme covers la consolidation des compétences en argumentation, prise de position, expression, demande et conclusion, ainsi que la mise en place de débats et de jeux de rôles. Les étudiants seront également préparés aux examens TOEIC, TOEFL et Cambridge (First, Intermediate ou Proficiency).
+
+************sep***********
+
+Le tableau présente les 5 niveaux de compétence communs à toutes les spécialités de l'école, allant du niveau de novice au niveau d'expert. Ces niveaux de compétence sont décrits en fonction de la capacité de l'élève à appliquer, appréhender, accomplir, maîtriser et enrichir une compétence donnée. En outre, le tableau mentionne que des compétences propres à chaque spécialité ont été associées aux blocs de compétences, en lien avec les compétences attestées du référentiel de formation (RNCP).
+
+************sep***********
+
+Le tableau présente les compétences associées aux blocs de compétences pour la spécialité Informatique. Il y a quatre blocs de compétences, chacun contenant plusieurs compétences. Les compétences sont décrites en détail dans le tableau, avec des exemples tels que l'acquisition d'informations sur un système de gestion numérique de l'information, la modélisation de ces systèmes, l'évaluation de leurs performances, la production de modélisations pour la spécification des systèmes de traitement numériques de l'information, et bien plus encore. Les compétences sont classées en fonction des blocs de compétences et sont associées à des niveaux de compétence. Le tableau vise à donner un aperçu complet des compétences nécessaires pour la spécialité Informatique.

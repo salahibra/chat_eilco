@@ -1,28 +1,46 @@
 from Knowledge_base import Knowledge_base
 from RAG import RAG
 import os
+from config import Config
+
 
 build_knowledge_base = True
-run_rag = True
+run_rag = False
+
+
+
+config = Config()
 
 if build_knowledge_base:
-    markdown_folder = "./markdown_docs/"
-    files_paths = []
-    for file_name in os.listdir(markdown_folder):
-        if file_name.endswith(".md"):
-            file_path = os.path.join(markdown_folder, file_name)
-            files_paths.append(file_path)
-    
-    kb = Knowledge_base(list_file_paths=files_paths)
-    documents = kb.loader()
-    chunks  = kb.splitter(documents)
-    vectorstore = kb.storer(chunks)
+    kb = Knowledge_base(
+        dir_files=config.dir_files, 
+        export_type=config.export_type, 
+        embedding_model_id=config.embedding_model_id, 
+        top_k=config.top_k,
+        persist_directory=config.persist_directory
+    )
+    #documents = kb.loader()
+    #kb.splitter(documents)
+    #kb.ingestion()
+    relevant_docs = kb.retriever.invoke(config.question)
+
+
+
+    print(f"Number of relevant docs: {len(relevant_docs)}")
+    for i, doc in enumerate(relevant_docs):
+        print(f"Document {i+1} content: {doc.page_content}\n")
+        print("metadata:", doc.metadata)
+
 
 if run_rag:
-    rag = RAG()
-    rag.load_knowledge_base()
+    kb = Knowledge_base(
+        dir_files=config.dir_files, 
+        export_type=config.export_type, 
+        embedding_model_id=config.embedding_model_id, 
+        top_k=config.top_k,
+        persist_directory=config.persist_directory
+    )
+    rag = RAG(model_api_url=config.llm_api_url, model_name=config.llm_name, retriever=kb.retriever, prompt=config.prompt)
     query = "quels sont les prérequis, les objectifs et le programme pour le module Microbiologie générale?"
-    docs = rag.retriever(query)
-    augmented_prompt = rag.prompt_augmentation(docs, query)
-    response = rag.response_generator(augmented_prompt)
+    response = rag.response_generator(query)
     print(f"Response from Model: \n {response['choices'][0]['message']['content']}")

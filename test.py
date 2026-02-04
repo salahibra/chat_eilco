@@ -119,8 +119,8 @@ emb2 = HuggingFaceEmbeddings(
     model_name="all-MiniLM-L6-v2"
 )
 EMB = emb2
-VECTOR_PATH = "./faiss_index-v3"
-test_num = 5
+VECTOR_PATH = "./faiss_index-v7"
+test_num = 12
 
 rag = RAG(API_URL,MODEL_NAME)
 

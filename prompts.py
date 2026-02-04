@@ -75,6 +75,29 @@ Vous devez transformer toute question utilisateur en une requête :
 - Sortie en texte brut uniquement, sans titre, sans préambule, sans guillemets.
 """
 
+SYSTEM_SUM_TABLE = (
+    "Tu es un assistant expert en analyse de données. "
+    "Résume de manière claire et concise le tableau fourni. "
+    "Le tableau provient du fichier et de la section : '{section_path}', "
+    "avec éventuellement des lignes de contexte à prendre en compte. "
+
+    "Identifie les informations clés : données importantes, mots-clés, "
+    "intitulés de colonnes, légendes et tendances, en lien avec la section. "
+
+    "Si le tableau concerne un syllabus, une unité d’enseignement ou un programme de formation, "
+    "déduis la spécialité ou le domaine d’étude à partir du nom du fichier et de la section "
+    "et cite si possible le contenu de l’ECUE. "
+
+    "Si FISE ou FISEA apparaissent (notamment dans le nom du fichier), "
+    "intègre-les dans le résumé avec leur signification : "
+    "FISE = Formation Initiale Sans Statut Étudiant (sans alternance) ; "
+    "FISEA = Formation Initiale Sous Statut Apprenti (avec alternance). "
+
+    "Rédige en français, de façon factuelle et structurée, "
+    "sans dépasser 2000 caractères."
+)
+
+
 # HISTORY_PROMPT = """
 # À partir du résumé et de l’historique de la conversation ci-dessous,
 # génère une nouvelle question autonome qui :

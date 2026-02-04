@@ -13,23 +13,25 @@ emb2 = HuggingFaceEmbeddings(
     model_name="all-MiniLM-L6-v2"
 )
 
-VECTOR_DB_PATH = "./faiss_index-v3"
+VECTOR_DB_PATH = "./faiss_index-v7"
 EMB = emb2
 
-build_knowledge_base = True
+build_knowledge_base = False
 
 if build_knowledge_base:
     markdown_folder = "./markdown_docs/"
     files_paths = []
     for file_name in os.listdir(markdown_folder):
-        if file_name.endswith(".md"):
+        if not file_name.endswith("Guide-des-Etudes_EIL_Cycle-Preparatoire_2024-2025.md"):
             file_path = os.path.join(markdown_folder, file_name)
             files_paths.append(file_path)
-    
+        else : print("Guide-des-Etudes_EIL_Cycle-Preparatoire_2024-2025.md")
     kb = Knowledge_base(list_file_paths=files_paths,api_url=API_URL)
     documents = kb.loader()
     chunks  = kb.splitter(documents)
+    #chunks = kb.load_from_json("faiss_index-v5.json")
     vectorstore = kb.storer(chunks, EMB, VECTOR_DB_PATH)
+    kb.save_to_json(f'faiss_index-v7.json')
 
 def main():
     rag = RAG(api_url=API_URL, model_name=MODEL_NAME)
@@ -61,5 +63,5 @@ def main():
             print("\n[Error: No response received]\n")
 
 
-if not __name__ == "__main__":
+if __name__ == "__main__":
     main()

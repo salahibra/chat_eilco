@@ -39,13 +39,21 @@ class RAG:
         )
 
     def retriever(self, query):
-        docs = self.vectorstore.similarity_search(query, k=5)
+        docs = self.vectorstore.similarity_search(query, k=6)
         return docs
 
     def get_system_prompt(self, docs: list[str]):
-        docs_text = [d.page_content for d in docs]
+        context_str = ''
+        for d in docs:
+            table = d.metadata.get("original_content") 
+            if table is not None:
+                context_str += (table +"\n\n")
+                #context_str += "Sommaire du tableau:\n"+ d.page_content + "Tableau:\n" + (table +"\n\n")  
+            else:
+                context_str+= (d.page_content+"\n\n") 
+        #docs_text = [d.page_content for d in docs]
         return prompts.ZERO_SHOT_PROMPT_FR.format(
-            context_str="\n\n".join(docs_text),
+            context_str=context_str,
             strict_instructions=prompts.INSTRUCTIONS_FR,
         )
 

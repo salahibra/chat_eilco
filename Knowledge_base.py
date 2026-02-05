@@ -2,7 +2,7 @@ from langchain_docling.loader import ExportType
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_docling import DoclingLoader
 from docling.chunking import HybridChunker
-
+from context_merger import create_enhanced_retriever
 
 import requests, json
 import os
@@ -12,15 +12,23 @@ from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 class Knowledge_base:
-    def __init__(self, dir_files: str, export_type=ExportType.DOC_CHUNKS, embedding_model_id: str='sentence-transformers/all-MiniLM-L6-v2', persist_directory: str="./data/vectorstore", top_k: int=5):
+    def __init__(self, dir_files: str, export_type=ExportType.DOC_CHUNKS, embedding_model_id: str='sentence-transformers/all-MiniLM-L6-v2', persist_directory: str="./data/vectorstore", top_k: int=5, chunk_max_tokens: int=500):
         self.dir_files = dir_files
         self.chunks = None
         self.EXPORT_TYPE = export_type
         self.EMBED_MODEL_ID = embedding_model_id
         self.vectorstore = None
         self.persist_directory = persist_directory
+        self.chunk_max_tokens = chunk_max_tokens  # Configure chunk size
+        self.top_k = top_k
         self.load_vectorstore()
-        self.retriever =  self.vectorstore.as_retriever(search_type="mmr", search_kwargs={"k": top_k})
+        # Use enhanced retriever with context window expansion
+        # Retrieves top-k results and includes surrounding chunks (before/after)
+        self.retriever = create_enhanced_retriever(
+            self.vectorstore, 
+            top_k=top_k,
+            context_window=2  # Include 2 chunks before and 2 after each result
+        )
     
 
     def loader(self):
@@ -29,16 +37,71 @@ class Knowledge_base:
             glob="**/*.pdf",
             loader_cls=DoclingLoader,
             loader_kwargs={
-                "chunker": HybridChunker(tokenizer=self.EMBED_MODEL_ID),
+                "chunker": HybridChunker(max_tokens=self.chunk_max_tokens),
                 "export_type": self.EXPORT_TYPE,
             },
         )
             
         documents = loader.load()
+        # Merge small documents to avoid fragmentation
+        documents = self._merge_small_documents(documents)
         return documents
+    
+    def _merge_small_documents(self, documents, min_length: int = 300):
+        """
+        Merge documents that are too small with adjacent documents.
+        Avoids having chunks that are too short to contain proper context.
+        
+        Args:
+            documents: List of loaded documents
+            min_length: Minimum acceptable document length (characters)
+            
+        Returns:
+            List of documents with small ones merged
+        """
+        if not documents:
+            return documents
+        
+        merged_documents = []
+        i = 0
+        
+        while i < len(documents):
+            current_doc = documents[i]
+            current_content = current_doc.page_content
+            current_metadata = current_doc.metadata.copy()
+            
+            # If document is too small, merge with next one(s)
+            while len(current_content) < min_length and i + 1 < len(documents):
+                next_doc = documents[i + 1]
+                # Add separator between merged documents
+                current_content += "\n\n---\n\n" + next_doc.page_content
+                i += 1
+            
+            # Update metadata to reflect merging
+            if i > len(merged_documents):
+                current_metadata['merged_from'] = i - len(merged_documents) + 1
+                current_metadata['original_length'] = len(current_doc.page_content)
+            
+            from langchain_core.documents import Document
+            merged_doc = Document(
+                page_content=current_content,
+                metadata=current_metadata
+            )
+            merged_documents.append(merged_doc)
+            i += 1
+        
+        print(f"Document merging: {len(documents)} docs -> {len(merged_documents)} docs")
+        return merged_documents
     
 
     def splitter(self, documents):
+        """"
+        Split documents into chunks based on the configured export type.
+        For DOC_CHUNKS, use the pre-chunked documents from Docling.
+        For MARKDOWN, further split using markdown headers as separators.
+        Args:
+            documents: List of documents to split into chunks
+        """
         if self.EXPORT_TYPE == ExportType.DOC_CHUNKS:
             self.chunks = documents
         elif self.EXPORT_TYPE == ExportType.MARKDOWN:
@@ -55,6 +118,11 @@ class Knowledge_base:
             raise ValueError(f"Unexpected export type: {self.EXPORT_TYPE}")
         
     def ingestion(self):
+        """Ingest the chunks into a FAISS vector store with HuggingFace embeddings.
+        Each chunk is embedded and added to the vector store for retrieval.
+        Returns:
+            The FAISS vector store instance after ingestion
+        """
         embeddings = HuggingFaceEmbeddings(model_name=self.EMBED_MODEL_ID)
         index = faiss.IndexFlatL2(len(embeddings.embed_query("hello world")))
         self.vectorstore = FAISS(
@@ -69,6 +137,9 @@ class Knowledge_base:
         self.vectorstore.save_local(self.persist_directory)
         return self.vectorstore
     def load_vectorstore(self):
+        """Load the FAISS vector store from disk if it exists, otherwise perform loading, splitting, and ingestion.
+        This method checks if a persisted vector store exists. If it does, it loads it directly. If not, it goes through the full process of loading documents, splitting them into chunks, and ingesting them into a new vector store, which is then saved for future use.
+        """
         if os.path.exists(self.persist_directory):
             self.vectorstore = FAISS.load_local(self.persist_directory, HuggingFaceEmbeddings(model_name=self.EMBED_MODEL_ID), allow_dangerous_deserialization=True)
         else:

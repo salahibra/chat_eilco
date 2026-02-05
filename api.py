@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from RAG import RAG
 from Knowledge_base import Knowledge_base
 from config import Config
+from query_router import QueryRouter
 import uvicorn
 import sqlite3
 
@@ -27,17 +28,18 @@ def get_history(session_id: str, limit: int = 6):
     conn = sqlite3.connect(DB)
     cursor = conn.cursor()
     cursor.execute(
-        "SELECT role, content FROM messages WHERE session_id = ? ORDER BY timestamp DESC LIMIT ?",
-        (session_id, limit)
+        "SELECT role, content FROM messages WHERE session_id = ? ORDER BY timestamp ASC",
+        (session_id,)
     )
     rows = cursor.fetchall()
     conn.close()
-    history = [{"role": row[0], "content": row[1]} for row in reversed(rows)]
+    # Get only the last 'limit' messages in chronological order
+    history = [{"role": row[0], "content": row[1]} for row in rows[-limit:]]
     return history
 
+
+
 ###############################################################################
-
-
 app = FastAPI(
     title="ChatEILCO API",
     description="API pour répondre aux questions sur l'EILCO en utilisant RAG",
@@ -49,7 +51,8 @@ kb = Knowledge_base(
     export_type=config.export_type, 
     embedding_model_id=config.embedding_model_id, 
     top_k=config.top_k,
-    persist_directory=config.persist_directory
+    persist_directory=config.persist_directory,
+    chunk_max_tokens=config.chunk_max_tokens
 )
 rag_system = RAG(
     model_api_url=config.llm_api_url, 
@@ -57,6 +60,15 @@ rag_system = RAG(
     retriever=kb.retriever,
     prompt=config.prompt
 )
+
+# Initialize query router if enabled
+if config.use_query_router:
+    query_router = QueryRouter(
+        llm_api_url=config.llm_api_url,
+        llm_name=config.llm_name
+    )
+else:
+    query_router = None
 
 
 class QueryResponse(BaseModel):
@@ -101,14 +113,16 @@ async def chat(request: Chat):
     Returns:
         QueryResponse with the answer and source documents
     """
+    print(f"Received query for session {request.session_id}: {request.message}")
     hist = get_history(request.session_id)
+    
     if not hist:
         hist = []
         chat_history = ""
-        condensed_query = request.message
     else:
         chat_history = "\n".join([f"{item['role']}: {item['content']}" for item in hist])
-        condensed_query = rag_system.condense_query(chat_history, request.message)
+        print(f"Chat history for session {request.session_id}:\n{chat_history}")
+    
     try:
         if not rag_system.retriever:
             raise HTTPException(
@@ -116,11 +130,45 @@ async def chat(request: Chat):
                 detail="Knowledge base not loaded"
             )
         
-        docs = rag_system.retriever.invoke(condensed_query)
+        # Use query router to classify and determine retrieval need
+        if query_router:
+            routing_result = query_router.route(request.message, chat_history)
+            classification = routing_result["classification"]
+            reasoning = routing_result["reasoning"]
+            needs_retrieval = routing_result["needs_retrieval"]
+            
+            print(f"Query classification: {classification}")
+            print(f"Reasoning: {reasoning}")
+            print(f"Needs retrieval: {needs_retrieval}")
+            
+            # Condense query only if it's knowledge_seeking (needs context)
+            if classification == "knowledge_seeking":
+                condensed_query = rag_system.condense_query(chat_history, request.message)
+                print(f"Condensed query: {condensed_query}")
+            else:
+                # For conversational/ambiguous, use the original message
+                condensed_query = request.message
+                print(f"No condensing needed for {classification} query")
+        else:
+            # Fallback to old behavior if router is disabled
+            print("Query router disabled, using legacy condensing")
+            condensed_query = rag_system.condense_query(chat_history, request.message)
+            print(f"Condensed query: {condensed_query}")
+            needs_retrieval = True
         
-        sources = rag_system.sources_as_list(docs)
-        
-        augmented_prompt = rag_system.augment_prompt(condensed_query, docs)
+        # Retrieve documents if needed
+        if needs_retrieval:
+            docs = rag_system.retriever.invoke(condensed_query)
+            print(f"Retrieved {len(docs)} relevant documents for query: {condensed_query}")
+            for i, doc in enumerate(docs):
+                print(f"Document {i+1} content length: {len(doc.page_content)}")
+            sources = rag_system.sources_as_list(docs)
+            augmented_prompt = rag_system.augment_prompt(condensed_query, docs)
+        else:
+            print(f"Query doesn't need retrieval: {condensed_query}")
+            docs = []
+            sources = []
+            augmented_prompt = rag_system.prompt.format(context="", question=condensed_query)
         
         response = rag_system.response_generator(augmented_prompt)
         
@@ -148,6 +196,6 @@ if __name__ == "__main__":
     uvicorn.run(
         "api:app",
         host="0.0.0.0",
-        port=8000,
+        port=8072,
         reload=True
     )

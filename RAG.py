@@ -3,6 +3,7 @@ from typing import List
 import requests, json
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from eilco_prompts import get_condense_prompt
 class RAG:
     def __init__(self, model_api_url: str="http://localhost:8080/v1/chat/completions", model_name: str="mistral", retriever=None, prompt=None):
         self.vectorstore = None
@@ -20,12 +21,19 @@ class RAG:
         return augmented_prompt
     
     def condense_query(self, chat_history: str, user_query: str):
+        """
+        Condense a user query to a standalone question using chat history context.
+        This method assumes the decision to condense has already been made by the router.
+        """
+        # Use personalized EILCO prompt
+        condense_prompt = get_condense_prompt(user_query, chat_history)
+        
         headers = {"Content-Type": "application/json"}
         payload = {
             "model": self.Model_NAME,
             "messages": [
-                {"role": "developer", "content": "You are a helpful assistant that condenses user queries."},
-                {"role": "user", "content": f"Given the following conversation history:\n{chat_history}\n\nCondense the following user query into a standalone question:\n{user_query}"}
+                {"role": "developer", "content": "Tu es un assistant qui reformule les questions des étudiants de l'EILCO pour les clarifier."},
+                {"role": "user", "content": condense_prompt}
             ],
             "max_tokens": 256,
             "temperature": 0.0,
@@ -40,14 +48,15 @@ class RAG:
             return user_query
         
     def response_generator(self, prompt: str):
+        """Generate response using the LLM with the configured system prompt."""
         headers = {"Content-Type": "application/json"}
         payload = {
             "model": self.Model_NAME,
             "messages": [
-                {"role": "developer", "content": "You are a helpful assistant."},
+                {"role": "developer", "content": "Tu es ChatEILCO, l'assistant virtuel de l'EILCO. Réponds toujours en français."},
                 {"role": "user", "content": str(prompt)}
             ],
-            "max_tokens": 1024,
+            "max_tokens": 2048,
             "temperature": 0.1,
             "stream": False
         }
@@ -55,10 +64,15 @@ class RAG:
         return response.json()
     
     def clip_text(self, text: str, max_length: int=100):
+        """Clip text to a maximum length, adding ellipsis if it exceeds the limit.
+        Args:            text (str): The text to be clipped.
+            max_length (int): The maximum allowed length of the text. Defaults to 100.
+        Returns:            str: The clipped text, with ellipsis if it was truncated.
+        """
         if len(text) <= max_length:
             return text
         else:
-            return text[:max_length]
+            return text[:max_length]+"..."
         
     
     def sources_as_list(self, docs) -> List[str]:

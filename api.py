@@ -23,8 +23,15 @@ def save_message(session_id: str, role: str, content: str):
     )
     conn.commit()
     conn.close()
-def get_history(session_id: str, limit: int = 6):
-    """Retrieve the last 'limit' messages for a given session_id from the database."""
+def get_history(session_id: str, limit: int = 6, clip_assistant: bool = True, max_assistant_length: int = 150):
+    """Retrieve the last 'limit' messages for a given session_id from the database.
+    
+    Args:
+        session_id: The session ID to retrieve messages for
+        limit: Maximum number of messages to retrieve
+        clip_assistant: Whether to clip assistant content
+        max_assistant_length: Maximum length of assistant content when clipped
+    """
     conn = sqlite3.connect(DB)
     cursor = conn.cursor()
     cursor.execute(
@@ -34,7 +41,13 @@ def get_history(session_id: str, limit: int = 6):
     rows = cursor.fetchall()
     conn.close()
     # Get only the last 'limit' messages in chronological order
-    history = [{"role": row[0], "content": row[1]} for row in rows[-limit:]]
+    history = []
+    for row in rows[-limit:]:
+        role, content = row[0], row[1]
+        # Clip assistant content if requested
+        if clip_assistant and role == "assistant" and len(content) > max_assistant_length:
+            content = content[:max_assistant_length] + "..."
+        history.append({"role": role, "content": content})
     return history
 
 

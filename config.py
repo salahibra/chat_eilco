@@ -4,10 +4,10 @@ from eilco_prompts import get_rag_prompt, get_system_prompt, SCHOOL_INFO
 
 class Config:
     def __init__(self):
-        self.dir_files = "./test/"
+        self.dir_files = "./pdf_files/"
         self.embedding_model_id = "sentence-transformers/all-MiniLM-L6-v2"
         self.export_type = ExportType.DOC_CHUNKS
-        self.question = "salah ibrahim?"
+        self.question = "EILCO?"
         
         # Utilise le prompt personnalisé EILCO pour RAG
         self.prompt = PromptTemplate.from_template(get_rag_prompt())

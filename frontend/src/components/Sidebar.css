@@ -1,0 +1,37 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, width 0.3s ease;
+  min-width: 0;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+  position: absolute;
+  z-index: 100;
+  height: calc(100vh - 60px);
+}
+
+.sidebar .delete-btn {
+  transition: opacity 0.2s;
+}
+
+.sidebar > div:last-child > div > div > div:hover .delete-btn {
+  opacity: 1 !important;
+}
+
+.min-width-0 {
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    height: calc(100vh - 60px);
+    z-index: 100;
+  }
+
+  .sidebar.closed {
+    transform: translateX(-100%);
+  }
+}

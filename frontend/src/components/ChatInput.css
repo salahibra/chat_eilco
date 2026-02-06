@@ -1,0 +1,4 @@
+/* Bootstrap styles applied via classes */
+.chat-input-form {
+  flex-shrink: 0;
+}

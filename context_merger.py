@@ -88,7 +88,7 @@ class ContextWindowRetriever:
         return self.source_documents[source][start_idx:end_idx]
     
     def _merge_documents(self, docs: List[Document]) -> Document:
-        """Merge multiple documents into one with better separator."""
+        """Merge multiple documents into one with better separator and preserve metadata."""
         if not docs:
             return None
         
@@ -98,10 +98,30 @@ class ContextWindowRetriever:
         # Merge content with clear separator
         merged_content = "\n\n---\n\n".join([d.page_content for d in docs])
         
+        # Preserve the dl_meta structure from the main document
+        metadata = {**main_doc.metadata}
+        
+        # Preserve dl_meta if it exists
+        if 'dl_meta' in main_doc.metadata:
+            dl_meta = main_doc.metadata['dl_meta']
+            # Update doc_items to include all pages from merged documents
+            if isinstance(dl_meta, dict) and 'doc_items' in dl_meta:
+                # Collect all doc_items from all merged documents
+                all_doc_items = []
+                for doc in docs:
+                    if 'dl_meta' in doc.metadata and isinstance(doc.metadata['dl_meta'], dict):
+                        doc_items = doc.metadata['dl_meta'].get('doc_items', [])
+                        if isinstance(doc_items, list):
+                            all_doc_items.extend(doc_items)
+                
+                # Update metadata with all items
+                if all_doc_items:
+                    metadata['dl_meta'] = {**dl_meta, 'doc_items': all_doc_items}
+        
         merged_doc = Document(
             page_content=merged_content,
             metadata={
-                **main_doc.metadata,
+                **metadata,
                 'expanded_from': len(docs),
                 'expansion': 'context_window',
                 'original_pages': [d.metadata.get('page', 'unknown') for d in docs]

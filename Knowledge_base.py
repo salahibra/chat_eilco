@@ -43,55 +43,7 @@ class Knowledge_base:
         )
             
         documents = loader.load()
-        # Merge small documents to avoid fragmentation
-        documents = self._merge_small_documents(documents)
         return documents
-    
-    def _merge_small_documents(self, documents, min_length: int = 300):
-        """
-        Merge documents that are too small with adjacent documents.
-        Avoids having chunks that are too short to contain proper context.
-        
-        Args:
-            documents: List of loaded documents
-            min_length: Minimum acceptable document length (characters)
-            
-        Returns:
-            List of documents with small ones merged
-        """
-        if not documents:
-            return documents
-        
-        merged_documents = []
-        i = 0
-        
-        while i < len(documents):
-            current_doc = documents[i]
-            current_content = current_doc.page_content
-            current_metadata = current_doc.metadata.copy()
-            
-            # If document is too small, merge with next one(s)
-            while len(current_content) < min_length and i + 1 < len(documents):
-                next_doc = documents[i + 1]
-                # Add separator between merged documents
-                current_content += "\n\n---\n\n" + next_doc.page_content
-                i += 1
-            
-            # Update metadata to reflect merging
-            if i > len(merged_documents):
-                current_metadata['merged_from'] = i - len(merged_documents) + 1
-                current_metadata['original_length'] = len(current_doc.page_content)
-            
-            from langchain_core.documents import Document
-            merged_doc = Document(
-                page_content=current_content,
-                metadata=current_metadata
-            )
-            merged_documents.append(merged_doc)
-            i += 1
-        
-        print(f"Document merging: {len(documents)} docs -> {len(merged_documents)} docs")
-        return merged_documents
     
 
     def splitter(self, documents):

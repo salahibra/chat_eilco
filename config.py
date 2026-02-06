@@ -4,7 +4,7 @@ from eilco_prompts import get_rag_prompt, get_system_prompt, SCHOOL_INFO
 
 class Config:
     def __init__(self):
-        self.dir_files = "./pdf_files/"
+        self.dir_files = "./test/"
         self.embedding_model_id = "sentence-transformers/all-MiniLM-L6-v2"
         self.export_type = ExportType.DOC_CHUNKS
         self.question = "EILCO?"

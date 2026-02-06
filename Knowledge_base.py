@@ -27,7 +27,7 @@ class Knowledge_base:
         self.retriever = create_enhanced_retriever(
             self.vectorstore, 
             top_k=top_k,
-            context_window=2  # Include 2 chunks before and 2 after each result
+            context_window=1  # Include 1 chunk before and 1 after each result
         )
     
 

@@ -14,7 +14,7 @@ class Config:
 
         self.persist_directory = "./data/vectorstore"
         self.top_k = 6
-        self.chunk_max_tokens = 1500  # Augmenté pour plus de contexte par chunk
+        self.chunk_max_tokens = 1000  # Augmenté pour plus de contexte par chunk
         self.llm_name = "mistral"
         self.llm_api_url = "http://localhost:8080/v1/chat/completions"
         

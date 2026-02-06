@@ -13,7 +13,9 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 
 # Install Python dependencies (excluding torch and faiss-gpu for lighter image)
+# Pin numpy to <2 for compatibility with faiss and sentence-transformers
 RUN pip install --no-cache-dir \
+    "numpy<2" \
     docling \
     langchain \
     sentence-transformers \

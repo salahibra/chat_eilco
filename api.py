@@ -147,36 +147,31 @@ async def chat(request: Chat):
             print(f"Reasoning: {reasoning}")
             print(f"Needs retrieval: {needs_retrieval}")
             
-            # Condense query only if it's knowledge_seeking (needs context)
-            if classification == "knowledge_seeking":
-                condensed_query = rag_system.condense_query(chat_history, request.message)
-                print(f"Condensed query: {condensed_query}")
-            else:
-                # For conversational/ambiguous, use the original message
-                condensed_query = request.message
-                print(f"No condensing needed for {classification} query")
+            # Use the original message directly (no condensation)
+            query_for_retrieval = request.message
+            print(f"Using query: {query_for_retrieval}")
         else:
             # Fallback to old behavior if router is disabled
-            print("Query router disabled, using legacy condensing")
-            condensed_query = rag_system.condense_query(chat_history, request.message)
-            print(f"Condensed query: {condensed_query}")
+            print("Query router disabled, using direct query")
+            query_for_retrieval = request.message
+            print(f"Using query: {query_for_retrieval}")
             needs_retrieval = True
         
         # Retrieve documents if needed
         if needs_retrieval:
-            docs = rag_system.retriever.invoke(condensed_query)
-            print(f"Retrieved {len(docs)} relevant documents for query: {condensed_query}")
+            docs = rag_system.retriever.invoke(query_for_retrieval)
+            print(f"Retrieved {len(docs)} relevant documents for query: {query_for_retrieval}")
             for i, doc in enumerate(docs):
                 print(f"Document {i+1} content length: {len(doc.page_content)}")
             sources = rag_system.sources_as_list(docs)
-            augmented_prompt = rag_system.augment_prompt(condensed_query, docs)
+            augmented_prompt = rag_system.augment_prompt(query_for_retrieval, docs)
         else:
-            print(f"Query doesn't need retrieval: {condensed_query}")
+            print(f"Query doesn't need retrieval: {query_for_retrieval}")
             docs = []
             sources = []
-            augmented_prompt = rag_system.prompt.format(context="", question=condensed_query)
+            augmented_prompt = rag_system.prompt.format(context="", question=query_for_retrieval)
         
-        response = rag_system.response_generator(augmented_prompt)
+        response = rag_system.response_generator(augmented_prompt, chat_history=hist)
         
         if 'choices' in response and len(response['choices']) > 0:
             answer = response['choices'][0]['message']['content']

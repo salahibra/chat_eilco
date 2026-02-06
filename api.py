@@ -146,30 +146,28 @@ async def chat(request: Chat):
             print(f"Query classification: {classification}")
             print(f"Reasoning: {reasoning}")
             print(f"Needs retrieval: {needs_retrieval}")
-            
-            # Use the original message directly (no condensation)
-            query_for_retrieval = request.message
-            print(f"Using query: {query_for_retrieval}")
         else:
             # Fallback to old behavior if router is disabled
-            print("Query router disabled, using direct query")
-            query_for_retrieval = request.message
-            print(f"Using query: {query_for_retrieval}")
+            print("Query router disabled")
             needs_retrieval = True
+        
+        # Condense query before retriever for better document matching
+        condensed_query = rag_system.condense_query_for_retriever(request.message, chat_history=hist)
+        print(f"Condensed query for retriever: {condensed_query}")
         
         # Retrieve documents if needed
         if needs_retrieval:
-            docs = rag_system.retriever.invoke(query_for_retrieval)
-            print(f"Retrieved {len(docs)} relevant documents for query: {query_for_retrieval}")
+            docs = rag_system.retriever.invoke(condensed_query)
+            print(f"Retrieved {len(docs)} relevant documents for query: {condensed_query}")
             for i, doc in enumerate(docs):
                 print(f"Document {i+1} content length: {len(doc.page_content)}")
             sources = rag_system.sources_as_list(docs)
-            augmented_prompt = rag_system.augment_prompt(query_for_retrieval, docs)
+            augmented_prompt = rag_system.augment_prompt(request.message, docs)
         else:
-            print(f"Query doesn't need retrieval: {query_for_retrieval}")
+            print(f"Query doesn't need retrieval: {request.message}")
             docs = []
             sources = []
-            augmented_prompt = rag_system.prompt.format(context="", question=query_for_retrieval)
+            augmented_prompt = rag_system.prompt.format(context="", question=request.message)
         
         response = rag_system.response_generator(augmented_prompt, chat_history=hist)
         

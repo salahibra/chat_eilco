@@ -1,21 +1,12 @@
-# chateilco
-## Environement Virtuelle:
-### céation de l'environement virtuelle
-```
-pyenv virtualenv venv_chateilco
-```
-### activation de l'environement virtuelle
+## Frontend
 
-```
-pyenv activate venv_chateilco
-```
-### installation des packages
-```
-pip install package_name
+### Exécution du Frontend avec Docker
+
+Pour exécuter l’application frontend à l’aide de Docker, exécutez la commande suivante depuis le répertoire `frontend` :
+
+```bash
+cd frontend
+docker build -t chat-interface . && docker run -p 3000:3000 --name chat-interface -e BACKEND_URL=http://127.0.0.1:8072 --network host chat-interface
 ```
 
-### Pour CPU Only in linux:
-
-```
-pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-```
+## Backend

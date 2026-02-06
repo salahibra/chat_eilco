@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build: .
+    container_name: chat-eilco-api
+    ports:
+      - "8000:8000"
+    environment:
+      - LLM_API_URL=http://host.docker.internal:8080/v1/chat/completions
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+      - ./test:/app/test
+    networks:
+      - chat-network
+    restart: unless-stopped
+    # Uncomment if you want to run llama.cpp in Docker too
+    # depends_on:
+    #   - llama-cpp
+
+  # Optional: Run llama.cpp in Docker
+  # llama-cpp:
+  #   image: ghcr.io/ggerganov/llama.cpp:latest
+  #   container_name: llama-cpp-server
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - ./models:/models
+  #   command: 
+  #     - "-m"
+  #     - "/models/mistral-7b-instruct-v0.1.Q4_K_M.gguf"
+  #     - "--server"
+  #     - "-ngl"
+  #     - "33"
+  #     - "-c"
+  #     - "2048"
+  #   networks:
+  #     - chat-network
+
+networks:
+  chat-network:
+    driver: bridge

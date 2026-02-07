@@ -1,6 +1,6 @@
 import requests, json
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_core.embeddings import Embeddings
 import prompts
 import tiktoken
 
@@ -16,7 +16,7 @@ class Context:
 
 class RAG:
 
-    enc = tiktoken.get_encoding("cl100k_base")
+    enc = tiktoken.get_encoding("o200k_base")
 
     @staticmethod
     def count_chat_tokens(messages):
@@ -31,22 +31,30 @@ class RAG:
         self.Model_API_URL = api_url
         self.Model_NAME = model_name
 
-    def load_knowledge_base(self, path: str):
+    def load_knowledge_base(self, embeddings: Embeddings, path: str):
         self.vectorstore = FAISS.load_local(
             path,
-            HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2"),
+            embeddings,
             allow_dangerous_deserialization=True,
         )
 
     def retriever(self, query):
-        docs = self.vectorstore.similarity_search(query, k=5)
+        docs = self.vectorstore.similarity_search(query, k=6)
         return docs
 
     def get_system_prompt(self, docs: list[str]):
-        docs_text = [d.page_content for d in docs]
+        context_str = ''
+        for d in docs:
+            table = d.metadata.get("original_content") 
+            if table is not None:
+                context_str += (table +"\n\n")
+                #context_str += "Sommaire du tableau:\n"+ d.page_content + "Tableau:\n" + (table +"\n\n")  
+            else:
+                context_str+= (d.page_content+"\n\n") 
+        #docs_text = [d.page_content for d in docs]
         return prompts.ZERO_SHOT_PROMPT_FR.format(
-            context_str="\n\n".join(docs_text),
-            strict_instructions=prompts.STRICT_INSTRUCTIONS_FR,
+            context_str=context_str,
+            strict_instructions=prompts.INSTRUCTIONS_FR,
         )
 
     def update_ctx(self, ctx: Context):
@@ -91,23 +99,31 @@ class RAG:
             ctx.token_count = RAG.count_chat_tokens(ctx.history)
 
     def rewrite_query(self, query: str, ctx: Context):
-        if not ctx.history:
-            return query
 
-        conversation_text = "\n".join(
-            f"{m['role'].upper()}: {m['content']}" for m in ctx.history
-        )
+        if ctx.history:
+            conversation_text = "\n".join(
+                f"{m['role'].upper()}: {m['content']}" for m in ctx.history
+            )
+        else:
+            conversation_text= "pas de conversation"
+        
+        if ctx.summary == "":
+            summary = "pas de sommaire"
+        else:
+            summary = ctx.summary
 
-        system_prompt = (
-            "Tu es un système de reformulation de requêtes pour un moteur de recherche documentaire (RAG).\n"
-            "Ta tâche est de reformuler une question utilisateur pour qu'elle soit autonome, précise et adaptée à la recherche.\n"
-            "Tu ne dois PAS répondre à la question.\n"
-            "Tu ne dois PAS ajouter d'informations nouvelles.\n"
-            "Tu produis UNIQUEMENT la requête reformulée."
-        )
+        system_prompt = prompts.SYSTEM_REWRITE_PROMPT
+        #  (
+        #     "Tu es un système de reformulation de requêtes pour un moteur de recherche documentaire (RAG) pour une ecole\n"
+        #     "Les documents en générale concernent le reglement intérieur et les syllabus."
+        #     "Ta tâche est de reformuler une question utilisateur pour qu'elle soit autonome, précise et adaptée à la recherche. Essayez d'augmenter la question plus detaillée pour maximiser la recherche\n"
+        #     "Tu ne dois PAS répondre à la question.\n"
+        #     "Tu ne dois PAS ajouter d'informations nouvelles.\n"
+        #     "Tu produis UNIQUEMENT la requête reformulée."
+        # )
 
-        user_prompt = prompts.REWRITE_PROMPT.format(
-            summary=ctx.summary, history=conversation_text, question=query
+        user_prompt = prompts.USER_REWRITE_PROMPT.format(
+            summary=summary, history=conversation_text, question=query
         )
 
         messages = [
@@ -116,7 +132,7 @@ class RAG:
         ]
 
         response = self.chat_completion(
-            messages, {"temperature": 0.1, "max_tokens": 1028, "stop": ["\n"]}
+            messages, {"temperature": 0.1,"stream":False}
         )
 
         if response and "choices" in response:
@@ -135,7 +151,8 @@ class RAG:
         user_entry = {"role": "user", "content": query}
         messages = [{"role": "system", "content": sys_prompt}] + ctx.history + [user_entry]
         
-        response = self.chat_completion(messages, {"temperature": 0.1, "stream": False})
+        response = self.chat_completion(messages, {"temperature": 0.1, "stream": False,"model":self.Model_NAME})
+        print(sys_prompt)
         
         if response and "choices" in response:
             answer = response["choices"][0]["message"]["content"]
@@ -156,11 +173,3 @@ class RAG:
         except Exception as e:
             print(f"API Error: {e}")
             return None
-
-    def response_generator(self, messages, options):
-        headers = {"Content-Type": "application/json"}
-        payload = {"messages": messages, **options}
-        response = requests.post(
-            self.Model_API_URL, headers=headers, data=json.dumps(payload)
-        )
-        return response.json()

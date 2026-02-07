@@ -37,11 +37,15 @@ COPY query_router.py .
 COPY eilco_prompts.py .
 COPY file.sql .
 
-# Copy data directory (vectorstore)
-COPY data/ ./data/
+
 
 # Create required directories
 RUN mkdir -p ./pdf_files ./docx_files ./test
+
+# Copy data directory (vectorstore)
+COPY data/ ./data/
+
+
 
 # Expose port
 EXPOSE 8000

@@ -40,10 +40,7 @@ COPY file.sql .
 
 
 # Create required directories
-RUN mkdir -p ./pdf_files ./docx_files ./test
-
-# Copy data directory (vectorstore)
-COPY data/ ./data/
+RUN mkdir -p ./pdf_files ./docx_files ./test ./data/vectorstore
 
 
 

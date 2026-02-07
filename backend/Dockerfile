@@ -1,4 +1,11 @@
-FROM python:3.11-slim
+FROM nvidia/cuda:12.4-runtime-ubuntu22.04
+
+# Install Python and system dependencies
+RUN apt-get update && apt-get install -y \
+    python3.11 \
+    python3.11-distutils \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /app

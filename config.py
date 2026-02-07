@@ -1,10 +1,11 @@
 from langchain_docling.loader import ExportType
 from langchain_core.prompts import PromptTemplate
 from eilco_prompts import get_rag_prompt, get_system_prompt, SCHOOL_INFO
+import os
 
 class Config:
     def __init__(self):
-        self.dir_files = "./test/"
+        self.dir_files = "./pdf_files/"
         self.embedding_model_id = "sentence-transformers/all-MiniLM-L6-v2"
         self.export_type = ExportType.DOC_CHUNKS
         self.question = "EILCO?"
@@ -16,7 +17,8 @@ class Config:
         self.top_k = 6
         self.chunk_max_tokens = 1000  # Augmenté pour plus de contexte par chunk
         self.llm_name = "mistral"
-        self.llm_api_url = "http://localhost:8080/v1/chat/completions"
+        # Read LLM API URL from environment variable, fallback to localhost
+        self.llm_api_url = os.getenv("LLM_API_URL", "http://localhost:8080/v1/chat/completions")
         
         # Configuration du rôle/persona de l'assistant
         # Options: "default", "academic", "student_support", "career", "technical_support"

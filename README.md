@@ -51,5 +51,5 @@ python3 api.py
 docker build -t chat-eilco-backend .
 ```
 ```bash
-docker run -p 8000:8000   -e LLM_API_URL=http://127.0.0.1:8080/v1/chat/completions   -v $(pwd)/data:/app/data --network host  chat-eilco-backend
+docker run -p 8000:8000   -e LLM_API_URL=http://127.0.0.1:8080/v1/chat/completions   -v $(pwd)/data:/data --network host  chat-eilco-backend
 ```

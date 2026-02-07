@@ -1,0 +1,905 @@
+[
+    {
+        "question": "Quelle est la conséquence immédiate d'un rapport de projet ou de stage remis plus de 10 jours après la date limite, selon le document ?",
+        "context": "## 3 Projets et stages  \nL'enseignement théorique est complété par une formation par et pour l’entreprise articulée autour de projets et de périodes de stage en entreprise.  \nLes projets et stages font l’objet de rédaction de rapports et de soutenance. Une pénalité de 2 points par jour de retard sera affectée à la note du rapport. Au-delà de 10 jours de retard, la note de rapport (qui ne pourra plus être remis) sera égale à 0/20 et la soutenance sera annulée. La soutenance de stage ne pourra donc avoir lieu que si le rapport a été préalablement déposé sur la plateforme de partage de documents dans les délais prévus.  \n**Les projets et stages nécessitent une note supérieure à 12/20 pour en permettre la validation.** Par ailleurs, si l’une des composantes du projet ou du stage (rapport, soutenance ou travail effectué) ne correspond pas à la valeur attendue d’un travail d’ingénieur, la validation ne sera pas prononcée.",
+        "answer": "La conséquence immédiate d'un rapport de projet ou de stage remis plus de 10 jours après la date limite est une note de rapport égale à 0/20 et l'annulation de la soutenance.",
+        "ground_truth": "La note du rapport sera de 0/20 et la soutenance annulée.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "3 Projets et stages",
+                    "type": "text"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Quelles sont les activités pour lesquelles la EIL Côte d'Opale accorde le droit de la  photographie, de l'enregistrement et de la filmagem ?",
+        "context": "Accorde à l’École d’Ingénieur du Littoral Côte d’Opale (EIL Côte d’Opale) et à ses représentants légaux et toute personne agissant avec leur permission, photographe ou réalisateur (y compris toute agence publiant ou distribuant les images, sons ou produits finis), la permission irrévocable de me photographier, enregistrer ou filmer, dans le cadre des activités de l’École (répétitions, réunions, déplacements, démonstrations, participations à des foires, salons, concours, championnats ou toute autre activité liée l’objet ou action de l’École).\n",
+        "answer": "La EIL Côte d’Opale accorde le droit de la photographie, de l’enregistrement et de la filmagem pour les activités suivantes : \n\n* **Repétitions**\n* **Reunions**\n* **Déplacements**\n* **Demost्रेnations**\n* **Participation à des foires, salons, concours, championnats ou toute autre activité liée l'objet ou l'action de l’École.**",
+        "ground_truth": "Activités liées aux activités de l’École (répétitions, réunions, déplacements, démonstrations, foires, salons, concours, championnats).",
+        "source_chunks": [
+            {
+                "chunk_id": "REGLEMENT INTERIEUR 2024-2025_chunk347",
+                "source_file": "REGLEMENT INTERIEUR 2024-2025.docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Comment l'optimisation de l'eau en aquaculture passe-t-elle par des systèmes de recirculation ?",
+        "context": "volet aval (purification, conditionnement, traçabilité …) s’appuiera sur une visite de site.\n\nla pisciculture. Le support retenu est la salmoniculture à la fois continentale (truite) et marine (saumon). Le contraintes réglementaires, environnementales et zootechniques sont développées à partir d’une présentation de différents sites en activités et de leurs problématiques.\n\n- Les RAS. L’optimisation de la gestion de l’eau en aquaculture passe par la conception et l’exploitation de systèmes de recirculation. Leur maitrise nécessite des compétences pluridisciplinaires qui sont abordées dans le cadre de ce module : qualité et quantité d’eau, critères de décision et moyens mis en œuvre... Cette partie s’appuiera sur la visite d’un site et une initiation à l’utilisation de ce matériel.\n\nl’aquaponie. La combinaison d’un système aquacole et d’une production végétale permet la valorisation agronomique de nutriments issus des RAS. La complexité et les choix techniques de ces systèmes sont développés par l’étude d’une unité aquaponique : truites/légumes., CM : 16H00 = **Programme**\n\n**:**\n\nLe développement mondial de l’aquaculture et la diversification des espèces élevées s’accompagnent d’un accroissement des besoins et des compétences en génie aquacole. Seront respectivement abordés :\n\nla conchyliculture par l’étude comparative de la production mytilicole (moule) et ostréicole (huître) dans les hauts de France. Le volet aval (purification, conditionnement, traçabilité …) s’appuiera sur une visite de site.\n\nla pisciculture. Le support retenu est la salmoniculture à la fois continentale (truite) et marine (saumon). Le contraintes réglementaires, environnementales et zootechniques sont développées à partir d’une présentation de différents sites en activités et de leurs problématiques.\n\n- Les RAS. L’optimisation de la gestion de l’eau en aquaculture passe par la conception et l’exploitation de systèmes de recirculation.\n",
+        "answer": "L'optimisation de l'eau en aquaculture passe par la conception et l’exploitation de systèmes de recirculation qui s’inscrit dans  une démarche d’amélioration de la gestion des ressources en eau.",
+        "ground_truth": "La pisciculture utilise la truite continentale et le saumon. L'optimisation de l'eau passe par des systèmes de recirculation.",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE)_chunk749_p4",
+                "source_file": "Syllabus_EIL_Agroalimentaire_2024-2025 (FISE).docx",
+                "page_numbers": []
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_015",
+        "question": "Quelle IDE est  utilisée par l'étudiant pour la rédaction de programmmes dans le language C pour l'unité Harmonisation des connaissances  ?",
+        "context": "amené à programmer en langage C des applications permettant d’aborder ces notions.\n\nL’IDE Code::Blocks est utilisé pour écrire des programmes structurés., CM : 00H00 = **Programme**\n\n**:**\n\nPartie 1\n\n: Des algorithmes simples, les types de données et l’organisation des données, les structures de contrôles, les fonctions, les fichiers\n\nPartie 2\n\n: L’étudiant est amené à programmer en langage C des applications permettant d’aborder ces notions.\n\nL’IDE Code::Blocks est utilisé pour écrire des programmes structurés.. **Programme**\n\n**:**\n\nPartie 1\n\n: Des algorithmes simples, les types de données et l’organisation des données, les structures de contrôles, les fonctions, les fichiers\n\nPartie 2\n\n: L’étudiant est amené à programmer en langage C des applications permettant d’aborder ces notions.\n\nL’IDE Code::Blocks est utilisé pour écrire des programmes structurés., TD : 20H00 = **Programme**\n\n**:**\n\nPartie 1\n\n: Des algorithmes simples, les types de données et l’organisation des données, les structures de contrôles, les fonctions, les fichiers\n\nPartie 2\n\n: L’étudiant est amené à programmer en langage C des applications permettant d’aborder ces notions.\n\nL’IDE Code::Blocks est utilisé pour écrire des programmes structurés.. **Programme**\n\n**:**\n\nPartie 1\n\n: Des algorithmes simples, les types de données et l’organisation des données, les structures de contrôles, les fonctions, les fichiers\n\nPartie 2\n\n: L’étudiant est amené à programmer en langage C des applications permettant d’aborder ces notions.\n\nL’IDE Code::Blocks est utilisé pour écrire des programmes structurés., TP/Projet : 00H00 = **Programme**\n\n**:**\n\nPartie 1\n\n: Des algorithmes simples, les types de données et l’organisation des données, les structures de contrôles, les fonctions, les fichiers\n\nPartie 2\n\n: L’étudiant est amené à programmer en langage C des applications permettant d’aborder ces notions.\n\nL’IDE Code::Blocks est utilisé pour écrire des programmes structurés.. **Bibliographie**\n\n:, = **Bibliographie**\n",
+        "answer": "L'IDE utilisée par l'étudiant est Code::Blocks.",
+        "ground_truth": "Code::Blocks",
+        "source_chunks": [
+            {
+                "chunk_id": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISEA)_chunk357_p2",
+                "source_file": "Syllabus_EIL_Génie-Indutriel_2024-2025 (FISEA).docx",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "2 Descriptif des Eléments Constitutifs des Unités d’Enseignement",
+                    "Header_3": "2.1 Unités d’enseignements Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités",
+                    "Header_4": "2.1.1 Première année du Cycle Ingénieur (CING1)",
+                    "source": "./markdown_docs/Syllabus_EIL_Informatique_2024-2025 (FISE).md",
+                    "type": "table_summary",
+                    "original_content": "**Location:** Syllabus_EIL_Informatique_2024-2025 (FISE).md > Introduction > 2 Descriptif des Eléments Constitutifs des Unités d’Enseignement > 2.1 Unités d’enseignements Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités > 2.1.1 Première année du Cycle Ingénieur (CING1)\n\nHarmonisation des connaissances – Informatique :  \n|                                                                                                                                                                                                                                                                                                                                                              |                        | CM: 00H00     | TD: 20H00     | TP/Projet: 00H00   |\n|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|----------------|----------------|---------------------|\n| Enseignant responsable                                                                                                                                                                                                                                                                                                                                       | Enseignant responsable | D.  robilliard | D.  robilliard | D.  robilliard      |\n| **Objectifs**  **:**  L’objectif du module Harmonisation informatique est une mise à niveau des étudiants pour savoir créer et programmer un algorithme de base.                                                                                                                                                                                             |                        |                |                |                     |\n| **Programme**  **:**  Partie 1  : Des algorithmes simples, les types de données et l’organisation des données, les structures de contrôles, les fonctions, les fichiers  Partie 2  : L’étudiant est amené à programmer en langage C des applications permettant d’aborder ces notions. L’IDE Code::Blocks est utilisé pour écrire des programmes structurés. |                        |                |                |                     |\n| **Bibliographie**  :                                                                                                                                                                                                                                                                                                                                         |                        |                |                |                     |\n| **Modalités d’évaluation**  **:**                                                                                                                                                                                                                                                                                                                            |                        |                |                |                     |  "
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Quelle est la répartition des ECUE dans l'UE \"STI1 (Sciences et Techniques de l'Ingénieur)\" du CING1, et quel est le nombre total d'ECTS attribués à cette UE ?",
+        "context": "Le tableau présente la structure des enseignements pour la première année du Cycle Ingénieur (CING1) dans le domaine du Génie Énergétique et Environnement, dans le cadre de la Formation Initiale Sans Statut Étudiant (FISE). Il est organisé en différentes unités d'enseignement (UE) qui comprennent des ECUE (Ensembles Cohérents d'Unités d'Enseignement).\n\nLa première UE est \"SB3 : Mathématiques et informatique (Sciences de Base)\" qui comprend quatre ECUE : Ingénierie mathématique 2, Data et IA: Traitement des données, Data et IA: Apprentissage automatique et Réseaux et communication. Cette UE est évaluée sur 9 ECTS.\n\nLa deuxième UE est \"STI1 (Sciences et Techniques de l'Ingénieur)\" qui comprend six ECUE : Physique numérique, Acquisition de données, Chimiométrie, Thermodynamique chimique, Management des risques et Habilitation électrique. Cette UE est évaluée sur 11 ECTS.\n\nLa troisième UE est \"SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)\" qui comprend cinq ECUE : Management des équipes, Droit du travail, Finances pour l'entreprise, Gestion des ressources humaines et Projet solidaire. Cette UE est évaluée sur 7 ECTS.\n\nLa quatrième UE est \"OI2 : Ouverture Internationale\" qui comprend quatre ECUE : LV1 (Anglais), LV1 (TOEIC), LV2 (Allemand, Espagnol...) et Soutien Anglais. Cette UE est évaluée sur 3 ECTS.\n\nIl y a également une UE \"Conférences\" qui comprend une ECUE : Conférences \"Associations\" et une UE \"Bonus\" qui comprend une ECUE : Activités Sportives, Culturelles et Artistiques.\n\nLe tableau indique le nombre d'heures de cours magistral (CM), de travaux dirigés (TD), de travaux pratiques (TP), d'évaluation et d'autres activités pour chaque ECUE, ainsi que le coefficient et le nombre d'ECTS associés. Le total des heures pour chaque UE et pour l'ensemble du programme est également indiqué.\n\nEn résumé, le tableau présente le programme du semestre S6 de février à mai (18 semaines) pour la première année du Cycle Ingénieur en Génie Énergétique et Environnement dans le cadre de la FISE. Il comprend des enseignements en mathématiques et informatique, en sciences et techniques de l'ingénieur, en sciences humaines, économiques, juridiques et sociales, en ouverture internationale, ainsi que des conférences et des activités sportives, culturelles et artistiques.",
+        "answer": "L'UE \"STI1 (Sciences et Techniques de l'Ingénieur)\" comprend six ECUE : Physique numérique, Acquisition de données, Chimiométrie, Thermodynamique chimique, Management des risques et Habilitation électrique. Cette UE est évaluée sur 11 ECTS.",
+        "ground_truth": "L'UE \"STI1\" comprend six ECUE : Physique numérique, Acquisition de données, Chimiométrie, Thermodynamique chimique, Management des risques et Habilitation électrique, pour un total de 11 ECTS.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE)","metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "1 Structure des enseignements",
+                    "Header_3": "1.1 Première année du Cycle Ingénieur (CING1)",
+                    "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE).md",
+                    "type": "table_summary",
+                    "original_content": "**Location:** Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE).md > Introduction > 1 Structure des enseignements > 1.1 Première année du Cycle Ingénieur (CING1)\n\n| **UE**                                                              | **ECUE**                                        | **Horaires (en heures)**   |        |        |           |           |           | **Coef.**   | **ECTS**   |\n|---------------------------------------------------------------------|-------------------------------------------------|----------------------------|--------|--------|-----------|-----------|-----------|-------------|------------|\n|                                                                     |                                                 | **CM**                     | **TD** | **TP** | **Eval.** | **Autre** | **Total** |             |            |\n| **SB3 : Mathématiques et informatique (Sciences de Base)**          | Ingénierie mathématique 2                       | 18                         | 18     | 12     | 2         |           | 50        | 4           |            |\n|                                                                     | Data et IA: Traitement des données             | 8                          | 8      | 12     | 2         |           | 30        | 2           |            |\n|                                                                     | Data et IA: Apprentissage automatique          | 10                         | 8      |        | 2         |           | 20        | 1           |            |\n|                                                                     | Réseaux et communication                        | 8                          | 8      | 12     | 2         |           | 30        | 2           |            |\n|                                                                     | Total SB3                                       | 44                         | 42     | 36     | 8         |           | 130       |             | 9          |\n| **STI1 (Sciences et Techniques de l'Ingénieur)**                    | Physique numérique                              | 18                         | 0      | 20     | 2         |           | 40        | 3           |            |\n|                                                                     | Acquisition de données                          | 8                          | 8      | 12     | 2         |           | 30        | 2           |            |\n|                                                                     | Chimiométrie                                    | 8                          |        | 20     | 2         |           | 30        | 2           |            |\n|                                                                     | Thermodynamique chimique                        | 10                         |        | 28     | 2         |           | 40        | 3           |            |\n|                                                                     | Management des risques                          | 10                         |        |        |           |           | 10        | 1           |            |\n|                                                                     | Habilitation électrique                         | 4                          |        | 16     |           |           | 20        | 1           |            |\n|                                                                     | Total STI1                                      | 52                         | 14     | 96     | 8         |           | 170       |             | 11         |\n| **SHEJS2 (Sciences Humaines, Economiques, Juridiques et Sociales)** | Management des équipes                          | 8                          | 10     |        | 2         |           | 20        | 1           |            |\n|                                                                     | Droit du travail                                | 8                          | 6      |        | 1         |           | 15        | 1           |            |\n|                                                                     | Finances pour l'entreprise                      | 8                          | 10     |        | 2         |           | 20        | 1           |            |\n|                                                                     | Gestion des ressources humaines                 |                            | 14     |        | 1         |           | 15        | 1           |            |\n|                                                                     | Projet solidaire                                |                            | 10     |        |           | 20        | 10        | 3           |            |\n|                                                                     | Total SHEJS2                                    | 24                         | 50     | 0      | 6         |           | 80        |             | 7          |\n| **OI2 : Ouverture Internationale**                                  | LV1 (Anglais)                                   |                            | 28     |        |           |           | 28        | 1           |            |\n|                                                                     | LV1 (TOEIC)                                     |                            |        |        | 2         |           | 2         | 1           |            |\n|                                                                     | LV2 (Allemand, Espagnol...)                     |                            | 20     |        |           |           | 20        | 1           |            |\n|                                                                     | Soutien Anglais                                 |                            |        |        |           | 20        | 0         |             |            |\n|                                                                     | Total OI2                                       | 0                          | 48     | 0      | 2         |           | 50        |             | 3          |\n| **Conférences**                                                     | Conférences \"Associations\"                      |                            |        |        |           | 10        | 0         |             |            |\n| **Bonus**                                                           | Activités Sportives, Culturelles et Artistiques |                            |        |        |           |           | ½ j/s.    |             | Bonus      |\n| **TOTAL**                                                           |                                                 |                            |        |        |           |           | **430**   |             | **30**     |  \n*Tableau 2: programme du semestre S6 de février à mai (18 semaines).*"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quelle est la principale raison pour laquelle le texte indique que les étudiants doivent posséder des notions de base en Python avant de suivre l'unité d'enseignement \"S5: Algorithmique avancée et programmation\" ?",
+        "context": "Le tableau décrit l'unité d'enseignement \"S5: Algorithmique avancée et programmation\" pour la première année du Cycle Ingénieur (CING1) dans le domaine de l'agroalimentaire. Cette unité est enseignée dans le cadre de la Formation Initiale Sous Statut Apprenti (FISEA), qui combine formation en alternance et stages en entreprise.\n\nL'objectif de cette unité est de poser les bases du développement informatique en étudiant des structures de données dynamiques et des algorithmes avancés, ainsi que la conception et la programmation orientée objet. Les étudiants apprendront à utiliser le langage R pour ces différentes notions.\n\nLes prérequis pour suivre cette unité sont d'avoir des notions de base en algorithmique et de connaître les bases du langage Python, notamment la manipulation des boucles, des structures conditionnelles et des tableaux.\n\nLe programme de l'unité se divise en deux parties. La première partie rappelle les concepts de base en R, les structures de données et algorithmiques. La deuxième partie aborde la programmation orientée objet, en détaillant les notions de classe et d'objet, d'encapsulation, d'héritage, de méthodes abstraites et de polymorphisme. Les éléments de modélisation UML sont également abordés.\n\nLa bibliographie proposée pour cette unité comprend deux ouvrages : \"The Book of R: A First Course in Programming and Statistics\" de Tilman M. Davies et \"Programmation orientée objet en R\" de Sophie Baillargeon.\n\nLe contrôle des connaissances se fait sous forme d'un examen final, d'un contrôle continu et d'une évaluation des travaux pratiques.\n\nEnseignant responsable : S. REBOUL\n\nCoefficient : 1\n\nNombre d'heures de cours magistral (CM) : 10 heures\n\nNombre d'heures de travaux dirigés (TD) : 0 heure\n\nNombre d'heures de travaux pratiques/projets (TP/Projet) : 28 heures",
+        "answer": "Le texte indique que les étudiants doivent posséder des notions de base en Python, notamment la manipulation des boucles, des structures conditionnelles et des tableaux, car c'est un prérequis pour suivre l'unité d'enseignement \"S5: Algorithmique avancée et programmation\". Plus précisément, il est nécessaire pour avoir des bases en algorithmique.",
+        "ground_truth": "Les notions de base en Python servent de prérequis pour comprendre les concepts algorithmiques et les structures de données abordées dans l'unité.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "3 Descriptif des Eléments Constitutifs des Unités d’Enseignement",
+                    "Header_3": "3.1 Unités d’enseignements Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités",
+                    "Header_4": "3.1.1 Première année du Cycle Ingénieur (CING1)",
+                    "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+                    "type": "table_summary",
+                    "original_content": "**Location:** Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md > Introduction > 3 Descriptif des Eléments Constitutifs des Unités d’Enseignement > 3.1 Unités d’enseignements Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités > 3.1.1 Première année du Cycle Ingénieur (CING1)\n\nS5: Algorithmique avancée et programmation :  \n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Coefficient: 1        | CM: 10H00   | TD: 00H00   | TP/Projet: 28H00   |\n|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|--------------|--------------|---------------------|\n| Enseignant responsable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Enseignant responsable | S. REBOUL    | S. REBOUL    | S. REBOUL           |\n| **Objectifs**  **:**  La première partie de ce cours a comme objectif d'étudier des structures de données dynamiques et des algorithmes avancés afin de poser les bases du développement informatique. Cet apprentissage se fait à travers le langage R.  La deuxième partie aborde la conception et à la programmation orientée objet : classe, objet, encapsulation, héritage, méthodes abstraites, polymorphisme, éléments de modélisation UML.                                                                                                                                        |                        |              |              |                     |\n| **Prérequis**  :  Avoir les notions de base en algorithmique.  Connaître les bases du langage Python : savoir manipuler les boucles, les structures conditionnelles et les tableaux.                                                                                                                                                                                                                                                                                                                                                                                                      |                        |              |              |                     |\n| **Programme**  **:**  Partie 1  :  Rappel des concepts de base en R, structures de données et algorithmiques.  Partie 2  :  *Classe et objet*  : déclaration et définition, constructeur, accès aux attributs, encapsulation, l'objet courant « this »  *Délégation et héritage*  : agrégation/composition, l'héritage, généralisation/spécialisation, redéfinition des méthodes,  chaînage des constructeurs, visibilités des variables et méthodes, méthodes finales  *Héritage*  : principe de l'héritage, sur-classement, polymorphisme, surcharge et polymorphisme, classe abstraite |                        |              |              |                     |\n| **Bibliographie**  :  1. Tilman M. Davies, The Book of R: A First Course in Programming and Statistics, 2016 2. Sophie Baillargeon, Programmation orientée objet en R, 2021                                                                                                                                                                                                                                                                                                                                                                                                               |                        |              |              |                     |\n| **Contrôle des connaissances**  **:**  Examen Final + Contrôle Continu + Évaluation TP                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                        |              |              |                     |  "
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Combien d'heures de TD sont prévues pour l'UE \"Missions en entreprise\" (ME2) dans le programme S8 ?",
+        "context": "Le tableau présente le programme du semestre S8 de février à septembre (32 semaines) pour la deuxième année du Cycle Ingénieur (CING2) dans le cadre de la Formation Initiale Sous Statut Apprenti (FISEA). Il détaille les Unités d'Enseignement (UE), les Enseignements Complémentaires d'Utilisation des Compétences (ECUE), les horaires, les coefficients et les crédits ECTS pour chaque module.\n\nLes Sciences et Techniques de l'ingénieur (STI) sont réparties en deux modules : STI4 et STI5. STI4 comprend quatre ECUE avec un total de 90 heures de cours magistraux (CM) et 12 crédits ECTS, tandis que STI5 en comprend cinq avec un total de 110 heures de CM et 4 crédits ECTS. Les ECUE de STI4 et STI5 sont respectivement : Modélisation des systèmes dynamiques, Temps réel, Instrumentation et programmation visuelle, Recherche opérationnelle, Bases de données avancées, Web-services et architecture logicielle, et Présentation de la recherche.\n\nL'UE Ouverture Internationale (OI4) comprend quatre ECUE avec un total de 30 heures de CM et 3 crédits ECTS. Les ECUE sont LV1 (Anglais), LV1 (TOEIC), LV2 (Allemand, Espagnol, etc.) et Soutien Anglais.\n\nL'UE Missions en entreprise (ME2) comprend trois ECUE avec un total de 40 heures que de TD et 11 crédits ECTS. Les ECUE sont Jalon 2 : Poursuite des missions ingénieur en entreprise, Jalon 2 bis : Bureau d'Etudes technique et Retour d'alternances.\n\nLe tableau totalise 270 heures de CM et 30 crédits ECTS pour l'ensemble des UE du semestre S8.",
+        "answer": "L'UE \"Missions en entreprise\" (ME2) comprend trois ECUE avec un total de 40 heures de TD.",
+        "ground_truth": "40 heures.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Informatique_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "1 Structure des enseignements",
+                    "Header_3": "1.2 Deuxième année du Cycle Ingénieur (CING2)",
+                    "source": "./markdown_docs/Syllabus_EIL_Informatique_2024-2025 (FISEA).md",
+                    "type": "table_summary",
+                    "original_content": "**Location:** Syllabus_EIL_Informatique_2024-2025 (FISEA).md > Introduction > 1 Structure des enseignements > 1.2 Deuxième année du Cycle Ingénieur (CING2)\n\n| **UE**                                           | **ECUE**                                                 | **Horaires (en heures)**   |        |        |    |           |    |           |    |           |     | **Coef.**   |    | **ECTS**   |    |\n|--------------------------------------------------|----------------------------------------------------------|----------------------------|--------|--------|----|-----------|----|-----------|----|-----------|-----|-------------|----|------------|----|\n|                                                  |                                                          | **CM**                     | **TD** | **TP** |    | **Eval.** |    | **Autre** |    | **Total** |     |             |    |            |    |\n| **STI4 (Sciences et Techniques de l'ingénieur)** | Modélisation des systèmes dynamiques                     |                            | 30     |        |    |           |    |           |    | 30        | 30  | 1           | 1  |            |    |\n|                                                  | Temps réel                                               |                            | 30     |        |    |           |    |           |    | 30        | 30  | 1           | 1  |            |    |\n|                                                  | Instrumentation et programmation visuelle                |                            | 30     |        |    |           |    |           |    | 30        | 30  | 1           | 1  |            |    |\n|                                                  | Total STI4                                               | 0                          | 90     | 0      | 0  | 0         | 0  |           |    | 90        | 90  |             |    | 12         | 12 |\n| **STI5 (Sciences et Techniques de l'ingénieur)** | Recherche opérationnelle                                 |                            | 30     |        |    |           |    |           |    | 30        | 30  | 1           | 1  |            |    |\n|                                                  | Bases de données avancées                                |                            | 30     |        |    |           |    |           |    | 30        | 30  | 1           | 1  |            |    |\n|                                                  | Web-services et architecture logicielle                  |                            | 30     |        |    |           |    |           |    | 30        | 30  | 1           | 1  |            |    |\n|                                                  | Présentation de la recherche                             |                            | 20     |        |    |           |    |           |    | 20        | 20  | 1           | 1  |            |    |\n|                                                  | Total STI5                                               | 0                          | 110    | 0      | 0  | 0         | 0  |           |    | 110       | 110 |             |    | 4          | 4  |\n| **OI4 : Ouverture Internationale**               | LV1 (Anglais)                                            |                            | 28     |        |    |           |    |           |    | 28        | 28  | 1           | 1  |            |    |\n|                                                  | LV1 (TOEIC)                                              |                            |        |        |    | 2         | 2  |           |    | 2         | 2   | 1           | 1  |            |    |\n|                                                  | LV2 (Allemand, Espagnol...)                              |                            |        |        |    |           |    | 20        | 20 | 0         | 0   | 1           | 1  |            |    |\n|                                                  | Soutien Anglais                                          |                            |        |        |    |           |    | 20        | 20 | 0         | 0   |             |    |            |    |\n|                                                  | Total OI4                                                | 0                          | 28     | 0      | 0  | 2         | 2  |           |    | 30        | 30  |             |    | 3          | 3  |\n| **ME2 (Missions en entreprise)**                 | Jalon 2 : Poursuite des missions ingénieur en entreprise |                            | 40     | 40     |    |           |    |           |    |           | 40  | 40          | 2  | 2          |    |\n|                                                  | Jalon 2 bis : Bureau d'Etudes technique                  |                            | 40     | 40     |    |           |    |           |    |           | 40  | 40          | 1  | 1          |    |\n|                                                  | Retour d'alternances                                     |                            |        |        |    |           |    |           | 10 | 10        | 0   | 0           |    |            |    |\n|                                                  | Total ME2                                                |                            | 40     | 40     |    |           |    |           |    |           | 40  | 40          |    |            | 11 |\n| **TOTAL**                                        |                                                          |                            |        |        |    |           |    |           |    | **270**   |     |             |    | **30**     |    |  \n*Tableau 4: programme du semestre S8 de février à septembre (32 semaines).*"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_004",
+        "question": "Quelle application est utilisée pour l'autoévaluation des compétences des apprentis, ainsi que par le maître d'apprentissage et le tuteur école, concernant les jalons de formation ?",
+        "context": "L’ensemble des éléments (attendus des jalons, attendus des restitutions, etc.) sont accessible sur le Livret Electronique de l’Apprenti.  \nL’évaluation des niveaux de compétences associés à ces jalons de formation est effectuée, à chaque semestre, sur l’application *NetYpareo* par l’apprenti (autoévaluation), le maitre d’apprentissage et le tuteur école.",
+        "answer": "L’application *NetYpareo* est utilisée pour l’autoévaluation des compétences des apprentis, ainsi que par le maître d’apprentissage et le tuteur école, concernant les jalons de formation.",
+        "ground_truth": "NetYpareo.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "2 Spécificités de la formation en apprentissage",
+                    "Header_3": "2.2 Retours d’alternance et jalons de formation",
+                    "source": "./markdown_docs/Syllabus_EIL_Informatique_2024-2025 (FISEA).md",
+                    "type": "text"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_006",
+        "question": "Quelle est la nature de la première tâche attendue lors du \"Jalon 1\" de la formation, et quel type de recherche est requis de la part de l'apprenti ?",
+        "context": "#### 2.2.1 Jalon 1 (Semestre S7)  \nCe jalon appelé «Jalon 1: Intégration des missions (Entreprise et note de cadrage)» porte essentiellement sur une présentation critique de l’entreprise basée sur une recherche proactive d’informations de la part de l’apprenti et sur la réalisation d’une note de note de cadrage associée à une des premières missions de l’apprenti.",
+        "answer": "La première tâche attendue lors du \"Jalon 1\" est la réalisation d'une note de cadrage associée à une des premières missions de l'apprenti. De plus, l'apprenti doit effectuer une recherche proactive d'informations pour la présentation critique de l'entreprise.",
+        "ground_truth": "L'apprenti doit présenter une analyse critique de l'entreprise et rédiger une note de cadrage basée sur une recherche proactive.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "2 Spécificités de la formation en apprentissage",
+                    "Header_3": "2.2 Retours d’alternance et jalons de formation",
+                    "Header_4": "2.2.1 Jalon 1 (Semestre S7)",
+                    "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).md",
+                    "type": "text"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_007",
+        "question": "Quelle est la principale motivation de l'EIL Côte d'Opale à encourager la vie associative parmi ses élèves ingénieurs ?",
+        "context": "#### 3.1.4 Projet de Vie Associative  \nLes associations et les clubs sont de réelles micro-entreprises. Pour les élèves ingénieurs, la vie associative offre la possibilité de réaliser des projets en équipe, de s’initier à la prise de responsabilité, d’aborder le monde professionnel. Cette vie associative va non seulement permettre aux fondateurs de vivre une aventure humaine unique mais aussi de compléter leur curriculum vitae.  \nPour l’EIL Côte d’Opale, la vie associative permet de valoriser et de promouvoir l’EIL Côte d’Opale aux niveaux internes (ULCO, école, ...), local (Boulogne-sur-Mer, Calais, Dunkerque, Longuenesse, ...) et régional. L’EIL Côte d’Opale garantit à ses élèves ingénieurs une vie extra-universitaire enrichissante.  \nSont définis comme clubs ou associations:  \n- les clubs ou associations déjà existants (BDE, BDS, Gala, Engineering Solution,etc.),\n- les clubs ou associations lancés à l'initiative des élèves ingénieurs (après acceptation par la Direction de l'École).  \nRemarques : certains clubs ou associations sont considérés comme «Majeurs» (BDE, BDS, Gala,etc.), donc prioritaires pour l’EIL Côte d’Opale.  \n**La vie associative est obligatoire pour les élèves ingénieurs qui doivent reprendre ou créer une association ou un club en deuxième année du Cycle Ingénieur (éventuellement en première année)** . Les associations ou clubs, gérés par les élèves ingénieurs de deuxième année ont pour but de créer des liens entre l'École et le tissu économique, sportif et éducatif de la région. **Leur création est subordonnée à l'accord préalable de la Direction** .",
+        "answer": "La principale motivation de l'EIL Côte d'Opale à encourager la vie associative parmi ses élèves ingénieurs est de valoriser et de promouvoir l'EIL Côte d'Opale aux niveaux internes (ULCO, école, …), local (Boulogne-sur-Mer, Calais, Dunkerque, Longuenesse, …) et régional. De plus, elle vise à créer des liens entre l'École et le tissu économique, sportif et éducatif de la région.",
+        "ground_truth": "Valoriser et promouvoir l'EIL Côte d'Opale et créer des liens avec la région.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+            "Header_1": "Introduction",
+            "Header_2": "3 Projets et stages",
+            "Header_3": "3.1 Projets",
+            "Header_4": "3.1.4 Projet de Vie Associative",
+            "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+            "type": "text"
+        }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_009",
+        "question": "Quelle est la répartition géographique des spécialités proposées par l’École d’Ingénieurs du Littoral Côte d’Opale ?",
+        "context": "# Introduction  \nL'École d'Ingénieurs du Littoral Côte d’Opale (EIL Côte d’Opale) est un établissement public d'enseignement technique supérieur créé en septembre 2010.  \nLe diplôme est reconnu par la Commission des Titres d'Ingénieur (CTI).  \nL'objectif de l'École est de former des ingénieurs généralistes en cinq ans dans quatre spécialités:  \n- La spécialité «Informatique» sur le site de Calais,\n- La spécialité «Génie Industriel» sur le site de Longuenesse (Saint-Omer),\n- La spécialité «GénieÉnergétique et Environnement » sur le site de Dunkerque,\n- La spécialité «Agroalimentaire » sur le site de Boulogne sur mer.  \nL’entrée dans l’École peut se faire:  \n- Soit directement en Cycle Ingénieur sur l’un des quatre sites,\n- Soit en Cycle Préparatoire Intégré sur les sites de Calais et Dunkerque  \nChaque cycle de formation dispose d’un secrétariat pédagogique et chaque année de formation est dirigée par un Directeur des Études qui est le principal interlocuteur des élèves ingénieurs de son année.  \n- Directeur des Études de la première année du Cycle Ingénieur de la spécialité «GénieÉnergétique et Environnement » (CING1-GEE-FISEA): Francis Hindle (03 28 73 76 31 – [genieee1@eilco.univ-littoral.fr](mailto:genieee1@eilco.univ-littoral.fr) )\n- Directeur des Études de la deuxième année du Cycle Ingénieur de la spécialité «GénieÉnergétique et Environnement » (CING2-GEE-FISEA): Benoit FORTIN ( [fisea2&amp;3@eilco.univ-littoral.fr](mailto:fisea2&3@eilco.univ-littoral.fr) )\n- Directeur des Études de la troisième année du Cycle Ingénieur de la spécialité «GénieÉnergétique et Environnement » (CING3-GEE-FISEA): Benoit FORTIN ( [fisea2&amp;3@eilco.univ-littoral.fr](mailto:fisea2&3@eilco.univ-littoral.fr) )\n- Secrétaire Pédagogique du Cycle Ingénieur de la spécialité «GénieÉnergétique et Environnement » (CING1-GEE-FISEA) : Marion Chailleux (03 28 23 70 77 – [secretariatgee@eilco.univ-littoral.fr](mailto:secretariatgee@eilco.univ-littoral.fr) )",
+        "answer": "L’École d’Ingénieurs du Littoral Côte d’Opale propose quatre spécialités réparties sur quatre sites différents :\n\n*   **Informatique** sur le site de Calais.\n*   **Génie Industriel** sur le site de Longuenesse (Saint-Omer).\n*   **Génie Énergétique et Environnement** sur le site de Dunkerque.\n*   **Agroalimentaire** sur le site de Boulogne sur Mer.",
+        "ground_truth": "L'École propose quatre spécialités réparties sur Calais, Longuenesse, Dunkerque et Boulogne-sur-Mer pour les quatres sepécialité Informatique, Industriel, Énergétique et Environnement et Agroalimentaire respectivement.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).md",
+                "metadata": {
+            "Header_1": "Introduction",
+            "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISE).md",
+            "type": "text"
+        }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_012",
+        "question": "Quel est le coefficient associé à l'unité d'enseignement \"Technique de communication\" du CING1 de la formation FISEA specialité agroalimentaire ?",
+        "context": "Le tableau décrit une unité d'enseignement intitulée \"Technique de communication\" faisant partie du Cycle Ingénieur (CING1) de la première année du programme FISEA (Formation Initiale Sous Statut Apprenti). Cette unité d'enseignement est dispensée par l'enseignant P. Caron et est évaluée à hauteur de 1 coefficient. Elle ne comporte pas de cours magistraux (CM) mais 14 heures de travaux dirigés (TD) et aucun travail pratique ou projet (TP/Projet).\n\nLes objectifs de cette unité d'enseignement sont de permettre à l'étudiant d'acquérir les techniques de communication, en tant qu'étudiant et futur manager. Les prérequis nécessaires pour suivre cette unité sont une maîtrise de la langue française, à la fois à l'oral et à l'écrit.\n\nLe programme de l'unité d'enseignement comprend plusieurs thèmes : la rédaction d'un CV et d'une lettre de motivation ainsi que la réussite d'un entretien, la prise de parole en public, la communication en entreprise (publicité, logo, journalisme), la rédaction d'un rapport de stage et la présentation d'une soutenance, ainsi que la communication avec le monde asiatique.\n\nLa bibliographie proposée pour cette unité d'enseignement comprend quatre ouvrages : \"5 minutes pour convaincre\" de Jean Claude Martin, \"Heureux qui communique\" de Jacques Salomé, \"Présentation désign\" de Frédéric Le Bihan et Anne Flore Cabouat, et \"S'affirmer et communiquer\" de Jean Marie Boisvert et Madeleine Beaudry.\n\nL'évaluation de cette unité d'enseignement se fait à travers un examen final ainsi qu'un contrôle continu.",
+        "answer": "L'unité d'enseignement \"Technique de communication\" du CING1 de la formation FISEA Agroalme,taire est évaluée à hauteur de 1 coefficient.",
+        "ground_truth": "Le coefficient associé est de 1.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+                "metadata": {
+            "Header_1": "Introduction",
+            "Header_2": "3 Descriptif des Eléments Constitutifs des Unités d’Enseignement",
+            "Header_3": "3.2 Unités d’enseignements Sciences Humaines, Economiques, Juridiques et Sociales",
+            "Header_4": "3.2.1 Première année du Cycle Ingénieur (CING1)",
+            "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+            "type": "table_summary",
+            "original_content": "**Location:** Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md > Introduction > 3 Descriptif des Eléments Constitutifs des Unités d’Enseignement > 3.2 Unités d’enseignements Sciences Humaines, Economiques, Juridiques et Sociales > 3.2.1 Première année du Cycle Ingénieur (CING1)\n\nTechnique de communication :  \n|                                                                                                                                                                                                                                                                                                   | Coefficient: 1   | CM: 00H00   | TD: 14H00   | TP/Projet: 00H00   |\n|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------|--------------|---------------------|\n| Enseignant(s)                                                                                                                                                                                                                                                                                     | Enseignant(s)     | P. Caron     | P. Caron     | P. Caron            |\n| **Objectifs**  **:**  Permettre à l’étudiant d’acquérir les techniques de communication, en tant qu’étudiant et futur manager.                                                                                                                                                                    |                   |              |              |                     |\n| **Prérequis**  :  Maîtrise de la langue française, orale et rédactionnelle                                                                                                                                                                                                                        |                   |              |              |                     |\n| **Programme**  **:**  -Rédiger un CV et une lettre de motivation et réussir son entretien.  -Prendre la parole en public.  -Communiquer en entreprise (publicité, logo, journalisme…).  -Rédiger un rapport de stage et présenter une soutenance.  -Communiquer avec le monde (asiatique….). |                   |              |              |                     |\n| **Bibliographie**  :  1. \"5 minutes pour convaincre\" de Jean Claude Martin 2. \"Heureux qui communique\" de Jacques Salomé 3. \"Présentation désign\" de Frédéric Le Bihan et Anne Flore Cabouat 4. \"S'affirmer et communiquer\" de Jean Marie Boisvert et Madeleine Beaudry                           |                   |              |              |                     |\n| **Modalités d’évaluation**  **:**  Examen Final + Contrôle Continu                                                                                                                                                                                                                                |                   |              |              |                     |  "
+        }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_014",
+        "question": "Quelle est la répartition des crédits ECTS (ECTS) entre les UE principales STI4 et STI5 dans le programme S8 de Génie Énergetique et Environnement FISEA CING2 ?",
+        "context": "Le tableau présente le programme du semestre S8 de février à septembre (32 semaines) pour la deuxième année du Cycle Ingénieur (CING2) dans le cadre de la Formation Initiale Sous Statut Apprenti (FISEA) en Génie Énergetique et Environnement.\n\nLe tableau est organisé en colonnes qui représentent les différentes Unités d'Enseignement (UE), les Enseignements Complémentaires d'Utilité Publique (ECUE), les horaires en heures pour les Cours Magistraux (CM), les Travaux Dirigés (TD), les Travaux Pratiques (TP), les évaluations, les autres activités et le total des heures pour chaque UE. Il indique également le coefficient et le nombre d'ECTS (European Credit Transfer System) associés à chaque ECUE.\n\nLes UE principales sont STI4 (Sciences et Techniques de l'ingénieur) et STI5 (Sciences et Techniques de l'ingénieur), qui comprennent respectivement 12 et 4 ECTS. STI4 se concentre sur les échangeurs de chaleur, les moteurs/cycles thermiques et le froid industriel, tandis que STI5 couvre les conversions électromécaniques et les réseaux d'énergie, l'écologie industrielle, le management de l'énergie/ISO 50001 et la présentation de la recherche.\n\nL'UE OI4 (Ouverture Internationale) comprend 3 ECTS et se concentre sur l'apprentissage de langues vivantes (LV1, LV2) et le soutien en anglais. L'UE ME2 (Missions en entreprise) comprend 11 ECTS et se concentre sur les missions d'ingénieur en entreprise, le bureau d'études techniques et le retour d'alternances.\n\nLe tableau indique également le total des heures pour chaque UE et le total général de 270 heures pour le semestre, ainsi que le total des ECTS de 30 pour la deuxième année du Cycle Ingénieur.",
+        "answer": "STI4 compte 12 ECTS et STI5 compte 4 ECTS.",
+        "ground_truth": "STI4 compte 12 ECTS et STI5 compte 4 ECTS.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).md",
+                "metadata": {
+            "Header_1": "Introduction",
+            "Header_2": "1 Structure des enseignements",
+            "Header_3": "1.2 Deuxième année du Cycle Ingénieur (CING2)",
+            "source": "./markdown_docs/Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).md",
+            "type": "table_summary",
+            "original_content": "**Location:** Syllabus_EIL_Génie-Energetique-Environnement_2024-2025 (FISEA).md > Introduction > 1 Structure des enseignements > 1.2 Deuxième année du Cycle Ingénieur (CING2)\n\n| **UE**                                           | **ECUE**                                                 | **Horaires (en heures)**   |        |        |    |           |    |           |    |           |     | **Coef.**   |    | **ECTS**   |    |\n|--------------------------------------------------|----------------------------------------------------------|----------------------------|--------|--------|----|-----------|----|-----------|----|-----------|-----|-------------|----|------------|----|\n|                                                  |                                                          | **CM**                     | **TD** | **TP** |    | **Eval.** |    | **Autre** |    | **Total** |     |             |    |            |    |\n| **STI4 (Sciences et Techniques de l'ingénieur)** | Echangeurs de chaleur                                    |                            | 40     |        |    |           |    |           |    | 40        | 40  | 1           | 1  |            |    |\n|                                                  | Moteurs/cycles thermiques                                |                            | 40     |        |    |           |    |           |    | 40        | 40  | 1           | 1  |            |    |\n|                                                  | Froid industriel                                         |                            | 30     |        |    |           |    |           |    | 30        | 30  | 1           | 1  |            |    |\n|                                                  | Total STI4                                               | 0                          | 110    | 0      | 0  | 0         | 0  |           |    | 110       | 110 |             |    | 12         | 12 |\n| **STI5 (Sciences et Techniques de l'ingénieur)** | Conversions électromécaniques et réseaux d’énergie       |                            | 40     |        |    |           |    |           |    | 40        | 40  | 1           | 1  |            |    |\n|                                                  | Ecologie industrielle                                    |                            | 15     |        |    |           |    |           |    | 15        | 15  | 1           | 1  |            |    |\n|                                                  | Management de l’énergie/ ISO 50001                       |                            | 15     |        |    |           |    |           |    | 15        | 15  | 1           | 1  |            |    |\n|                                                  | Présentation de la recherche                             |                            | 20     |        |    |           |    |           |    | 20        | 20  | 1           | 1  |            |    |\n|                                                  | Total STI5                                               | 0                          | 90     | 0      | 0  | 0         | 0  |           |    | 90        | 90  |             |    | 4          | 4  |\n| **OI4 : Ouverture Internationale**               | LV1 (Anglais)                                            |                            | 28     |        |    |           |    |           |    | 28        | 28  | 1           | 1  |            |    |\n|                                                  | LV1 (TOEIC)                                              |                            |        |        |    | 2         | 2  |           |    | 2         | 2   | 1           | 1  |            |    |\n|                                                  | LV2 (Allemand, Espagnol...)                              |                            |        |        |    |           |    | 20        | 20 | 0         | 0   | 1           | 1  |            |    |\n|                                                  | Soutien Anglais                                          |                            |        |        |    |           |    | 20        | 20 | 0         | 0   |             |    |            |    |\n|                                                  | Total OI4                                                | 0                          | 28     | 0      | 0  | 2         | 2  |           |    | 30        | 30  |             |    | 3          | 3  |\n| **ME2 (Missions en entreprise)**                 | Jalon 2 : Poursuite des missions ingénieur en entreprise |                            | 40     | 40     |    |           |    |           |    |           | 40  | 40          | 2  | 2          |    |\n|                                                  | Jalon 2 bis : Bureau d'Etudes technique                  |                            | 40     | 40     |    |           |    |           |    |           | 40  | 40          | 1  | 1          |    |\n|                                                  | Retour d'alternances                                     |                            |        |        |    |           |    |           | 10 | 10        | 0   | 0           |    |            |    |\n|                                                  | Total ME2                                                |                            | 40     | 40     |    |           | 0  | 0         |    |           | 40  | 40          |    |            | 11 |\n| **TOTAL**                                        |                                                          |                            |        |        |    |           |    |           |    | **270**   |     |             |    | **30**     |    |  \n*Tableau 4: programme du semestre S8 de février à septembre (32 semaines).*"
+        }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Quelle est la constitution ou la composition du conseil de perfectionnement de l'école ?",
+        "context": "Le Conseil de Perfectionnement se réunit une fois par an au moins, pour assurer le suivi et le développement de l’enseignement, en fonction des besoins au niveau national et au niveau international des secteurs industriels concernés. Il propose au Conseil de l'École des modifications de programmes et la création de nouvelles filières. **Le Conseil de Perfectionnement** élit son Président parmi les personnalités extérieures. Ses membres sont désignés pour une durée de trois ans par le Conseil de l'École. Sa composition est la suivante : - le Directeur de l'École ou le Directeur adjoint de l’École, - le Directeur de la formation de l’École, - le Directeur de l’alternance et des relations entreprises, - quatre personnalités extérieures représentatives des secteurs industriels en rapport avec les formations de l'École, dont le président du conseil de perfectionnement - deux personnalités représentant les organisations patronales ",
+        "answer": " le conseil en question est composé de : le Directeur de l'École ou le Directeur adjoint de l’École, - le Directeur de la formation de l’École, - le Directeur de l’alternance et des relations entreprises, - quatre personnalités extérieures représentatives des secteurs industriels en rapport avec les formations de l'École, dont le président du conseil de perfectionnement - deux personnalités représentant les organisations patronales",
+        "ground_truth": "- le Directeur de l'École ou le Directeur adjoint de l’École, - le Directeur de la formation de l’École, - le Directeur de l’alternance et des relations entreprises, - quatre personnalités extérieures représentatives des secteurs industriels en rapport avec les formations de l'École, dont le président du conseil de perfectionnement - deux personnalités représentant les organisations patronales",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/REGLEMENT INTERIEUR 2024-2025.md"
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Quels sont les temps d'accès aux quatre site de l'ecole?",
+        "context": "Les sites de Calais, Saint-Omer, Dunkerque et Boulogne-sur-Mer sont ouverts du lundi au vendredi de 7h00 (7h30 à Dunkerque) à 20h00 et certains samedis (journée portes ouvertes). L'école est fermée jours fériés, ponts et périodes de vacances définis par la Direction. Toute personne pénétrant dans le campus est tenue d'en respecter le règlement et les consignes de sécurité. Les membres de l'École peuvent occasionnellement inviter des personnes extérieures. Ils en sont alors responsables et doivent les enregistrer à l'accueil et les accompagner dans leurs déplacements au sein de l'établissement.",
+        "answer": "Les heures d'accès a aux quatre sites est de 7h00 (7h30 à Dunkerque) à 20h00 et certains samedis (journée portes ouvertes)",
+        "ground_truth": "de 7h00 (7h30 à Dunkerque) à 20h00 et certains samedis (journée portes ouvertes)",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/REGLEMENT INTERIEUR 2024-2025.md"
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "id": "sample_018",
+        "question": "Quelle est la répartition horaire, en heures de cours magistral, de l'UE \"Normes et référentiels qualité\" dans le programme du semestre S7 du CING2 en agroalimentaire ?",
+        "context": "Le tableau présente le programme du semestre S7 de septembre à janvier (23 semaines) pour la deuxième année du Cycle Ingénieur (CING2) dans le domaine de l'agroalimentaire, dans le cadre de la Formation Initiale Sous Statut Apprenti (FISEA).\n\nLe programme est divisé en plusieurs Unités d'Enseignement (UE) : STI2, STI3, OI3 et ME1.\n\nL'UE STI2 (Sciences et Techniques de l'ingénieur) comprend quatre ECUE (Ensembles Cohérents d'Unités d'Enseignement) :\n\n* Biotechnologie des fermentations (40 heures de cours magistral)\n* Outils analytiques appliqués à l'agroalimentaire (30 heures de cours magistral)\n* Procédés de transformation agroalimentaires (40 heures de cours magistral)\n\nL'UE STI3 (Sciences et Techniques de l'ingénieur) comprend également quatre ECUE :\n\n* Planification et lancement (30 heures de cours magistral)\n* Normes et référentiels qualité (40 heures de cours magistral)\n* ERP (Enterprise Ressource Planning) (30 heures de cours magistral)\n\nL'UE OI3 (Ouverture Internationale) comprend quatre ECUE :\n\n* LV1 (Anglais) (28 heures de cours magistral)\n* LV1 (TOEIC) (2 heures d'évaluation)\n* LV2 (Allemand, Espagnol...) (20 heures d'autres activités)\n\nL'UE ME1 (Missions en entreprise) comprend quatre ECUE :\n\n* Jalon 1 : Intégration des missions Ingénieur en entreprise (30 heures de cours magistral)\n* Jalon 1 bis : Entrepreneuriat et Produit (30 heures de cours magistral)\n* Retour d'alternances (10 heures d'autres activités)\n\nLe tableau indique également le nombre total d'heures pour chaque UE, le coefficient et le nombre d'ECTS (European Credit Transfer System) associés à chaque ECUE.\n\nEn résumé, le programme du semestre S7 de septembre à janvier (23 semaines) pour la deuxième année du Cycle Ingénieur (CING2) dans le domaine de l'agroalimentaire comprend des enseignements en sciences et techniques de l'ingénieur, en ouverture internationale et en missions en entreprise. Les ECUE sont évalués en heures de cours magistral, d'évaluation ou d'autres activités, avec des coefficients et des ECTS associés.",
+        "answer": "L'UE \"Normes et référentiels qualité\" comprend 40 heures de cours magistral.",
+        "ground_truth": "L'UE \"Normes et référentiels qualité\" comprend 40 heures de cours magistral.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+                "metadata": {
+            "Header_1": "Introduction",
+            "Header_2": "1 Structure des enseignements",
+            "Header_3": "1.2 Deuxième année du Cycle Ingénieur (CING2)",
+            "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+            "type": "table_summary",
+            "original_content": "**Location:** Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md > Introduction > 1 Structure des enseignements > 1.2 Deuxième année du Cycle Ingénieur (CING2)\n\n| **UE**                                           | **ECUE**                                                   | **Horaires (en heures)**   |        |        |           |           |           | **Coef.**   | **ECTS**   |\n|--------------------------------------------------|------------------------------------------------------------|----------------------------|--------|--------|-----------|-----------|-----------|-------------|------------|\n|                                                  |                                                            | **CM**                     | **TD** | **TP** | **Eval.** | **Autre** | **Total** |             |            |\n| **STI2 (Sciences et Techniques de l'ingénieur)** | Biotechnologie des fermentations                           |                            | 40     |        |           |           | 40        | 1           |            |\n|                                                  | Outils analytiques appliqués à l'agroalimentaire           |                            | 30     |        |           |           | 30        | 1           |            |\n|                                                  | Procédés de transformation agroalimentaires                |                            | 40     |        |           |           | 40        | 1           |            |\n|                                                  | Total STI2                                                 | 0                          | 110    | 0      | 0         |           | 110       |             | 8          |\n| **STI3 (Sciences et Techniques de l'ingénieur)** | Planification et lancement                                 |                            | 30     |        |           |           | 30        | 1           |            |\n|                                                  | Normes et référentiels qualité                             |                            | 40     |        |           |           | 40        | 1           |            |\n|                                                  | ERP (Enterprise Ressource Planning)                        |                            | 30     |        |           |           | 30        | 1           |            |\n|                                                  | Total STI3                                                 | 0                          | 100    | 0      | 0         |           | 100       |             | 8          |\n| **OI3 : Ouverture Internationale**               | LV1 (Anglais)                                              |                            | 28     |        |           |           | 28        | 1           |            |\n|                                                  | LV1 (TOEIC)                                                |                            |        |        | 2         |           | 2         | 1           |            |\n|                                                  | LV2 (Allemand, Espagnol...)                                |                            |        |        |           | 20        | 0         | 1           |            |\n|                                                  | Total OI3                                                  | 0                          | 30     | 0      | 0         |           | 30        |             | 3          |\n| **ME1 (Missions en entreprise)**                 | Jalon 1 : Intégration des missions Ingénieur en entreprise |                            | 30     |        |           |           | 30        | 2           |            |\n|                                                  | Jalon 1 bis : Entrepreneuriat et Produit                   |                            | 30     |        |           |           | 30        | 1           |            |\n|                                                  | Retour d'alternances                                       |                            |        |        |           | 10        | 0         |             |            |\n|                                                  | Total ME1                                                  |                            | 30     |        | 0         |           | 30        |             | 11         |\n| **TOTAL**                                        |                                                            |                            |        |        |           |           | **270**   |             | **30**     |  \n*Tableau 3: programme du semestre S7 de septembre à janvier (23 semaines).*  "
+        }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Quelle est année en spécialité informatique etudie le cours de la recherche opérationnelle  ",
+        "context": "Le tableau présente le programme du semestre S8 de janvier à avril (14 semaines) pour les étudiants de deuxième année du Cycle Ingénieur (CING2) en Formation Initiale Sans Statut Étudiant (FISE). Il est organisé en unités d'enseignement (UE) et en enseignements complémentaires à l'unité d'enseignement (ECUE).\n\nLes UE sont les suivantes :\n\n* STI4 (Sciences et Techniques de l'ingénieur) : Modélisation des systèmes dynamiques, Temps réel, Instrumentation et programmation visuelle.\n* STI5 (Sciences et Techniques de l'ingénieur) : Recherche opérationnelle, Bases de données avancées, Web-services et architecture logicielle.\n* SS1 : Recherche et développement (Sciences de Spécialité) : Présentation de la recherche, Bureau d'études techniques.\n* SHEJS4 (Sciences Humaines, Economiques, Juridiques et Sociales) : Stratégie d'entreprises, Droit de la propriété intellectuelle, Droit de l'environnement, Projet associatif.\n* OI4 : Ouverture Internationale : LV1 (Anglais), LV1 (TOEIC), LV2 (Allemand, Espagnol...), Soutien Anglais.\n* Conférences : Conférences «Insertion professionnelle».\n* Bonus : Activités Sportives, Culturelles et Artistiques.\n\nChaque ECUE est détaillée avec le nombre d'heures de cours magistraux (CM), de travaux dirigés (TD), de travaux pratiques (TP), d'évaluation et d'autres activités. Le tableau indique également le coefficient et le nombre d'ECTS (European Credit Transfer System) associés à chaque ECUE.\n\nLe total des heures pour chaque UE est également indiqué, ainsi que le total général pour l'ensemble du semestre, qui s'élève à 310 heures. Le nombre total d'ECTS pour l'ensemble du semestre est de 30.\n\nEn résumé, le tableau présente le programme détaillé du semestre S8 pour les étudiants de deuxième année du Cycle Ingénieur en FISE, avec des UE variées allant des sciences de l'ingénieur aux sciences humaines et à l'ouverture internationale. Chaque ECUE est détaillée avec le nombre d'heures d'enseignement et le nombre d'ECTS associés.",
+        "answer": "Les etudiants en deuxième année génie informatique FISE etudie la recherche operationnelle en semestre 7. ",
+        "ground_truth": "étudiants de deuxième année du Cycle Ingénieur (CING2) Génie Informatique FISE",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Informatique_2024-2025 (FISE).md",
+                "metadata": {
+            "Header_1": "Introduction",
+            "Header_2": "1 Structure des enseignements",
+            "Header_3": "1.2 Deuxième année du Cycle Ingénieur (CING2)",
+            "source": "./markdown_docs/Syllabus_EIL_Informatique_2024-2025 (FISE).md",
+            "type": "table_summary",
+            "original_content": "**Location:** Syllabus_EIL_Informatique_2024-2025 (FISE).md > Introduction > 1 Structure des enseignements > 1.2 Deuxième année du Cycle Ingénieur (CING2)\n\n| **UE**                                                              | **ECUE**                                        | **Horaires (en heures)**   |        |        |           |           |           | **Coef.**   | **ECTS**   |\n|---------------------------------------------------------------------|-------------------------------------------------|----------------------------|--------|--------|-----------|-----------|-----------|-------------|------------|\n|                                                                     |                                                 | **CM**                     | **TD** | **TP** | **Eval.** | **Autre** | **Total** |             |            |\n| **STI4 (Sciences et Techniques de l'ingénieur)**                    | Modélisation des systèmes dynamiques            | 10                         | 18     |        | 2         |           | 30        | 3           |            |\n|                                                                     | Temps réel                                      | 10                         | 6      | 12     | 2         |           | 30        | 2           |            |\n|                                                                     | Instrumentation et programmation visuelle       | 2                          | 14     | 12     | 2         |           | 30        | 2           |            |\n|                                                                     | Total STI4                                      | 22                         | 38     | 24     | 6         |           | 90        |             | 7          |\n| **STI5 (Sciences et Techniques de l'ingénieur)**                    | Recherche opérationnelle                        | 8                          | 8      | 12     | 2         |           | 30        | 1           |            |\n|                                                                     | Bases de données avancées                       | 10                         | 10     | 8      | 2         |           | 30        | 1           |            |\n|                                                                     | Web-services et architecture logicielle         | 10                         | 8      | 10     | 2         |           | 30        | 1           |            |\n|                                                                     | Total STI5                                      | 28                         | 26     | 30     | 6         |           | 90        |             | 6          |\n| **SS1 : Recherche et développement (Sciences de Spécialité)**       | Présentation de la recherche                    | 8                          | 12     |        |           |           | 20        | 1           |            |\n|                                                                     | Bureau d'études techniques                      |                            | 10     |        |           | 40        | 10        | 3           |            |\n|                                                                     | Total SS1                                       | 8                          | 22     | 0      | 0         |           | 30        |             | 8          |\n| **SHEJS4 (Sciences Humaines, Economiques, Juridiques et Sociales)** | Stratégie d'entreprises                         | 10                         | 8      |        | 2         |           | 20        | 1           |            |\n|                                                                     | Droit de la propriété intellectuelle            | 10                         | 4      |        | 1         |           | 15        | 1           |            |\n|                                                                     | Droit de l'environnement                        | 8                          | 6      |        | 1         |           | 15        | 1           |            |\n|                                                                     | Projet associatif                               |                            |        |        |           |           | 0         | 3           |            |\n|                                                                     | Total SHEJ4                                     | 28                         | 18     | 0      | 4         |           | 50        |             | 6          |\n| **OI4 : Ouverture Internationale**                                  | LV1 (Anglais)                                   |                            | 28     |        |           |           | 28        | 1           |            |\n|                                                                     | LV1 (TOEIC)                                     |                            |        |        | 2         |           | 2         | 1           |            |\n|                                                                     | LV2 (Allemand, Espagnol...)                     |                            | 20     |        |           |           | 20        | 1           |            |\n|                                                                     | Soutien Anglais                                 |                            |        |        |           | 20        | 0         |             |            |\n|                                                                     | Total OI4                                       | 0                          | 48     | 0      | 2         |           | 50        |             | 3          |\n| **Conférences**                                                     | Conférences «Insertion professionnelle»       |                            |        |        |           | 10        | 0         |             |            |\n| **Bonus**                                                           | Activités Sportives, Culturelles et Artistiques |                            |        |        |           |           | ½ j/s.    |             | Bonus      |\n| **TOTAL**                                                           |                                                 |                            |        |        |           |           | **310**   |             | **30**     |  \n*Tableau 4: programme du semestre S8 de janvier à avril (14 semaines).*  "
+        }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quel est le coefficient de l'unité d'enseignement \"Systèmes électroniques\" dans le cadre de la FISEA CING1 Industriel?",
+        "context": "Le tableau décrit l'unité d'enseignement \"Systèmes électroniques\" pour la première année du Cycle Ingénieur (CING1) dans le cadre de la Formation Initiale Sous Statut Apprenti (FISEA). Cette unité d'enseignement est enseignée par l'enseignant responsable G. LEROY et a un coefficient de 4.\n\nLes objectifs de cette unité d'enseignement sont d'analyser un schéma électronique, de comprendre le fonctionnement d'un circuit de base en électronique, de déterminer le rôle élémentaire de chaque composant, et d'effectuer la synthèse d'un système combinatoire ou séquentiel. Pour atteindre ces objectifs, l'unité d'enseignement vise à faire découvrir les fonctions élémentaires et les opérateurs associés, ainsi que l'intérêt de la décomposition d'un système en sous-ensembles hiérarchisés. Elle permet également de savoir traiter électroniquement le signal issu d’un capteur et d'introduire l'électronique embarquée.\n\nLes prérequis pour cette unité d'enseignement sont des bases en circuits électriques (lois de l'électricité).\n\nLe programme de cette unité d'enseignement couvre différents sujets tels que les dipôles, les quadripôles, les principales fonctions de l'électronique (amplification, filtrage...), les analyses de quelques montages élémentaires, les principes des transducteurs et capteurs, les conditionneurs de signaux, les ponts de mesure, les amplificateurs d’instrumentation, d’isolement, les convertisseurs tension-fréquence, le numérique analogique, l'analogique numérique, les systèmes combinatoires et séquentiels, et une introduction aux circuits numériques programmables.\n\nLa bibliographie recommandée pour cette unité d'enseignement comprend plusieurs ouvrages, notamment \"Principes d'électronique : cours et exercices corrigés\" de Malvino, Albert Paul, \"Fondements d'électronique : circuits, composants et applications\" de Thomas L. Floyd et Reynald Goulet, \"The Art of Electronics\" de Paul Horowitz et Winfield Hill, et \"Les capteurs en instrumentation industrielle\" de G. Asch et coll.\n\nLes modalités d'évaluation de cette unité d'enseignement comprennent un examen final, un contrôle continu et une évaluation des travaux pratiques.",
+        "answer": "Le coefficient de l'unité d'enseignement \"Systèmes électroniques\" est de 4.",
+        "ground_truth": "Le coefficient de l'unité d'enseignement \"Systèmes électroniques\" est de 4.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Indutriel_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "3 Descriptif des Eléments Constitutifs des Unités d’Enseignement",
+                    "Header_3": "3.1 Unités d’enseignements Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités",
+                    "Header_4": "3.1.1 Première année du Cycle Ingénieur (CING1)",
+                    "original_content": "**Location:** Syllabus_EIL_Génie-Indutriel_2024-2025 (FISEA).md > Introduction > 3 Descriptif des Eléments Constitutifs des Unités d’Enseignement > 3.1 Unités d’enseignements Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités > 3.1.1 Première année du Cycle Ingénieur (CING1)\n\nSystèmes électroniques :  \n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Coefficient: 4        | CM: 18H00   | TD: 18H00   | TP/Projet: 12H00   |\n|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|--------------|--------------|---------------------|\n| Enseignant responsable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Enseignant responsable | G. LEROY     | G. LEROY     | G. LEROY            |\n| **Objectifs**  **:**  Analyser un schéma électronique, comprendre le fonctionnement d'un circuit de base en électronique, déterminer le rôle élémentaire de chaque composant, d'effectuer la synthèse d'un système combinatoire ou séquentiel.  Pour atteindre ce but, il faut faire découvrir les fonctions élémentaires et les opérateurs associés, ainsi que l'intérêt de la décomposition d'un système en sous-ensembles hiérarchisés.  Savoir traiter électroniquement le signal issu d’un capteur, introduction à l’électronique embarquée |                        |              |              |                     |\n| **Prérequis**  :  Bases en circuits électriques (lois de l'électricité).                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                        |              |              |                     |\n| **Programme**  **:**  Les dipôles, Les quadripôles, Principales fonctions de l'électronique (amplification, filtrage...), Analyses de quelques montages élémentaires.  Principes des transducteurs et capteurs.  Conditionneurs de signaux, pont de mesure, amplificateurs d’instrumentation, d’isolement, convertisseurs tension-fréquence, Numérique analogique, Analogique Numérique.  Les Systèmes combinatoires et séquentiels.  Introduction aux circuits numériques programmables.                                                        |                        |              |              |                     |\n| **Bibliographie**  :  1. Malvino, Albert Paul. Principes d'électronique : cours et exercices corrigés. Paris : Dunod, 7e édition 2008 2. Thomas L. Floyd, Reynald Goulet. Fondements d'électronique : circuits, composants et applications 2013 3. Paul Horowitz, Winfield Hill. The Art of Electronics. Cambridge University Press, 3e édition 2015 4. G. Asch et coll., Dunod \"Les capteurs en instrumentation industrielle\", (2006).                                                                                                          |                        |              |              |                     |\n| **Modalités d’évaluation**  **:**  Examen Final + Contrôle Continu + Evaluation TP                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                        |              |              |                     |  "
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quels sont les deux tests obligatoires que les élèves ingénieurs doivent réaliser pendant leur mobilité Erasmus ?",
+        "context": "#### 4.11.7 La charte élève ingénieur Erasmus  \nCe document définit les droits et devoirs des élèves ingénieurs pendant leur période de mobilité, même si celle-ci est effectuée en dehors des frontières de l’Europe.  \nEn voici les caractéristiques essentielles:  \nDroits :  \n- l’obtention d’un contrat d’études signé avant le départ;\n- l’obtention d’un relevé de notes signé par l’établissement d’accueil et des crédits ECTS associés;\n- la pleine reconnaissance des crédits obtenus à l’EIL Côte d’Opale;\n- l’exemption de frais de scolarité de l’établissement d’accueil (uniquement pour les mobilités ERASMUS) à la condition d’être préalablement inscrit à l’EIL Côte d’Opale;\n- le maintien pendant le séjour à l’étranger de la bourse ou du prêt étudiant obtenu en France.  \nDevoirs :  \n- faire un test de langue avant leur départ et à leur retour pour connaître l’évolution de leur niveau de langue. Le test se fait en ligne sur une plateforme créée par la Commission Européenne et concerne les langues suivantes: anglais, espagnol, allemand, italien et néerlandais. C’est la langue des cours qui est prise en compte et non la langue du pays d’accueil;\n- respecter les dispositions et obligations du contrat d’études;\n- faire un avenant en cas de modification du contrat d’études initial, avenant qui doit être signé par l’EIL Côte d’Opale et par l’établissement d’accueil;\n- envoyer obligatoirement le certificat d’arrivée signé par l’établissement d’accueil au service des Relations Internationales de l’ULCO;\n- effectuer l’intégralité de la période d’études comme convenu;\n- donner des nouvelles par mail tous les mois au service des Relations Internationales;\n- établir un rapport sur la période de mobilité ;\n- communiquer tout changement d’adresse ou de numéro de téléphone pendant la période de mobilité, le seul email de communication étant l’email générique de l’EIL Côte d’Opale.",
+        "answer": "Les deux tests obligatoires que les élèves ingénieurs doivent réaliser pendant leur mobilité Erasmus sont :\n\n1.  Un test de langue avant leur départ et à leur retour pour connaître l’évolution de leur niveau de langue (sur une plateforme créée par la Commission Européenne, concernant les langues anglaise, espagnole, allemande, italienne et néerlandaise).\n2.  Un test de langue après le séjour pour connaître l’évolution de leur niveau de langue.",
+        "ground_truth": "Les élèves ingénieurs doivent réaliser un test de langue avant et après leur mobilité Erasmus.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "4 Modalités d’évaluation et de contrôle des connaissances",
+                    "Header_3": "4.11 Mobilité sortante",
+                    "Header_4": "4.11.7 La charte élève ingénieur Erasmus"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "À la fin de chaque semestre, quel est le rôle du Jury concernant la validation des UE et des semestres ?",
+        "context": "#### 4.1.4 Jury  \nEn fin de chaque semestre, l'ensemble des notes est pris en compte pour calculer les moyennes par ECUE, la moyenne par UE et la moyenne générale du semestre. Les Jurys d’examen se réunissent à la fin de chaque semestre et après les épreuves de deuxième session des deux semestres. La constitution des Jurys est définie dans le Règlement Intérieur.  \nLe Jury délibère et arrête les notes des élèves ingénieurs au minimum à l’issue de la première session de chaque semestre et à l’issue de la deuxième session des deux semestres. Il se prononce sur la validation des UE et des semestres. Ce sont la moyenne générale du semestre, la moyenne des UE et les moyennes des ECUE qui servent au Jury à déterminer la validation du semestre.  \nEn fin d’année universitaire, le Jury de fin d’année se réunit, statue sur la validation de l’année et donc sur les poursuites d’études.  \nLa validation d’une UE, d’un semestre et d’une année est déterminée par l’un des résultats suivants:  \n- l’admission si l’élève ingénieur remplit toutes les conditions d’admission citées dans le paragraphe4.3:\n- résultat «Admis» (ADM),\n- résultat «Admis par Décision de Jury» (ADJ);\n- l’ajournement si l’élève ingénieur ne remplit pas toutes les conditions d’admission:\n- résultat « Ajourné et Autorisé à Continuer » (AJAC),\n- résultat «Ajourné» (AJ);\n- la défaillance si l’élève ingénieur ne s’est présenté à aucun examen durant l’année:\n- résultat «Défaillant» (DEF).  \n**Les décisions prises par le Jury font l’objet d’un procès-verbal et sont sans appel** . Toute pièce justificative arrivant après la réunion de Jury et n'ayant pas été portée à sa connaissance **par écrit avant la réunion** , ne pourra remettre en cause les décisions prises.  \nA l'issue de la délibération du Jury, le tableau des résultats daté et signé du Président de Jury est affiché sur un panneau destiné à cet effet avec **les délais et voies de recours** possibles en cas de contestation.",
+        "answer": "Le Jury délibère et arrête les notes des élèves ingénieurs au minimum à l’issue de la première session de chaque semestre et à l’issue de la deuxième session des deux semestres. Il se prononce sur la validation des UE et des semestres.",
+        "ground_truth": "Le Jury délibère et arrête les notes des élèves ingénieurs, et se prononce sur la validation des UE et des semestres.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "4 Modalités d’évaluation et de contrôle des connaissances",
+                    "Header_3": "4.1 Evaluation et contrôle des connaissances",
+                    "Header_4": "4.1.4 Jury"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Combien d'heures de formation sont obligatoires pour un élève en contrat de professionnalisation durant sa période en école ?",
+        "context": "#### 3.2 Contrat de professionnalisation  \nL’élève ingénieur en dernière année a la possibilité de renforcer son expérience professionnelle dans le cadre des contrats de professionnalisation proposés par de nombreuses entreprises. Les élèves acceptés en contrat de professionnalisation sont rémunérés par l’entreprise qui les accueille. Ils suivent alors une alternance par semaines entières en école et en entreprise durant le premier semestre.  \nPendant leur période en entreprise, ils valident leur Projet d’Intégration en Contrat de Professionnalisation (PIC-Pro) de 150 heures par les missions et travaux réalisés en entreprise. Pendant leur période en école, ils suivent 350 heures de formation incluant la formation à et par la recherche. **L’émargement est obligatoire** .  \nDurant le second semestre, ils effectuent leur stage de Projet de Fin d’Etudes (PFE) d’une durée de 6 mois dans l’entreprise d’accueil.  \nLes élèves sous contrat sont dispensés du soutien en anglais. Ils sont également dispensés des cycles de conférences et des visites d’entreprises lorsque ces événements sont organisés pendant les périodes en entreprise.  \nLeur encadrement est réalisé par:  \n- Un tuteur d’entreprise,\n- Un tuteur de l’école qui assure le suivi:\n- du projet bibliographique (si le tuteur est titulaire d’un doctorat) au semestre S9;\n- du stage PFE-Pro au semestre S10.  \nRemarque : si le tuteur école n’est pas docteur, un tuteur spécifique (docteur ou doctorant) sera désigné pour le suivi du projet bibliographique.  \nAttention : les contrats de professionnalisation ne sont accessibles qu’aux élèves qui ont effectué le stage «assistant ingénieur» et la mission à l’international sauf si celle-ci s’effectue dans le cadre du contrat.",
+        "answer": "350 heures de formation incluant la formation à et par la recherche.",
+        "ground_truth": "350 heures.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).md",
+                "metadata": {
+                    "Header_3": "3 Troisième année du Cycle Ingénieur (CING3)",
+                    "Header_4": "3.2 Contrat de professionnalisation"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Durant quelle année peut un étudiant faire passer en contrat de professionnalisation ?",
+        "context": "#### 3.2 Contrat de professionnalisation  \nL’élève ingénieur en dernière année a la possibilité de renforcer son expérience professionnelle dans le cadre des contrats de professionnalisation proposés par de nombreuses entreprises. Les élèves acceptés en contrat de professionnalisation sont rémunérés par l’entreprise qui les accueille. Ils suivent alors une alternance par semaines entières en école et en entreprise durant le premier semestre.  \nPendant leur période en entreprise, ils valident leur Projet d’Intégration en Contrat de Professionnalisation (PIC-Pro) de 150 heures par les missions et travaux réalisés en entreprise. Pendant leur période en école, ils suivent 350 heures de formation incluant la formation à et par la recherche. **L’émargement est obligatoire** .  \nDurant le second semestre, ils effectuent leur stage de Projet de Fin d’Etudes (PFE) d’une durée de 6 mois dans l’entreprise d’accueil.  \nLes élèves sous contrat sont dispensés du soutien en anglais. Ils sont également dispensés des cycles de conférences et des visites d’entreprises lorsque ces événements sont organisés pendant les périodes en entreprise.  \nLeur encadrement est réalisé par:  \n- Un tuteur d’entreprise,\n- Un tuteur de l’école qui assure le suivi:\n- du projet bibliographique (si le tuteur est titulaire d’un doctorat) au semestre S9;\n- du stage PFE-Pro au semestre S10.  \nRemarque : si le tuteur école n’est pas docteur, un tuteur spécifique (docteur ou doctorant) sera désigné pour le suivi du projet bibliographique.  \nAttention : les contrats de professionnalisation ne sont accessibles qu’aux élèves qui ont effectué le stage «assistant ingénieur» et la mission à l’international sauf si celle-ci s’effectue dans le cadre du contrat.",
+        "answer": "Le contrat de professionnalisation est fait durant la derniere année CING3",
+        "ground_truth": "la derniere année cycle ingénieur (CING3).",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).md",
+                "metadata": {
+                    "Header_3": "3 Troisième année du Cycle Ingénieur (CING3)",
+                    "Header_4": "3.2 Contrat de professionnalisation"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "uelle langue est rendue obligatoire à l’EIL Côte d’Opale pour préparer les futurs ingénieurs à des réunions de travail internationales ?",
+        "context": "### 1.4 Ouverture internationale  \nCette ouverture a pour objectifs de préparer les élèves ingénieurs à travailler dans un contexte international et à avoir une vision globale et mondiale des problématiques qu’ils auront à traiter. Sont comprises dans cette ouverture les formations en langues étrangères, notamment l’anglais. Il s’agit de donner aux futurs ingénieurs les pratiques leur permettant de participer utilement à des réunions de travail mettant en présence des personnes de nationalités différentes. L'anglais étant la langue des affaires, elle a été rendue obligatoire à l’EIL Côte d’Opale.  \nL'objectif de ces enseignements est de communiquer dans des langues usuelles, sur des sujets autant techniques que professionnels.  \nLes validations sanctionnent l'expression et la compréhension écrites ainsi que l'expression et la compréhension orales.",
+        "answer": "L'anglais est rendu obligatoire à l’EIL Côte d’Opale pour préparer les futurs ingénieurs à des réunions de travail internationales.",
+        "ground_truth": "L'anglais est rendu obligatoire à l'EIL Côte d'Opale.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "1 Objectif de la formation",
+                    "Header_3": "1.4 Ouverture internationale"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Combien d'heures sont prévues pour les Travaux Pratiques (TP) au cours du semestre S8 de formation FISEA en Génie Industriel (CING2 - 2ème année) ?",
+        "context": "Le tableau présente le programme du semestre S8 de février à septembre (32 semaines) pour la formation FISEA (Formation Initiale Sous Statut Apprenti) en Génie Industriel. La spécialité concernée est le Cycle Ingénieur (CING2), plus précisément la deuxième année.\n\nLe tableau est organisé en colonnes qui représentent les différentes Unités d'Enseignement (UE), les Enseignements Complémentaires d'Utilité Élective (ECUE), les horaires en heures pour les Cours Magistraux (CM), les Travaux Dirigés (TD), les Travaux Pratiques (TP), l'Évaluation et d'autres activités. Les coefficients et les crédits ECTS sont également mentionnés.\n\nLes UE principales sont STI4 et STI5, qui sont des Sciences et Techniques de l'ingénieur. STI4 comprend les ECUE suivantes : Électronique de puissance, Calcul des structures par éléments finis et Mécanique des fluides. STI5 comprend les ECUE suivantes : Robotique industrielle, Gestion de la qualité et Présentation de la recherche. Les horaires pour ces ECUE sont respectivement de 40 heures, 30 heures, 30 heures, 40 heures, 40 heures et 20 heures.\n\nL'UE OI4 est dedicated à l'Ouverture Internationale et comprend des ECUE pour apprendre des langues vivantes (LV1 pour l'anglais, LV2 pour l'allemand, l'espagnol, etc.) ainsi que du soutien en anglais. Les horaires pour ces ECUE sont respectivement de 28 heures, 2 heures, 20 heures et 20 heures.\n\nL'UE ME2 est dedicated aux Missions en entreprise et comprend des ECUE pour la poursuite des missions ingénieur en entreprise et le bureau d'études techniques. Les horaires pour ces ECUE sont respectivement de 40 heures et 40 heures.\n\nLe tableau totalise 270 heures d'enseignement pour ce semestre, avec un total de 30 crédits ECTS.",
+        "answer": "Le tableau ne précise pas le nombre total d'heures de TP pour le semestre. Il indique que les UE principales (STI4 et STI5) incluent des TP, mais sans donner un chiffre global. Les horaires pour les Travaux Pratiques (TP) ne sont pas explicitement listés comme une colonne distincte dans le tableau.",
+        "ground_truth": "Le tableau ne précise pas le nombre total d'heures de TP, mais indique que les TP sont inclus dans les horaires des UE principales et de l'UE ME2.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Indutriel_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "1 Structure des enseignements",
+                    "Header_3": "1.2 Deuxième année du Cycle Ingénieur (CING2)",
+                    "original_content": "**Location:** Syllabus_EIL_Génie-Indutriel_2024-2025 (FISEA).md > Introduction > 1 Structure des enseignements > 1.2 Deuxième année du Cycle Ingénieur (CING2)\n\n| **UE**                                           | **ECUE**                                                 |                                          | **Horaires (en heures)**   |    |        |        |           |           |           | **Coef.**   | **ECTS**   |\n|--------------------------------------------------|----------------------------------------------------------|------------------------------------------|----------------------------|----|--------|--------|-----------|-----------|-----------|-------------|------------|\n|                                                  |                                                          |                                          | **CM**                     |    | **TD** | **TP** | **Eval.** | **Autre** | **Total** |             |            |\n| **STI4 (Sciences et Techniques de l'ingénieur)** | Électronique de puissance                                | Électronique de puissance                |                            |    | 40     |        |           |           | 40        | 1           |            |\n|                                                  | Calcul des structures par éléments finis                 | Calcul des structures par éléments finis |                            |    | 30     |        |           |           | 30        | 1           |            |\n|                                                  | Mécanique des fluides                                    | Mécanique des fluides                    |                            |    | 30     |        |           |           | 30        | 1           |            |\n|                                                  | Total STI4                                               | Total STI4                               | 0                          | 0  | 100    | 0      | 0         |           | 100       |             | 7          |\n| **STI5 (Sciences et Techniques de l'ingénieur)** | Robotique industrielle                                   | Robotique industrielle                   |                            |    | 40     |        |           |           | 40        | 1           |            |\n|                                                  | Gestion de la qualité                                    | Gestion de la qualité                    |                            |    | 40     |        |           |           | 40        | 1           |            |\n|                                                  | Présentation de la recherche                             | Présentation de la recherche             |                            |    | 20     |        |           |           | 20        | 1           |            |\n|                                                  | Total STI5                                               | Total STI5                               | 0                          | 0  | 100    | 0      | 0         |           | 100       |             | 9          |\n| **OI4 : Ouverture Internationale**               | LV1 (Anglais)                                            | LV1 (Anglais)                            |                            |    | 28     |        |           |           | 28        | 1           |            |\n|                                                  | LV1 (TOEIC)                                              | LV1 (TOEIC)                              |                            |    |        |        | 2         |           | 2         | 1           |            |\n|                                                  | LV2 (Allemand, Espagnol...)                              | LV2 (Allemand, Espagnol...)              |                            |    |        |        |           | 20        | 0         | 1           |            |\n|                                                  | Soutien Anglais                                          | Soutien Anglais                          |                            |    |        |        |           | 20        | 0         |             |            |\n|                                                  | Total OI4                                                | Total OI4                                | 0                          | 0  | 28     | 0      | 2         |           | 30        |             | 3          |\n| **ME2 (Missions en entreprise)**                 | Jalon 2 : Poursuite des missions ingénieur en entreprise |                                          |                            | 40 | 40     |        |           |           | 40        | 2           |            |\n|                                                  | Jalon 2 bis : Bureau d'Etudes technique                  |                                          |                            | 40 | 40     |        |           |           | 40        | 1           |            |\n|                                                  | Retour d'alternances                                     |                                          |                            |    |        |        |           | 10        | 0         |             |            |\n|                                                  | Total ME2                                                |                                          |                            | 40 | 40     |        | 0         |           | 40        |             | 11         |\n| **TOTAL**                                        |                                                          |                                          |                            |    |        |        |           |           | **270**   |             | **30**     |  \n*Tableau 4: programme du semestre S8 de février à septembre (32 semaines).*"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quelle est la principale compétence visée par l'unité d'enseignement \"Finances pour l'entreprise\" du CING1 ?",
+        "context": "Le tableau décrit l'unité d'enseignement \"Finances pour l'entreprise\" pour la première année du Cycle Ingénieur (CING1) dans le domaine des Sciences Humaines, Economiques, Juridiques et Sociales. Cette unité est enseignée dans le cadre de la Formation Initiale Sans Statut Étudiant (FISE).\n\nL'objectif de cette unité est de permettre aux étudiants d'interpréter les données fournies par les comptes annuels, de réaliser un diagnostic financier et de participer aux décisions de gestion financières, tant stratégiques que courantes. Les prérequis pour cette unité sont la gestion de l'entreprise.\n\nLe programme de l'unité se divise en trois parties. La première partie porte sur l'analyse du bilan et du compte de résultat, ainsi que sur l'analyse de l'activité et des résultats de l'entreprise et de la structure financière. La deuxième partie est consacrée au diagnostic financier, avec une focus sur le diagnostic de la rentabilité et du risque. La troisième partie traite de la création de valeur et des décisions financières, avec des sujets tels que l'évaluation, la création de valeur et les choix d'investissement, ainsi que les décisions de financement.\n\nLa bibliographie proposée pour cette unité comprend plusieurs ouvrages de référence en gestion financière, tels que \"Gestion financière\" de Gérard Charreaux, \"Finance d'entreprise\" de Gérard Charreaux, \"Finance\" de Michel Levasseur et Aimable Quintart, \"La gestion financière\" de Gérard Melyon, et \"La comptabilité analytique\" de Gérard Melyon.\n\nL'évaluation de cette unité se fait à travers un examen final et un contrôle continu.",
+        "answer": "La principale compétence visée par l'unité d'enseignement est de permettre aux étudiants d'interpréter les données fournies par les comptes annuels, de réaliser un diagnostic financier et de participer aux décisions de gestion financières, tant stratégiques que courantes.",
+        "ground_truth": "L'unité d'enseignement vise à développer la capacité des étudiants à analyser et à comprendre les données financières pour participer à la gestion de l'entreprise.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).md",
+                "metadata": {
+                    "Header_2": "1 Descriptif des Éléments Constitutifs des Unités d’Enseignement",
+                    "Header_3": "1.2 Unités d’enseignements Sciences Humaines, Economiques, Juridiques et Sociales",
+                    "Header_4": "1.2.1 Première année du Cycle Ingénieur (CING1)",
+                    "original_content": "**Location:** Syllabus_EIL_Génie-Indutriel_2024-2025 (FISE).md > 1 Descriptif des Éléments Constitutifs des Unités d’Enseignement > 1.2 Unités d’enseignements Sciences Humaines, Economiques, Juridiques et Sociales > 1.2.1 Première année du Cycle Ingénieur (CING1)\n\nFinances pour l’entreprise :  \n|                                                                                                                                                                                                                                                                                                                                                                                                                     | Coefficient: 1        | CM: 08H00   | TD: 10H00   | TP/Projet: 00H00   |\n|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|--------------|--------------|---------------------|\n| Enseignant responsable                                                                                                                                                                                                                                                                                                                                                                                              | Enseignant responsable | P. LUCAND    | P. LUCAND    | P. LUCAND           |\n| **Objectifs**  **:**  Savoir interpréter les données fournies par les comptes annuels, réaliser un diagnostic financier  et participer aux décisions de gestion financières tant stratégiques que courantes.                                                                                                                                                                                                        |                        |              |              |                     |\n| **Prérequis**  :  Gestion de l’entreprise                                                                                                                                                                                                                                                                                                                                                                           |                        |              |              |                     |\n| **Programme**  **:**  Partie 1  : Analyse du bilan et du compte de résultat  Analyse de l’activité et des résultats de l’entreprise  Analyse de la structure financière  Partie 2  : Le diagnostic financier  Le diagnostic de la rentabilité  Le diagnostic du risque  Partie 3  : Création de valeur et décisions financières  Evaluation, création de valeur et choix d’investissement  Décisions de financement |                        |              |              |                     |\n| **Bibliographie**  :  1. Gérard CHARREAUX, Gestion financière éditions LITEC, 2000. 2. Gérard CHARREAUX, Finance d’entreprise, éditions EMS, 2014 3. Finance, Michel LEVASSEUR et Aimable QUINTART, éditions Economica, 1998. 4. La gestion financière, Gérard MELYON, Edition Bréal 5. La comptabilité analytique, Gérard MELYON, Edition Bréal                                                                    |                        |              |              |                     |\n| **Modalités d’évaluation**  **:**  Examen Final + Contrôle Continu                                                                                                                                                                                                                                                                                                                                                  |                        |              |              |                     |  "
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quand est mené le Projet de Fin d’Etudes ?",
+        "context": "#### 3.1.7 Projet de Fin d’Etudes (PFE)  \nIl s’agit du projet mené au cours du stage de troisième année (voir paragraphe3.2.2).",
+        "answer": "Le Projet de Fin d’Etudes est mené au cours du stage de troisième année.",
+        "ground_truth": "Le Projet de Fin d’Etudes est mené au cours du stage de troisième année.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "3 Projets et stages",
+                    "Header_3": "3.1 Projets",
+                    "Header_4": "3.1.7 Projet de Fin d’Etudes (PFE)"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quels candidats à l'alternance de l'EILCO sont dispensés de la mobilité internationale prévue dans le calendrier d'alternance ?",
+        "context": "<!-- image -->  \n*Figure 3: Calendrier d’alternance (2023-2026) pour les alternances de CING2 incluant les périodes de mobilité préconisées.*  \nUne convention de mobilité sera établie afin de préciser l’ensemble des conditions liées à cette mobilité.  \nSi, toutefois, il est avéré qu’aucune possibilité existe au sein de l’entreprise, des solutions de substitution sont envisageable mais devront être négociées en amont de la signature du contrat.  \nIl est à noter que certains candidats à l’alternance de l’EILCO, en particulier les candidats ayant effectué leur scolarité jusqu’au niveau bac+2 dans leur pays d’origine, sont dispensés de cette mobilité à l’international.  \nLes semaines possibles pour cette mobilité à l’international, dans le cadre des missions en entreprise apparaissent sur la figure 3.",
+        "answer": "Les candidats à l’alternance de l’EILCO, en particulier les candidats ayant effectué leur scolarité jusqu’au niveau bac+2 dans leur pays d’origine, sont dispensés de cette mobilité à l’international.",
+        "ground_truth": "Les candidats à l'alternance de l'EILCO, notamment ceux ayant un bac+2 dans leur pays d'origine, sont dispensés de la mobilité internationale.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Génie-Indutriel_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "2 Spécificités de la formation en apprentissage",
+                    "Header_3": "2.3 Mobilité à l’international"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quels sont les livrables que l'apprenti doit rendre après chaque rencontre avec son tuteur école ?",
+        "context": "### 2.2 Retours d’alternance et jalons de formation  \nAprès chaque alternance en entreprise, l’apprenti doit rencontrer son tuteur école pour rendre compte du travail effectué en entreprise, évoquer ses éventuels problèmes et donner une prévision du travail à effectuer lors de l’alternance suivante. Un compte-rendu de chacune de ces réunions doit être produit par l’apprenti en remplissant un formulaire dédié du Livret Electronique de l’Apprenti.  \nLa montée en compétences des apprentis est fortement basée sur les missions réalisées et les expériences vécues en entreprise, avec la mise en place de jalons de formation à chaque semestre des années CING2 et CING3 (années en alternance). La formation comporte deux jalons de formation par semestre : 1 jalon lié à l’entreprise et aux missions de l’apprenti et un autre jalon (dénommé jalon bis) correspondant à des enseignements de type SHEJS ou à des projets apparaissant dans la formation FISE.  \nCes jalons sont intégrés à l’UE «Missions en entreprise(ME)» de chaque semestre (du semestre S7 au semestre S10). Ils feront l’objet de restitutions écrite (sous forme d’un rapport ou d’une note de synthèse) et orale (sous forme de soutenance).  \nLes soutenances ont lieu devant un jury composé, à minima, des tuteurs de l’apprenti (tuteur école et maitre d’apprentissage) et d’un auditeur libre.  \nLes modalités de restitution et d’évaluation de chaque jalon sont fournies aux apprentis au début de chaque semestre dans le cadre d’interventions en présentiel associées aux modules «Missions en entreprise(ME)». Dans le cadre de ce module, les apprentis suivent des enseignements liés aux attendus (note de cadrage, Cahier des Charges, Indicateurs, ...).  \nL’ensemble des éléments (attendus des jalons, attendus des restitutions, etc.) sont accessible sur le Livret Electronique de l’Apprenti.",
+        "answer": "L'apprenti doit produire un compte-rendu de chacune de ces réunions en remplissant un formulaire dédié du Livret Electronique de l’Apprenti.",
+        "ground_truth": "L'apprenti doit produire un compte-rendu de chaque réunion avec son tuteur école.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Informatique_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "2 Spécificités de la formation en apprentissage",
+                    "Header_3": "2.2 Retours d’alternance et jalons de formation"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quelle est la durée prévue pour la soutenance orale d'un projet de vie associative ?",
+        "context": "L’évaluation finale portera sur une restitution écrite et orale.  \nConcernant la partie écrite, un rapport du projet sera rédigé et apprécié selon des critères classiques. Il sera important de tenir particulièrement compte de la mise en forme (rédaction, orthographe, clarté, lisibilité, précision de l’argumentaire, plan, etc.), des enjeux du club ou de l’association géré(e), des problématiques rencontrées, des moyens mis en œuvre, de la gestion de l’équipe, des résultats obtenus (y compris selon l’aspect financier). Ce rapport devra être remis au coordinateur des projets de vie associative et déposé sur une plateforme de partage de documents de l’école (le lien permettant le dépôt, la procédure à suivre et la date du dépôt seront fournis en temps voulu). Cette opération garantira la date de dépôt. Les parrains auront la charge d’aller récupérer les documents sur la plateforme de partage. Tout retard sera pénalisé.  \nLa restitution orale fera l’objet d’une soutenance sous la forme d’un diaporama qui devra rendre compte du travail réalisé et des résultats obtenus.  \nIl est conseillé de préparer et répéter le travail par groupe. La durée de la soutenance est fixée à 20 minutes (minimum et maximum). Il s’en suivra un jeu de questions/réponses de 10 minutes.  \nLes soutenances des projets se feront en présence de:  \n- 2 enseignants: le tuteur et un auditeur libre qui n’a pas lu le rapport,\n- 1 représentant du Bureau Des Élèves ingénieurs (BDE).  \nBien que le projet de vie associative soit réalisé en équipe, le tuteur et les membres du Jury peuvent estimer que l’évaluation des élèves ingénieurs se fasse de manière individualisée en fonction de l’implication de chaque membre de l’équipe et/ou de sa participation pendant la soutenance. Les notations se font à l’aide de grilles d’évaluation prédéfinies.",
+        "answer": "La durée de la soutenance orale est fixée à 20 minutes (minimum et maximum). Il s’en suivra un jeu de questions/réponses de 10 minutes.",
+        "ground_truth": "La soutenance orale dure 20 minutes minimum, suivie d'un jeu de questions/réponses de 10 minutes.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "3 Projets et stages",
+                    "Header_3": "3.1 Projets",
+                    "Header_4": "3.1.4 Projet de Vie Associative"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quelle forme prend la restitution écrite du projet bibliographique du jalon 3bis ?",
+        "context": "#### 2.2.6 Jalon 3bis (Semestre S9)  \nCe jalon appelé «jalon 3bis : Alternance Recherche» se présente sous la forme d’un projet bibliographique. Le sujet de ce projet, intégré à l’UE « Mission en entreprise ME3 » du semestre S9, est définit par l’apprenti à partir des besoins en R&amp;D de son entreprise et doit être en lien avec ses missions. Si les missions ne contiennent pas de besoins R&amp;D, il aura la possibilité de proposer un sujet indépendant de ses missions, mais toujours au sein de son entreprise. Toutefois, si l’entreprise n’a pas la possibilité de répondre à ce besoin, un sujet sera proposé à l’apprenti, par l’un des laboratoires liés à la spécialité. Afin que la complexité du projet soit adaptée aux possibilités de l’apprenti, le sujet est co-construit avec et ses tuteurs (tuteur école et maitre d’apprentissage).  \nPour mettre en place cette étude bibliographique, un cours de Méthodologie bibliographique est mis à la disposition des apprentis, sous forme de ressources. Cette ressource présente un guide de rédaction : les principes, l’usage des sources bibliographiques, les ressources bibliographiques, les outils de gestion de références, la consigne du projet biblio, le site web collaboratif, l’évaluation.  \nLa restitution écrite se fera sous forme d’une note de synthèse incluant la méthodologie de recherche et la synthèse des articles retenus sur le sujet défini. La restitution orale sera également un exercice de synthèse et prendra une forme particulière de type « Ma thèse en 180 secondes ».",
+        "answer": "Une note de synthèse incluant la méthodologie de recherche et la synthèse des articles retenus sur le sujet défini.",
+        "ground_truth": "Une note de synthèse incluant la méthodologie de recherche et la synthèse des articles retenus.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "2 Spécificités de la formation en apprentissage",
+                    "Header_3": "2.2 Retours d’alternance et jalons de formation",
+                    "Header_4": "2.2.6 Jalon 3bis (Semestre S9)"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Combien de semaines durent les semestres S7 et S8 de la deuxième année du Cycle Ingénieur ?",
+        "context": "### 2.2 Deuxième année du Cycle Ingénieur (CING2)  \nLa 2 ème année du Cycle Ingénieur est divisée en deux semestres:  \n- le semestre S7 de 15 semaines,\n- le semestre S8 de 15 semaines.  \nLes élèves peuvent également suivre un programme qu’ils ont choisi dans le cadre d’une mobilité d’un semestre à l’international au semestre S8 (voir paragraphe4.11).",
+        "answer": "Les semestres S7 et S8 durent 15 semaines.",
+        "ground_truth": "Les semestres S7 et S8 durent toutes les deux 15 semaines.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "2 Structure des enseignements",
+                    "Header_3": "2.2 Deuxième année du Cycle Ingénieur (CING2)"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quelles sont les catégories d'enseignements incluses dans le programme du Cycle Ingénieur ?",
+        "context": "## 1 Structure des enseignements  \nLe programme des enseignements du Cycle Ingénieur est décomposé en Unités d’Enseignement (UE) selon la typologie suivante:  \n- Sciences de Base\n- Sciences et Techniques de l'Ingénieur\n- Sciences de Spécialités\n- Sciences Humaines, Economiques, Juridiques et Sociales\n- Ouverture Internationale\n- Stage  \nLes stages qui se déroulent entre deux années N et N+1 sont évalués et comptabilisés au premier semestre de l’année N+1.  \nLes projets qui se déroulent pendant les deux semestres d’une même année sont évalués et comptabilisés au deuxième semestre de cette même année.  \nRemarque : Le programme est complété par des enseignements d’harmonisation spécifiques aux élèves ingénieurs venant de certaines filières, des enseignements de soutien pour les élèves en difficulté ainsi que des cycles de conférences qui sont des cycles d’ouverture au monde professionnel. Même s’il n’y a pas d’évaluation pour ces enseignements et ces conférences qui n’apportent donc pas de crédits ECTS, la présence des élèves ingénieurs y est **obligatoire** .  \nLes Eléments Constitutifs des Unité d’Enseignement (ECUE) des UE Sciences de Base, Sciences et Techniques de l'Ingénieur, Sciences de Spécialités s'articulent autour des disciplines telles que la biochimie et la microbiologie générales et alimentaires, les biologies animale et végétale, la physiologie animale, la physiologie et les biotechnologies végétales, les statistiques appliquées mais aussi l’informatique, les normes et référentiels qualité, la logistique agroalimentaire et la biologie moléculaire appliquée à l’agroalimentaire. L'objectif est de former les élèves ingénieurs à la démarche qualité, aux outils d’optimisation de la production ainsi qu’à la formulation en recherche et développement dans différents secteurs de l’industrie agroalimentaire.",
+        "answer": "Le programme du Cycle Ingénieur inclut les catégories d'enseignements suivantes :\n\n*   Sciences de Base\n*   Sciences et Techniques de l'Ingénieur\n*   Sciences de Spécialités\n*   Sciences Humaines, Economiques, Juridiques et Sociales\n*   Ouverture Internationale\n*   Stage\n\nDe plus, il y a des enseignements d'harmonisation, des enseignements de soutien et des cycles de conférences qui sont obligatoires mais sans évaluation ni crédits ECTS.",
+        "ground_truth": "Le programme comprend des sciences de base, des sciences de l'ingénieur, des sciences de spécialités, des sciences humaines et sociales, un stage et une ouverture internationale.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISE).md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "1 Structure des enseignements"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "uelles sont les deux conditions nécessaires pour qu'un élève ingénieur ait automatiquement validé un semestre ?",
+        "context": "#### 4.3.2 Validation des semestres  \nLe Jury valide automatiquement (résultat ADM) les semestres pour lesquels l'élève ingénieur doit:  \n- avoir validé les différentes UE suivies à l'EIL Côte d’Opale au sein du semestre,\n- ou avoir validé un parcours de formation extérieur reconnu par la Direction des Études au cours du semestre considéré et obtenu, le cas échéant, les 30 crédits ECTS correspondants.",
+        "answer": "Les deux conditions nécessaires sont :\n\n1.  Avoir validé les différentes UE suivies à l'EIL Côte d’Opale au sein du semestre.\n2.  Avoir validé un parcours de formation extérieur reconnu par la Direction des Études au cours du semestre considéré et obtenu, le cas échéant, les 30 crédits ECTS correspondants.",
+        "ground_truth": "Un élève ingénieur valide automatiquement un semestre s'il a validé toutes ses UE à l'EIL Côte d'Opale ou un parcours extérieur reconnu.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "4 Modalités d’évaluation et de contrôle des connaissances",
+                    "Header_3": "4.3 Règles de calcul des résultats",
+                    "Header_4": "4.3.2 Validation des semestres"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quel est le format de présentation final exigé pour le projet de bureau d’études ?",
+        "context": "#### 3.1.1 Bureau d’Etudes  \nCe projet de 30 heures a pour objectif de mettre en pratique les connaissances acquises pendant le semestre S5 notamment en informatique. Sur la base des notions reçues, les élèves ingénieurs doivent développer une application informatique ou une application web par groupe de deux ou trois et approfondir leur connaissance dans ce domaine.  \nLes élèves ingénieurs doivent impérativement rendre compte de l’avancée de leurs travaux aux tuteurs de projet qui leur sont attribués. Au terme de ce projet, ils doivent présenter leur application sous forme d’un rapport et d’une soutenance orale.  \nLe rapport doit notamment comporter une introduction, une conclusion, le manuel d’utilisation de l’application, les différents algorithmes développés présentés sous forme d’arbres programmatiques ou de pseudo-codes, la répartition des tâches, les connaissances acquises, les difficultés rencontrées, les améliorations et évolutions possibles,etc.  \nCe rapport ainsi que le travail réalisé devront être déposés sur une plateforme de partage de documents de l’école (le lien permettant le dépôt, la procédure à suivre et la date du dépôt seront fournis en temps voulu). Cette opération garantira la date de dépôt. Les tuteurs auront la charge d’aller récupérer les documents sur la plateforme de partage. Tout retard sera pénalisé.  \nLa soutenance se déroule devant un Jury composé de deux enseignants.  \nLa notation du projet est effectuée selon des grilles d’évaluation prédéfinies qui tiennent compte des comptes-rendus d’avancement, de la quantité de travail fourni, du produit final, du rapport et de la soutenance.  \nBien que le projet soit réalisé en équipe, les tuteurs et les membres du Jury peuvent estimer que l’évaluation des élèves ingénieurs se fasse de manière individualisée en fonction de l’implication de chaque membre de l’équipe et/ou de sa participation pendant la soutenance.",
+        "answer": "Le projet de bureau d’études doit être présenté sous forme d’un rapport et d’une soutenance orale.",
+        "ground_truth": "Le projet doit être présenté sous forme de rapport écrit et de soutenance orale.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "3 Projets et stages",
+                    "Header_3": "3.1 Projets",
+                    "Header_4": "3.1.1 Bureau d’Etudes"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "moyen",
+            "language": "french"
+        }
+    },
+    {
+        "question": "Sur quel site de l'École d'Ingénieurs du Littoral Côte d’Opale la spécialité \"Informatique\" est-elle proposée ?",
+        "context": "# Introduction  \nL'École d'Ingénieurs du Littoral Côte d’Opale (EIL Côte d’Opale) est un établissement public d'enseignement technique supérieur créé en septembre 2010.  \nLe diplôme est reconnu par la Commission des Titres d'Ingénieur (CTI).  \nL'objectif de l'École est de former des ingénieurs généralistes en cinq ans dans quatre spécialités:  \n- la spécialité «Informatique» sur le site de Calais,\n- la spécialité «Génie Industriel» sur le site de Longuenesse (Saint-Omer),\n- la spécialité «GénieÉnergétique et Environnement » sur le site de Dunkerque,\n- la spécialité «Agroalimentaire » sur le site de Boulogne sur mer.  \nL’entrée dans l’École peut se faire:  \n- soit directement en Cycle Ingénieur sur l’un des quatre sites,\n- soit en Cycle Préparatoire Intégré sur les sites de Calais et Dunkerque.  \nChaque cycle de formation dispose d’un secrétariat pédagogique et chaque année de formation est dirigée par un Directeur des Études qui est le principal interlocuteur des élèves ingénieurs de son année.  \nCe document intitulé «Règlement des Études» décrit le déroulement des études en Cycle Ingénieur pour toutes les spécialités de l’EIL Côte d’Opale. Il se décompose en 4 chapitres:  \n1. Objectif de la formation: ce chapitre présente les objectifs de la formation proposée à l’EIL Côte d’Opale et insiste sur l’ouverture à l’international.\n2. Structure des enseignements: un aperçu de l’organisation des 3 années du Cycle Ingénieur est présenté dans ce chapitre.\n3. Projets et stages: un descriptif des différents projets ainsi que des différents stages qui doivent être validés est présenté dans ce chapitre.\n4. Modalités d’évaluation et de contrôle des connaissances: ce chapitre précise la manière dont sont calculées les moyennes semestrielles et annuelles ainsi que les conditions d’admission en année supérieure ou d’obtention du diplôme.",
+        "answer": "La spécialité «Informatique» est proposée sur le site de Calais.",
+        "ground_truth": "La spécialité \"Informatique\" est proposée sur le site de Calais.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "comment la moyenne est-elle calculée à partir des moyennes des semestres S7, S8, S9 et S10, et comment est-elle déterminée ?",
+        "context": "- *M1* , moyenne de premier semestre de la 2 ème année de Cycle Ingénieur (semestre S7),\n- *M* 2, moyenne de second semestre de la 2 ème année de Cycle Ingénieur (semestre S8),\n- *M3* , moyenne de premier semestre de la 3 ème année de Cycle Ingénieur (semestre S9),\n- *M4* , moyenne de second semestre de la 3 ème année de Cycle Ingénieur (semestre S10),  \n$$M = 0,7 \\text{ \\texttimes } (M1 + M2 + M3)/3 + 0,3 \\text{ \\texttimes } M4$$  \nEn fonction de son classement, une mention de réussite est délivrée à chaque élève ingénieur. Les mentions de réussite attribuées par l’EIL Côte d’Opale sont les suivantes:  \n- «Passable» si 10 ≤ *M* &lt; 12,\n- «Assez bien» si 12 ≤ *M* &lt; 14,\n- «Bien» si 14 ≤ *M* &lt; 16,\n- «Très bien» si 16 ≤ *M.*  \nUne attestation de réussite est délivrée en attendant l’édition du diplôme.  \nL'obtention du diplôme est subordonnée à la validation d'un score TOEIC de 785 points au minimum. Tout élève ingénieur n'ayant pas atteint ce score ne pourra pas se voir délivrer le diplôme d'ingénieur. Néanmoins, il recevra une attestation de niveau Master II. Les élèves ingénieurs disposent de 3 ans pour valider le score TOEIC de 785 points; au-delà de cette période de 3 ans, l'élève ingénieur perdra la possibilité d’obtenir son diplôme. La date limite est fixée au 31 décembre de la 3 ème année suivant l’obtention de l’attestation de niveau. Si l'élève ingénieur - avant la période de 3 ans - obtient le score TOEIC de 785 points désiré, il devra transmettre les pièces justificatives à l'EIL Côte d'Opale pour obtenir son diplôme d'ingénieur.",
+        "answer": "La moyenne (*M*) est calculée comme suit :\n\n*   Elle est égale à 0,7 multiplié par la moyenne pondérée de *M1* et *M2* et *M3*, divisée par 3.\n*   Elle est également égale à 0,3 multiplié par *M4*.\n*   En résumé,  *M* = 0,7 * (M1 + M2 + M3)/3 + 0,3 * M4",
+        "ground_truth": "La moyenne *M* est calculée comme une moyenne pondérée des moyennes des quatre semestres (S7, S8, S9, S10), avec un poids de 70% pour la moyenne des trois premiers semestres et 30% pour le dernier semestre.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "4 Modalités d’évaluation et de contrôle des connaissances",
+                    "Header_3": "4.10 Obtention du diplôme d’ingénieur EIL Côte d’Opale"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "difficile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "qui peut être contacté pour obtenir des informations concernant la formation initiale sous statut étudiant en première année du Cycle Ingénieur Agroalimentaire ?",
+        "context": "- Secrétaire Pédagogique du Cycle Ingénieur de la spécialité «Agroalimentaire» (CING1-AGRO-FISEA) : Fiona LANNOY (03 21 99 43 04 – [secretariatagro@eilco.univ-littoral.fr](mailto:secretariatagro@eilco.univ-littoral.fr) )\n- Secrétaire Pédagogique du Cycle Ingénieur de la spécialité «Agroalimentaire» (CING2-AGRO-FISEA et CING3-AGR0-FISEA): Anna LHERBIER (03 21 17 10 02 – [secretariatapprentissage@eilco.univ-littoral.fr](mailto:secretariatapprentissage@eilco.univ-littoral.fr) )  \nCe document intitulé «Syllabus/ spécialité Agroalimentaire Formation Initiale sous Statut Étudiant puis Apprenti » décrit le déroulement des études en Cycle Ingénieur pour la spécialité «Agroalimentaire » du site de Boulogne-sur-Mer, en formation initiale sous statut étudiant pour la première année du cycle puis sous statut apprenti. Il se décompose en 3 chapitres:  \n1. Structure des enseignements: un aperçu du programme des 3 années du Cycle Ingénieur et de son organisation en Unité d’Enseignement (UE) est présenté dans ce chapitre avec les volumes horaires et les coefficients de chaque Elément Constitutif d’Unité d’Enseignement (ECUE) qui sont appliqués dans le calcul des moyennes.\n2. Spécificités de la formation en apprentissage: Différents éléments spécifiques à l’apprentissage en CING2 et CING3 tel que le calendrier d’alternance, les modalités de la mobilité, les jalons de formation, etc. sont présentés.\n3. Descriptif des Eléments Constitutifs d’Unité d’Enseignement : ce chapitre détaille l’ensemble des ECUE qui seront suivis par les élèves ingénieurs durant les trois années du Cycle Ingénieur avec les modalités d’évaluation.  \nLe Syllabus/ spécialité Agroalimentaire Formation Initiale sous Statut Étudiant puis Apprenti (FISEA) est un document public non contractuel, complémentaire au Règlement Intérieur et au Règlement des études de l’EIL Côte d’Opale.",
+        "answer": "Fiona LANNOY peut être contactée pour obtenir des informations concernant la formation initiale sous statut étudiant en première année du Cycle Ingénieur Agroalimentaire. Ses coordonnées sont : 03 21 99 43 04 et secretariatagro@eilco.univ-littoral.fr.",
+        "ground_truth": "Fiona LANNOY, Secrétaire Pédagogique du CING1-AGRO-FISEA, peut être contactée au 03 21 99 43 04 ou secretariatagro@eilco.univ-littoral.fr.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Syllabus_EIL_Agroalimentaire_2024-2025 (FISEA).md",
+                "metadata": {
+                    "Header_1": "Introduction"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    },
+    {
+        "question": "quel format de fichier est requis pour le poster du projet ?",
+        "context": "Au terme du projet, un rapport et un poster dédiés à la présentation du projet devront être réalisés et remis selon un planning défini par avance. Il est à noter que le poster sera obligatoirement en version dématérialisée (fichier PDF A1 du poster et en aucun cas une impression papier).  \nLe rapport final de projet et le poster numérique devront être déposés sur une plateforme de partage de documents de l’école (le lien permettant le dépôt, la procédure à suivre et la date du dépôt seront fournis en temps voulu). Cette opération garantira la date de dépôt. Les membres de l’équipe responsable auront la charge d’aller récupérer les documents sur la plateforme de partage. Ce rapport devra présenter le cahier des charges, les différentes études menées et le détail du travail de réalisation effectué. Seront également mises dans le rapport, la présentation chronologique des différentes tâches réalisées, les références bibliographiques utilisées et une fiche de synthèse du projet.  \nUne restitution orale du projet PIC sera organisée sous forme d’une soutenance orale. La participation à la soutenance de tous les élèves du groupe est obligatoire. La soutenance durera entre 40 et 45 minutes et comprendra:  \n- 25 minutes de présentation,\n- 15 à 20 minutes de questions/réponses.  \nA la fin du projet et le jour de la soutenance, les élèves ingénieurs devront remettre à l’équipe responsable, les divers éléments de leur travail, au format numérique, sous des répertoires différents:  \n- les fichiers qui concernent la réalisation du projet (plans, programmes, photos, courriers,etc.),\n- les fichiers correspondant au rapport, au cahier des charges et aux comptes-rendus d’avancement,\n- les fichiers correspondant au diaporama de la soutenance et des présentations intermédiaires,\n- les fichiers correspondant au poster.  \nBien que le projet soit réalisé en groupe, l’évaluation des élèves ingénieurs pourra se faire d’une manière individualisée.",
+        "answer": "Le poster sera obligatoirement en version dématérialisée (fichier PDF A1 du poster et en aucun cas une impression papier).",
+        "ground_truth": "Le poster doit être un fichier PDF A1 dématérialisé.",
+        "source_chunks": [
+            {
+                "chunk_id": null,
+                "source": "./markdown_docs/Réglement-des-Etudes_EIL_2024-2025.md",
+                "metadata": {
+                    "Header_1": "Introduction",
+                    "Header_2": "3 Projets et stages",
+                    "Header_3": "3.1 Projets",
+                    "Header_4": "3.1.5 Projet d’Innovation et de Conception (PIC)"
+                }
+            }
+        ],
+        "metadata": {
+            "num_context_chunks": 1,
+            "question_type": "factual",
+            "difficulty": "facile",
+            "language": "french"
+        }
+    }
+]

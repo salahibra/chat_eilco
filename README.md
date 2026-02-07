@@ -12,7 +12,11 @@ docker run -p 3000:3000 -e BACKEND_URL=http://127.0.0.1:${BACKEND_PORT} --networ
 ```
 
 ## Backend
+```bash
+cd backend
+```
 créer une envirenment virtual avec python3>10
+
 ```bash
 python3.x -m venv venv
 
@@ -24,14 +28,18 @@ Installer les requirements:
 ```bash
 pip intall -r requirements.txt
 ```
+
+Pour convertir les docx qui sont en data/docx_files en pdf utiliser:
+```bash
+python3 src/
 Pour éxecuter l'application:
 ```bash
 python3 api.py
 ```
-### docker avec docker
+### Backend avec docker
 ```bash
-docker build -t backend .
+docker build -t chat-eilco-backend .
 ```
 ```bash
-(venv) chateilco@saintomer-lisic-qlapp:~/Projet/chatEILCO/chat_eilco$ docker run -p 8000:8000   -e LLM_API_URL=http://127.0.0.1:8080/v1/chat/completions   -v $(pwd)/data:/app/data   -v $(pwd)/pdf_files:/app/pdf_files   -v $(pwd)/docx_files:/app/docx_files --network host  backend
+docker run -p 8000:8000   -e LLM_API_URL=http://127.0.0.1:8080/v1/chat/completions   -v $(pwd)/data:/app/data --network host  chat-eilco-backend
 ```

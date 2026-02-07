@@ -2,7 +2,7 @@ docling
 langchain
 torch
 sentence-transformers
-faiss-gpu
+faiss-cpu
 fastapi
 uvicorn
 pydantic

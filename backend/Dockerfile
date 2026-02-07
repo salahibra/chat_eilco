@@ -28,14 +28,14 @@ RUN pip install --no-cache-dir \
     langgraph
 
 # Copy application files
-COPY api.py .
-COPY config.py .
-COPY RAG.py .
-COPY Knowledge_base.py .
-COPY context_merger.py .
-COPY query_router.py .
-COPY eilco_prompts.py .
-COPY file.sql .
+COPY src/api.py .
+COPY src/config.py .
+COPY src/RAG.py .
+COPY src/Knowledge_base.py .
+COPY src/context_merger.py .
+COPY src/query_router.py .
+COPY src/eilco_prompts.py .
+COPY src/file.sql .
 
 
 

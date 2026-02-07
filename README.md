@@ -18,18 +18,21 @@ docker run -p 3000:3000 -e BACKEND_URL=http://127.0.0.1:${BACKEND_PORT} --networ
 ```
 
 ## Backend
+Changer le repertoire:
 ```bash
 cd backend
 ```
-créer une envirenment virtual avec python3>10
+créer une envirenment virtuel avec python3>10: 
 
 ```bash
 python3.x -m venv venv
 
 ```
+Activer l'environement virtuel: 
 ```bash
 source venv/bin/activate
 ```
+
 Installer les requirements:
 ```bash
 pip intall -r requirements.txt
@@ -37,8 +40,9 @@ pip intall -r requirements.txt
 
 Pour convertir les docx qui sont en data/docx_files en pdf utiliser:
 ```bash
-python3 src/
-Pour éxecuter l'application:
+python3 src/convert_word_to_pdf.py
+```
+Pour éxecuter l'applicationen mode développement:
 ```bash
 python3 api.py
 ```

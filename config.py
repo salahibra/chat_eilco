@@ -13,7 +13,7 @@ class Config:
         # Utilise le prompt personnalisé EILCO pour RAG
         self.prompt = PromptTemplate.from_template(get_rag_prompt())
 
-        self.persist_directory = "./vector/vectorstore"
+        self.persist_directory = "./data/vectorstore"
         self.top_k = 6
         self.chunk_max_tokens = 1000  # Augmenté pour plus de contexte par chunk
         self.llm_name = "mistral"

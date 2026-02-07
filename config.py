@@ -13,14 +13,14 @@ class Config:
         # Utilise le prompt personnalisé EILCO pour RAG
         self.prompt = PromptTemplate.from_template(get_rag_prompt())
 
-        self.persist_directory = "./data/vectorstore"
+        self.persist_directory = "./vectorstore/"
         self.top_k = 6
         self.chunk_max_tokens = 1000  # Augmenté pour plus de contexte par chunk
         self.llm_name = "mistral"
         # Read LLM API URL from environment variable
         # For Docker on Linux: use your host machine IP (e.g., 192.168.1.100:8080)
         # or use 172.17.0.1:8080 (default bridge gateway)
-        self.llm_api_url = os.getenv("LLM_API_URL", "http://172.17.0.1:8080/v1/chat/completions")
+        self.llm_api_url = os.getenv("LLM_API_URL", "http://127.0.0.1:8080/v1/chat/completions")
         
         # Configuration du rôle/persona de l'assistant
         # Options: "default", "academic", "student_support", "career", "technical_support"

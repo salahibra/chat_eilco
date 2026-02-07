@@ -1,3 +1,9 @@
+# ChatEILCO
+
+ChatEILCO est une application web intelligente basée sur une architecture RAG (Retrieval-Augmented Generation) conçue pour fournir des réponses précises et contextualisées concernant les informations académiques et administratives de l'école EILCO.
+
+L'application combine un frontend interactif avec un backend puissant utilisant des modèles de langage (LLM) pour offrir une expérience conversationnelle fluide et informée.
+
 ## Frontend
 
 ### Exécution du Frontend avec Docker

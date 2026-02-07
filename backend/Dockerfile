@@ -12,20 +12,8 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements
 COPY requirements.txt .
 
-# Install Python dependencies (excluding torch and faiss-gpu for lighter image)
-# Pin numpy to <2 for compatibility with faiss and sentence-transformers
-RUN pip install --no-cache-dir \
-    "numpy<2" \
-    docling \
-    langchain \
-    sentence-transformers \
-    faiss-cpu \
-    fastapi \
-    uvicorn[standard] \
-    pydantic \
-    langchain_community \
-    langchain_docling \
-    langgraph
+# Install Python dependencies from requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application files
 COPY src/api.py .
@@ -35,6 +23,7 @@ COPY src/Knowledge_base.py .
 COPY src/context_merger.py .
 COPY src/query_router.py .
 COPY src/eilco_prompts.py .
+COPY src/file.sql .
 
 
 

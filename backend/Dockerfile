@@ -1,10 +1,7 @@
-FROM nvidia/cuda:12-runtime
+FROM python:3.11-slim
 
-# Install Python and system dependencies
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
-    python3.11 \
-    python3.11-distutils \
-    python3-pip \
     gcc \
     g++ \
     && rm -rf /var/lib/apt/lists/*

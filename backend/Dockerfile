@@ -35,7 +35,6 @@ COPY src/Knowledge_base.py .
 COPY src/context_merger.py .
 COPY src/query_router.py .
 COPY src/eilco_prompts.py .
-COPY src/file.sql .
 
 
 

@@ -40,8 +40,8 @@ COPY file.sql .
 # Copy data directory (vectorstore)
 COPY data/ ./data/
 
-# Copy test files for knowledge base
-COPY pdf_files/ ./pdf_files/
+# Create required directories
+RUN mkdir -p ./pdf_files ./docx_files ./test
 
 # Expose port
 EXPOSE 8000

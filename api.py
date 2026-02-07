@@ -6,13 +6,32 @@ from config import Config
 from query_router import QueryRouter
 import uvicorn
 import sqlite3
+import os
 
 
 ##############################################################################
 DB = "chat_eilco.db"
+
+def init_db():
+    """Initialize the database with the messages table if it doesn't exist."""
+    conn = sqlite3.connect(DB)
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS messages (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            session_id TEXT,
+            role TEXT,
+            content TEXT,
+            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    conn.commit()
+    conn.close()
+
 class Chat(BaseModel):
     session_id: str
     message: str
+
 def save_message(session_id: str, role: str, content: str):
     """Save a message to the database with the given session_id, role, and content."""
     conn = sqlite3.connect(DB)
@@ -37,9 +56,9 @@ def get_history(session_id: str, limit: int = 6):
     history = []
     for row in rows[-limit:]:
         role, content = row[0], row[1]
-        # Clip assistant content to first 150 characters
-        if role == "assistant" and len(content) > 150:
-            content = content[:150] + "..."
+        # Clip assistant content to first 100 characters
+        if role == "assistant" and len(content) > 50:
+            content = content[:50] + "..."
         history.append({"role": role, "content": content})
     return history
 
@@ -84,7 +103,8 @@ class QueryResponse(BaseModel):
 
 @app.on_event("startup")
 async def startup_event():
-    """check if knowledge base is loaded on startup"""
+    """Initialize database and check if knowledge base is loaded on startup"""
+    init_db()
     if rag_system.retriever is None:
         raise RuntimeError("Knowledge base not loaded. Please build the knowledge base before starting the API.")
     

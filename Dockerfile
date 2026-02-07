@@ -50,5 +50,5 @@ EXPOSE 8000
 ENV PYTHONUNBUFFERED=1
 ENV LLM_API_URL=http://host.docker.internal:8080/v1/chat/completions
 
-# Start FastAPI server
+# Run FastAPI with Uvicorn
 CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]

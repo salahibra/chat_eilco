@@ -1,7 +1,8 @@
 .env
 __pycache__/
 faiss_index/*
-data/vectorstore/*
+data/vectorstore/
 test/
 docx_files/
 data/
+

@@ -41,7 +41,7 @@ COPY file.sql .
 COPY data/ ./data/
 
 # Copy test files for knowledge base
-COPY test/ ./test/
+COPY pdf_files/ ./pdf_files/
 
 # Expose port
 EXPOSE 8000

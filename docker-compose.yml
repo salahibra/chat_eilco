@@ -7,13 +7,16 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - LLM_API_URL=http://host.docker.internal:8080/v1/chat/completions
       - PYTHONUNBUFFERED=1
+    env_file:
+      - .env
     volumes:
       - ./data:/app/data
-      - ./test:/app/test
+      - ./pdf_files:/app/pdf_files
     networks:
       - chat-network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     restart: unless-stopped
     # Uncomment if you want to run llama.cpp in Docker too
     # depends_on:

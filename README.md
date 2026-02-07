@@ -29,3 +29,9 @@ Pour éxecuter l'application:
 python3 api.py
 ```
 ### docker avec docker
+```bash
+docker build -t backend .
+```
+```bash
+(venv) chateilco@saintomer-lisic-qlapp:~/Projet/chatEILCO/chat_eilco$ docker run -p 8000:8000   -e LLM_API_URL=http://127.0.0.1:8080/v1/chat/completions   -v $(pwd)/data:/app/data   -v $(pwd)/pdf_files:/app/pdf_files   -v $(pwd)/docx_files:/app/docx_files --network host  backend
+```

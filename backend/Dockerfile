@@ -1,0 +1,55 @@
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements
+COPY requirements.txt .
+
+# Install Python dependencies (excluding torch and faiss-gpu for lighter image)
+# Pin numpy to <2 for compatibility with faiss and sentence-transformers
+RUN pip install --no-cache-dir \
+    "numpy<2" \
+    docling \
+    langchain \
+    sentence-transformers \
+    faiss-cpu \
+    fastapi \
+    uvicorn[standard] \
+    pydantic \
+    langchain_community \
+    langchain_docling \
+    langgraph
+
+# Copy application files
+COPY api.py .
+COPY config.py .
+COPY RAG.py .
+COPY Knowledge_base.py .
+COPY context_merger.py .
+COPY query_router.py .
+COPY eilco_prompts.py .
+COPY file.sql .
+
+
+
+# Create required directories
+RUN mkdir -p ./data/
+
+
+
+# Expose port
+EXPOSE 8000
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+ENV LLM_API_URL=http://host.docker.internal:8080/v1/chat/completions
+
+# Run FastAPI with Uvicorn
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]

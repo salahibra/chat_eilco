@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build: .
+    container_name: chat-eilco-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LLM_API_URL=http://host.docker.internal:8080/v1/chat/completions
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    networks:
+      - chat-network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

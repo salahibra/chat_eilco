@@ -1,0 +1,12 @@
+docling
+langchain
+torch
+sentence-transformers
+faiss-gpu
+fastapi
+uvicorn
+pydantic
+langchain_community
+langchain_docling
+langgraph
+numpy<2
